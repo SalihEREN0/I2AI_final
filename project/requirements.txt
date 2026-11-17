@@ -1,0 +1,5 @@
+# The experiments (assignments/*/abalone_*.py) need only the Python 3 standard library.
+# These are for the tools/ scripts that export decks and documents:
+markdown-it-py      # tools/md_to_pdf.py (also needs Google Chrome)
+playwright          # tools/export_deck.py (run `playwright install chrome` once)
+python-pptx         # tools/export_deck.py

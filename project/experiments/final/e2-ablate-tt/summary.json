@@ -1,0 +1,34 @@
+{
+ "a": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=final",
+ "b": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,tt=0,name=no-tt",
+ "games": 50,
+ "a_wins": 24,
+ "draws": 4,
+ "a_losses": 22,
+ "a_score": 0.52,
+ "a_score_ci95": [
+  0.386,
+  0.654
+ ],
+ "elo_diff": 14,
+ "a_mean_marble_margin": 0.06,
+ "reasons": {
+  "six off": 35,
+  "repetition": 0,
+  "ply cap": 15,
+  "no legal move": 0
+ },
+ "mean_plies": 165.9,
+ "seconds": 239.1,
+ "conditions": {
+  "openings": 25,
+  "opening_plies": 2,
+  "seed": 7,
+  "starts": [
+   "standard",
+   "belgian-daisy"
+  ],
+  "max_plies": 200,
+  "repetition": "third occurrence = draw"
+ }
+}

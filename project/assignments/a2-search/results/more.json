@@ -1,0 +1,126 @@
+{
+ "n": 60,
+ "seed": 314,
+ "limit": 2000000,
+ "table": [
+  {
+   "d": 2,
+   "n": 19,
+   "A* hF": {
+    "gen": 870,
+    "mem": 651,
+    "capped": 0,
+    "optimal": 19,
+    "meanLen": 2.0
+   },
+   "IDA* hF": {
+    "gen": 847,
+    "mem": 3,
+    "capped": 0,
+    "optimal": 19,
+    "meanLen": 2.0
+   },
+   "IDA* hF + TT": {
+    "gen": 847,
+    "mem": 15,
+    "capped": 0,
+    "optimal": 19,
+    "meanLen": 2.0
+   },
+   "Weighted A* hF, w = 2": {
+    "gen": 870,
+    "mem": 651,
+    "capped": 0,
+    "optimal": 19,
+    "meanLen": 2.0
+   }
+  },
+  {
+   "d": 3,
+   "n": 37,
+   "A* hF": {
+    "gen": 2582,
+    "mem": 1745,
+    "capped": 0,
+    "optimal": 37,
+    "meanLen": 3.0
+   },
+   "IDA* hF": {
+    "gen": 3348,
+    "mem": 4,
+    "capped": 0,
+    "optimal": 37,
+    "meanLen": 3.0
+   },
+   "IDA* hF + TT": {
+    "gen": 3090,
+    "mem": 45,
+    "capped": 0,
+    "optimal": 37,
+    "meanLen": 3.0
+   },
+   "Weighted A* hF, w = 2": {
+    "gen": 2770,
+    "mem": 1867,
+    "capped": 0,
+    "optimal": 32,
+    "meanLen": 3.14
+   }
+  },
+  {
+   "d": 4,
+   "n": 4,
+   "A* hF": {
+    "gen": 13196,
+    "mem": 6554,
+    "capped": 0,
+    "optimal": 4,
+    "meanLen": 4.0
+   },
+   "IDA* hF": {
+    "gen": 71153,
+    "mem": 5,
+    "capped": 0,
+    "optimal": 4,
+    "meanLen": 4.0
+   },
+   "IDA* hF + TT": {
+    "gen": 59130,
+    "mem": 742,
+    "capped": 0,
+    "optimal": 4,
+    "meanLen": 4.0
+   },
+   "Weighted A* hF, w = 2": {
+    "gen": 11218,
+    "mem": 5869,
+    "capped": 0,
+    "optimal": 4,
+    "meanLen": 4.0
+   }
+  }
+ ],
+ "summary": {
+  "A* hF": {
+   "optimal": 60,
+   "solved": 60,
+   "worst": 0
+  },
+  "IDA* hF": {
+   "optimal": 60,
+   "solved": 60,
+   "worst": 0
+  },
+  "IDA* hF + TT": {
+   "optimal": 60,
+   "solved": 60,
+   "worst": 0
+  },
+  "Weighted A* hF, w = 2": {
+   "optimal": 55,
+   "solved": 60,
+   "worst": 1
+  }
+ },
+ "secs": 76
+}

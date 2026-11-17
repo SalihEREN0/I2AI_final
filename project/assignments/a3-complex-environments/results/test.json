@@ -1,0 +1,150 @@
+{
+ "board": {
+  "b": [
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "A5",
+   "B2",
+   "B3",
+   "B4",
+   "B5",
+   "D6",
+   "D7",
+   "E5",
+   "E6",
+   "E7"
+  ],
+  "w": [
+   "E8",
+   "E9",
+   "G7",
+   "H4",
+   "H5",
+   "H6",
+   "H7",
+   "H8",
+   "H9",
+   "I5",
+   "I6",
+   "I7",
+   "I8",
+   "I9"
+  ]
+ },
+ "st": "bbbbb.bbbb.............bb.....bbbww............w..wwwwwwwwwww",
+ "hF": 1,
+ "U": 38,
+ "moves": {
+  "n": 73,
+  "quiet": 72,
+  "pushes": 0,
+  "pushOffs": [
+   "E5 E6 E7 → E"
+  ],
+  "quietReversible": 72
+ },
+ "frozenPlans": 2,
+ "afterCapture": {
+  "st": "bbbbb.bbbb.............bb......bbbw............w..wwwwwwwwwww",
+  "replies": 39,
+  "keep": 37,
+  "breakers": [
+   "E9 → NW",
+   "E9 → SW"
+  ],
+  "breakerBoards": {
+   "E9 → NW": "bbbbb.bbbb.............bb......bbb........w....w..wwwwwwwwwww",
+   "E9 → SW": "bbbbb.bbbb.............bbw.....bbb.............w..wwwwwwwwwww"
+  }
+ },
+ "andor": {
+  "need": 2,
+  "ourMoves": 2,
+  "firstMovesWithPlan": [
+   "E5 E6 E7 → E"
+  ],
+  "of": 73,
+  "answers": [
+   {
+    "act": "D7 E8 → NE",
+    "replies": 1,
+    "which": [
+     "E9 → NW"
+    ]
+   },
+   {
+    "act": "D6 D7 → E",
+    "replies": 1,
+    "which": [
+     "E9 → SW"
+    ]
+   },
+   {
+    "act": "E6 E7 E8 → E",
+    "replies": 37
+   }
+  ],
+  "nodes": 79,
+  "leaves": 39,
+  "lost": 0,
+  "search": {
+   "orCalls": 112,
+   "andCalls": 73,
+   "boards": 11696,
+   "ms": 59
+  }
+ },
+ "recheck": {
+  "firstMovesForcing": [
+   "E5 E6 E7 → E"
+  ],
+  "agrees": true,
+  "ms": 314
+ },
+ "greedy": {
+  "best": "A5 B5 → NW",
+  "bestDU": 8,
+  "captureDU": 5,
+  "rankOfCapture": 4,
+  "replies": 43,
+  "refuting": 7,
+  "refutingExamples": [
+   "E8 → NE",
+   "E8 → NW",
+   "E8 → SE",
+   "E8 E9 → NW",
+   "E9 → NW",
+   "E9 → SW"
+  ]
+ },
+ "counterfactual": {
+  "change": "D6 stays home on B6",
+  "forcedWithin2": false,
+  "unanswered": [
+   "E9 → SW"
+  ]
+ },
+ "belief": [
+  {
+   "radius": 1,
+   "seen": 31,
+   "unseen": 30,
+   "hiddenWhite": 13,
+   "visibleWhite": 1,
+   "beliefSize": 119759850,
+   "formula": "C(30, 13)"
+  },
+  {
+   "radius": 2,
+   "seen": 43,
+   "unseen": 18,
+   "hiddenWhite": 11,
+   "visibleWhite": 3,
+   "beliefSize": 31824,
+   "formula": "C(18, 11)"
+  }
+ ],
+ "backToOpening": 1936
+}

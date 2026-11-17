@@ -1,0 +1,34 @@
+{
+ "a": "ab:depth=2,weights=experiments/refit-logistic-on-tdleaf-games/weights-final.json,name=logistic-own",
+ "b": "ab:depth=2,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=tdleaf",
+ "games": 50,
+ "a_wins": 24,
+ "draws": 12,
+ "a_losses": 14,
+ "a_score": 0.6,
+ "a_score_ci95": [
+  0.481,
+  0.719
+ ],
+ "elo_diff": 70,
+ "a_mean_marble_margin": 0.36,
+ "reasons": {
+  "six off": 28,
+  "repetition": 8,
+  "ply cap": 14,
+  "no legal move": 0
+ },
+ "mean_plies": 157.6,
+ "seconds": 21.8,
+ "conditions": {
+  "openings": 25,
+  "opening_plies": 2,
+  "seed": 7,
+  "starts": [
+   "standard",
+   "belgian-daisy"
+  ],
+  "max_plies": 200,
+  "repetition": "third occurrence = draw"
+ }
+}

@@ -1,0 +1,1247 @@
+{
+ "meta": {
+  "collected": "2026-11-04",
+  "src_sha256": {
+   "__init__.py": "e002a6cb5bec",
+   "__main__.py": "da476aab55fa",
+   "andor.py": "d8701da2bc6b",
+   "engine.py": "7009c98bf8e0",
+   "features.py": "30d63c316d5b",
+   "game.py": "b542a546ff3a",
+   "match.py": "8679077d27eb",
+   "search.py": "e3137c5013e4",
+   "server.py": "e33940cddc0d",
+   "supervised.py": "b80ca6ba6ddb",
+   "tdleaf.py": "d25783d9da14",
+   "valuenet.py": "c2cca769cae3"
+  },
+  "tests": 25,
+  "perft": [
+   44,
+   1936,
+   98912
+  ]
+ },
+ "m": {
+  "e1-final-vs-a3-andor": {
+   "a": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=final",
+   "b": "greedy-andor",
+   "games": 50,
+   "w": 48,
+   "d": 2,
+   "l": 0,
+   "score": 0.98,
+   "ci": [
+    0.953,
+    1
+   ],
+   "margin": 4.48,
+   "reasons": {
+    "six off": 45,
+    "repetition": 2,
+    "ply cap": 3,
+    "no legal move": 0
+   },
+   "plies": 75.2
+  },
+  "e1-final-vs-a3": {
+   "a": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=final",
+   "b": "greedy",
+   "games": 50,
+   "w": 50,
+   "d": 0,
+   "l": 0,
+   "score": 1.0,
+   "ci": [
+    1.0,
+    1
+   ],
+   "margin": 5.44,
+   "reasons": {
+    "six off": 43,
+    "repetition": 0,
+    "ply cap": 7,
+    "no legal move": 0
+   },
+   "plies": 91.6
+  },
+  "e1-hand-vs-a3-andor": {
+   "a": "ab:time=0.5,name=hand-U",
+   "b": "greedy-andor",
+   "games": 50,
+   "w": 49,
+   "d": 1,
+   "l": 0,
+   "score": 0.99,
+   "ci": [
+    0.97,
+    1
+   ],
+   "margin": 4.68,
+   "reasons": {
+    "six off": 49,
+    "repetition": 1,
+    "ply cap": 0,
+    "no legal move": 0
+   },
+   "plies": 77.9
+  },
+  "e1-a3-andor-vs-greedy": {
+   "a": "greedy-andor",
+   "b": "greedy",
+   "games": 50,
+   "w": 1,
+   "d": 49,
+   "l": 0,
+   "score": 0.51,
+   "ci": [
+    0.49,
+    0.53
+   ],
+   "margin": 0.74,
+   "reasons": {
+    "six off": 1,
+    "repetition": 49,
+    "ply cap": 0,
+    "no legal move": 0
+   },
+   "plies": 67.4
+  },
+  "e2-ablate-learning": {
+   "a": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=full",
+   "b": "ab:time=0.5,name=hand-weights",
+   "games": 50,
+   "w": 37,
+   "d": 9,
+   "l": 4,
+   "score": 0.83,
+   "ci": [
+    0.743,
+    0.917
+   ],
+   "margin": 2.48,
+   "reasons": {
+    "six off": 14,
+    "repetition": 2,
+    "ply cap": 34,
+    "no legal move": 0
+   },
+   "plies": 182.1
+  },
+  "e2-ablate-quiescence": {
+   "a": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=full",
+   "b": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,quiescence=0,name=no-quiescence",
+   "games": 50,
+   "w": 32,
+   "d": 6,
+   "l": 12,
+   "score": 0.7,
+   "ci": [
+    0.581,
+    0.819
+   ],
+   "margin": 1.16,
+   "reasons": {
+    "six off": 38,
+    "repetition": 2,
+    "ply cap": 10,
+    "no legal move": 0
+   },
+   "plies": 142.1
+  },
+  "e2-ablate-ordering": {
+   "a": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=full",
+   "b": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,ordering=0,name=no-ordering",
+   "games": 50,
+   "w": 30,
+   "d": 4,
+   "l": 16,
+   "score": 0.64,
+   "ci": [
+    0.512,
+    0.768
+   ],
+   "margin": 1.14,
+   "reasons": {
+    "six off": 37,
+    "repetition": 0,
+    "ply cap": 13,
+    "no legal move": 0
+   },
+   "plies": 157.5
+  },
+  "e2-ablate-tt": {
+   "a": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=full",
+   "b": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,tt=0,name=no-tt",
+   "games": 50,
+   "w": 26,
+   "d": 6,
+   "l": 18,
+   "score": 0.58,
+   "ci": [
+    0.451,
+    0.709
+   ],
+   "margin": 0.46,
+   "reasons": {
+    "six off": 33,
+    "repetition": 0,
+    "ply cap": 17,
+    "no legal move": 0
+   },
+   "plies": 159.6
+  },
+  "e2-ablate-killers": {
+   "a": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=full",
+   "b": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,killers=0,name=no-killers",
+   "games": 50,
+   "w": 24,
+   "d": 5,
+   "l": 21,
+   "score": 0.53,
+   "ci": [
+    0.397,
+    0.663
+   ],
+   "margin": 0.18,
+   "reasons": {
+    "six off": 36,
+    "repetition": 2,
+    "ply cap": 12,
+    "no legal move": 0
+   },
+   "plies": 157.6
+  },
+  "e5-result-vs-hand": {
+   "a": "ab:depth=2,weights=experiments/tdleaf-d2-result/weights-final.json,name=result-reward",
+   "b": "ab:depth=2,name=hand",
+   "games": 50,
+   "w": 41,
+   "d": 7,
+   "l": 2,
+   "score": 0.89,
+   "ci": [
+    0.82,
+    0.96
+   ],
+   "margin": 2.9,
+   "reasons": {
+    "six off": 14,
+    "repetition": 6,
+    "ply cap": 30,
+    "no legal move": 0
+   },
+   "plies": 170.4
+  },
+  "e5-marbles-vs-result": {
+   "a": "ab:depth=2,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=marbles-reward",
+   "b": "ab:depth=2,weights=experiments/tdleaf-d2-result/weights-final.json,name=result-reward",
+   "games": 50,
+   "w": 24,
+   "d": 1,
+   "l": 25,
+   "score": 0.49,
+   "ci": [
+    0.351,
+    0.629
+   ],
+   "margin": 0.2,
+   "reasons": {
+    "six off": 49,
+    "repetition": 0,
+    "ply cap": 1,
+    "no legal move": 0
+   },
+   "plies": 128.2
+  },
+  "match-tdleaf-vs-hand-d2": {
+   "a": "ab:depth=2,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=tdleaf-d2",
+   "b": "ab:depth=2,name=hand-d2",
+   "games": 50,
+   "w": 47,
+   "d": 2,
+   "l": 1,
+   "score": 0.96,
+   "ci": [
+    0.913,
+    1
+   ],
+   "margin": 3.36,
+   "reasons": {
+    "six off": 18,
+    "repetition": 2,
+    "ply cap": 30,
+    "no legal move": 0
+   },
+   "plies": 171.8
+  },
+  "match-tdleaf-vs-hand-d3": {
+   "a": "ab:depth=3,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=tdleaf-d3",
+   "b": "ab:depth=3,name=hand-d3",
+   "games": 50,
+   "w": 44,
+   "d": 5,
+   "l": 1,
+   "score": 0.93,
+   "ci": [
+    0.874,
+    0.986
+   ],
+   "margin": 2.9,
+   "reasons": {
+    "six off": 8,
+    "repetition": 1,
+    "ply cap": 41,
+    "no legal move": 0
+   },
+   "plies": 190.5
+  },
+  "ch19-logistic-vs-hand": {
+   "a": "ab:depth=2,weights=experiments/ch19-logistic/weights-final.json,name=logistic",
+   "b": "ab:depth=2,name=hand",
+   "games": 50,
+   "w": 38,
+   "d": 12,
+   "l": 0,
+   "score": 0.88,
+   "ci": [
+    0.82,
+    0.94
+   ],
+   "margin": 2.6,
+   "reasons": {
+    "six off": 5,
+    "repetition": 9,
+    "ply cap": 36,
+    "no legal move": 0
+   },
+   "plies": 179.1
+  },
+  "ch19-logistic-vs-tdleaf": {
+   "a": "ab:depth=2,weights=experiments/ch19-logistic/weights-final.json,name=logistic",
+   "b": "ab:depth=2,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=tdleaf",
+   "games": 50,
+   "w": 9,
+   "d": 10,
+   "l": 31,
+   "score": 0.28,
+   "ci": [
+    0.171,
+    0.389
+   ],
+   "margin": -1.5,
+   "reasons": {
+    "six off": 33,
+    "repetition": 7,
+    "ply cap": 10,
+    "no legal move": 0
+   },
+   "plies": 136.3
+  },
+  "ch22-net-vs-hand-d2": {
+   "a": "net:depth=2,name=valuenet",
+   "b": "ab:depth=2,name=hand",
+   "games": 50,
+   "w": 18,
+   "d": 11,
+   "l": 21,
+   "score": 0.47,
+   "ci": [
+    0.347,
+    0.593
+   ],
+   "margin": -0.88,
+   "reasons": {
+    "six off": 13,
+    "repetition": 6,
+    "ply cap": 31,
+    "no legal move": 0
+   },
+   "plies": 177.2
+  },
+  "ch22-net-vs-tdleaf-d2": {
+   "a": "net:depth=2,name=valuenet",
+   "b": "ab:depth=2,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=tdleaf",
+   "games": 50,
+   "w": 0,
+   "d": 3,
+   "l": 47,
+   "score": 0.03,
+   "ci": [
+    0,
+    0.063
+   ],
+   "margin": -4.28,
+   "reasons": {
+    "six off": 47,
+    "repetition": 3,
+    "ply cap": 0,
+    "no legal move": 0
+   },
+   "plies": 99.9
+  },
+  "ch22-net-vs-tdleaf-time": {
+   "a": "net:time=0.5,name=valuenet",
+   "b": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=tdleaf",
+   "games": 50,
+   "w": 1,
+   "d": 0,
+   "l": 49,
+   "score": 0.02,
+   "ci": [
+    0,
+    0.059
+   ],
+   "margin": -4.24,
+   "reasons": {
+    "six off": 49,
+    "repetition": 0,
+    "ply cap": 1,
+    "no legal move": 0
+   },
+   "plies": 122.2
+  },
+  "refit-logistic-vs-hand": {
+   "a": "ab:depth=2,weights=experiments/refit-logistic-on-tdleaf-games/weights-final.json,name=logistic-own",
+   "b": "ab:depth=2,name=hand",
+   "games": 50,
+   "w": 40,
+   "d": 7,
+   "l": 3,
+   "score": 0.87,
+   "ci": [
+    0.792,
+    0.948
+   ],
+   "margin": 3.12,
+   "reasons": {
+    "six off": 17,
+    "repetition": 6,
+    "ply cap": 27,
+    "no legal move": 0
+   },
+   "plies": 166.0
+  },
+  "refit-logistic-vs-tdleaf": {
+   "a": "ab:depth=2,weights=experiments/refit-logistic-on-tdleaf-games/weights-final.json,name=logistic-own",
+   "b": "ab:depth=2,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=tdleaf",
+   "games": 50,
+   "w": 24,
+   "d": 12,
+   "l": 14,
+   "score": 0.6,
+   "ci": [
+    0.481,
+    0.719
+   ],
+   "margin": 0.36,
+   "reasons": {
+    "six off": 28,
+    "repetition": 8,
+    "ply cap": 14,
+    "no legal move": 0
+   },
+   "plies": 157.6
+  },
+  "refit-net-vs-hand": {
+   "a": "net:depth=2,net=experiments/refit-net-on-tdleaf-games/net.json,name=net-own",
+   "b": "ab:depth=2,name=hand",
+   "games": 50,
+   "w": 17,
+   "d": 20,
+   "l": 13,
+   "score": 0.54,
+   "ci": [
+    0.432,
+    0.648
+   ],
+   "margin": 0.2,
+   "reasons": {
+    "six off": 5,
+    "repetition": 13,
+    "ply cap": 32,
+    "no legal move": 0
+   },
+   "plies": 172.4
+  },
+  "refit-net-vs-tdleaf": {
+   "a": "net:depth=2,net=experiments/refit-net-on-tdleaf-games/net.json,name=net-own",
+   "b": "ab:depth=2,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=tdleaf",
+   "games": 50,
+   "w": 2,
+   "d": 3,
+   "l": 45,
+   "score": 0.07,
+   "ci": [
+    0.007,
+    0.133
+   ],
+   "margin": -3.56,
+   "reasons": {
+    "six off": 42,
+    "repetition": 2,
+    "ply cap": 6,
+    "no legal move": 0
+   },
+   "plies": 129.6
+  }
+ },
+ "tdleaf": {
+  "iterations": 150,
+  "games_per_iter": 8,
+  "depth": 2,
+  "alpha": 10.0,
+  "lambda": 0.7,
+  "reward": "marbles",
+  "K": 30.0,
+  "games": 1200,
+  "seconds": 383.2,
+  "init": {
+   "marbles": 10.0,
+   "centre": 20.0,
+   "cohesion": 10.0,
+   "edge": -15.0,
+   "exposed": 0.0,
+   "wedge": 0.0
+  },
+  "final": {
+   "marbles": 22.137332891842753,
+   "centre": 16.967696535466096,
+   "cohesion": 10.766235332659814,
+   "edge": -6.547396229074165,
+   "exposed": -3.868431892086487,
+   "wedge": 2.4334679054101187
+  },
+  "features": [
+   "marbles",
+   "centre",
+   "cohesion",
+   "edge",
+   "exposed",
+   "wedge"
+  ],
+  "six_off_first": 1,
+  "six_off_last10": 40,
+  "path": [
+   {
+    "games": 8,
+    "w": {
+     "marbles": 10.107799269517262,
+     "centre": 19.96476876521758,
+     "cohesion": 10.057413026446048,
+     "edge": -14.821128884060991,
+     "exposed": 0.02588773391524589,
+     "wedge": 0.15060236131500498
+    }
+   },
+   {
+    "games": 40,
+    "w": {
+     "marbles": 11.545238605388985,
+     "centre": 19.554903418131786,
+     "cohesion": 9.774659230407952,
+     "edge": -14.241031713338586,
+     "exposed": 0.16580907967423253,
+     "wedge": 0.2163703148798608
+    }
+   },
+   {
+    "games": 80,
+    "w": {
+     "marbles": 13.50700421890844,
+     "centre": 18.642910717628965,
+     "cohesion": 9.360468921366154,
+     "edge": -13.346058965716535,
+     "exposed": 0.3095153477357227,
+     "wedge": 0.36985716895371284
+    }
+   },
+   {
+    "games": 120,
+    "w": {
+     "marbles": 15.31318203482021,
+     "centre": 17.721015840762824,
+     "cohesion": 9.090606518304828,
+     "edge": -12.844948322525132,
+     "exposed": 0.24011519786855753,
+     "wedge": 0.6148055389660055
+    }
+   },
+   {
+    "games": 160,
+    "w": {
+     "marbles": 16.647654732303597,
+     "centre": 17.383858034470112,
+     "cohesion": 9.18357768854098,
+     "edge": -12.32019358129471,
+     "exposed": 0.24929213969137648,
+     "wedge": 0.7432643815662276
+    }
+   },
+   {
+    "games": 200,
+    "w": {
+     "marbles": 17.446302150607526,
+     "centre": 16.72087337824737,
+     "cohesion": 9.085872802098994,
+     "edge": -11.840618090865052,
+     "exposed": 0.12503099860919215,
+     "wedge": 1.0533038583164884
+    }
+   },
+   {
+    "games": 240,
+    "w": {
+     "marbles": 18.608461803586138,
+     "centre": 16.654082839365184,
+     "cohesion": 9.34173521594866,
+     "edge": -11.42431894793171,
+     "exposed": -0.0004165309966333297,
+     "wedge": 1.3141080958319975
+    }
+   },
+   {
+    "games": 280,
+    "w": {
+     "marbles": 18.764448102639108,
+     "centre": 16.63913624505861,
+     "cohesion": 9.352081729173374,
+     "edge": -11.046305868789792,
+     "exposed": -0.06373073199728183,
+     "wedge": 1.720952403303441
+    }
+   },
+   {
+    "games": 320,
+    "w": {
+     "marbles": 19.491086168493908,
+     "centre": 16.29607099040237,
+     "cohesion": 9.052025260928913,
+     "edge": -10.638720486564454,
+     "exposed": -0.26465068227642463,
+     "wedge": 1.7519615379724456
+    }
+   },
+   {
+    "games": 360,
+    "w": {
+     "marbles": 20.26062747107458,
+     "centre": 15.989484132240879,
+     "cohesion": 9.066995839613782,
+     "edge": -10.131162411843052,
+     "exposed": -0.29565398022971645,
+     "wedge": 1.9291610679651086
+    }
+   },
+   {
+    "games": 400,
+    "w": {
+     "marbles": 20.82603820011098,
+     "centre": 15.207216983119185,
+     "cohesion": 9.12427339748418,
+     "edge": -9.682564597403763,
+     "exposed": -0.36707091681604603,
+     "wedge": 1.727876690385301
+    }
+   },
+   {
+    "games": 440,
+    "w": {
+     "marbles": 20.97045440287907,
+     "centre": 15.171169353703544,
+     "cohesion": 9.388427765872358,
+     "edge": -9.437594286858129,
+     "exposed": -0.4835892224741508,
+     "wedge": 2.1954917503703184
+    }
+   },
+   {
+    "games": 480,
+    "w": {
+     "marbles": 21.099917903781282,
+     "centre": 15.149120934098613,
+     "cohesion": 9.39021420424008,
+     "edge": -9.37462473651682,
+     "exposed": -0.7319065463032075,
+     "wedge": 2.182097226496135
+    }
+   },
+   {
+    "games": 520,
+    "w": {
+     "marbles": 21.092556748074134,
+     "centre": 15.682511015308831,
+     "cohesion": 9.526406553547822,
+     "edge": -9.122585628693322,
+     "exposed": -0.7794281963216062,
+     "wedge": 2.349359256081608
+    }
+   },
+   {
+    "games": 560,
+    "w": {
+     "marbles": 20.76242447619594,
+     "centre": 15.582153953411161,
+     "cohesion": 9.793414012286128,
+     "edge": -9.149843288756921,
+     "exposed": -1.0211178647991854,
+     "wedge": 2.0917994715191837
+    }
+   },
+   {
+    "games": 600,
+    "w": {
+     "marbles": 20.698835888232605,
+     "centre": 16.04269706068896,
+     "cohesion": 9.82760596195194,
+     "edge": -8.970499732220423,
+     "exposed": -1.1306993662725866,
+     "wedge": 2.0137133425664353
+    }
+   },
+   {
+    "games": 640,
+    "w": {
+     "marbles": 21.33536548027769,
+     "centre": 15.49865376318155,
+     "cohesion": 9.771812479686252,
+     "edge": -8.489562752807185,
+     "exposed": -1.2599055296239838,
+     "wedge": 2.213496988848107
+    }
+   },
+   {
+    "games": 680,
+    "w": {
+     "marbles": 21.608535187332915,
+     "centre": 15.60569222665702,
+     "cohesion": 9.825096330815585,
+     "edge": -8.361146527098809,
+     "exposed": -1.4566488651603247,
+     "wedge": 2.107534736620919
+    }
+   },
+   {
+    "games": 720,
+    "w": {
+     "marbles": 21.836800286866197,
+     "centre": 14.996805933798754,
+     "cohesion": 9.905661204432276,
+     "edge": -8.11107134412947,
+     "exposed": -1.6230474184622226,
+     "wedge": 2.033988708811968
+    }
+   },
+   {
+    "games": 760,
+    "w": {
+     "marbles": 22.446230462903372,
+     "centre": 14.893673471181934,
+     "cohesion": 9.927469403485981,
+     "edge": -7.7438092265867144,
+     "exposed": -1.8106845163633645,
+     "wedge": 2.285355072588089
+    }
+   },
+   {
+    "games": 800,
+    "w": {
+     "marbles": 22.279801467978135,
+     "centre": 14.82647449108193,
+     "cohesion": 10.095224511359282,
+     "edge": -7.669374993832717,
+     "exposed": -1.9999154345708765,
+     "wedge": 1.943412536954481
+    }
+   },
+   {
+    "games": 840,
+    "w": {
+     "marbles": 22.393183837908854,
+     "centre": 14.964858313274952,
+     "cohesion": 10.21209831987498,
+     "edge": -7.618860986245464,
+     "exposed": -2.196392477332471,
+     "wedge": 2.1907200708632293
+    }
+   },
+   {
+    "games": 880,
+    "w": {
+     "marbles": 22.1726366340728,
+     "centre": 15.414385561699856,
+     "cohesion": 10.485547624653233,
+     "edge": -7.388128665121527,
+     "exposed": -2.327561150405918,
+     "wedge": 2.1308983884285686
+    }
+   },
+   {
+    "games": 920,
+    "w": {
+     "marbles": 22.642600170488684,
+     "centre": 15.122415803266316,
+     "cohesion": 10.400337964197195,
+     "edge": -7.0755624518528375,
+     "exposed": -2.4322333792576636,
+     "wedge": 2.3336339365526033
+    }
+   },
+   {
+    "games": 960,
+    "w": {
+     "marbles": 22.557933064699547,
+     "centre": 15.652471642711898,
+     "cohesion": 10.459279802143676,
+     "edge": -7.229160139880041,
+     "exposed": -2.84388496372084,
+     "wedge": 2.5863623589976314
+    }
+   },
+   {
+    "games": 1000,
+    "w": {
+     "marbles": 22.602523319924604,
+     "centre": 16.075342314165038,
+     "cohesion": 10.502918679872494,
+     "edge": -6.983760107680449,
+     "exposed": -3.031612895556122,
+     "wedge": 2.711224030387155
+    }
+   },
+   {
+    "games": 1040,
+    "w": {
+     "marbles": 22.85161056225855,
+     "centre": 15.650124911419258,
+     "cohesion": 10.140133497847685,
+     "edge": -6.723870365541723,
+     "exposed": -3.084422901392615,
+     "wedge": 2.3308345314912877
+    }
+   },
+   {
+    "games": 1080,
+    "w": {
+     "marbles": 22.657957804321885,
+     "centre": 16.178763149672047,
+     "cohesion": 10.476081764354367,
+     "edge": -6.542756588739697,
+     "exposed": -3.242369820248146,
+     "wedge": 2.478830647221375
+    }
+   },
+   {
+    "games": 1120,
+    "w": {
+     "marbles": 22.513788885087468,
+     "centre": 16.60834182406544,
+     "cohesion": 10.781732457755217,
+     "edge": -6.460815713158194,
+     "exposed": -3.480413281607482,
+     "wedge": 2.6345846819112064
+    }
+   },
+   {
+    "games": 1160,
+    "w": {
+     "marbles": 22.085970222346283,
+     "centre": 16.726743471764784,
+     "cohesion": 10.895695219046855,
+     "edge": -6.681429670489584,
+     "exposed": -3.73164949202125,
+     "wedge": 2.6290788573441413
+    }
+   },
+   {
+    "games": 1200,
+    "w": {
+     "marbles": 22.137332891842753,
+     "centre": 16.967696535466096,
+     "cohesion": 10.766235332659814,
+     "edge": -6.547396229074165,
+     "exposed": -3.868431892086487,
+     "wedge": 2.4334679054101187
+    }
+   }
+  ]
+ },
+ "tdleaf_result_final": {
+  "marbles": 13.969451882694093,
+  "centre": 10.064206807571173,
+  "cohesion": 7.776121613444589,
+  "edge": -5.512811942933906,
+  "exposed": -2.9293945209470955,
+  "wedge": 1.9877774708213387
+ },
+ "curve": [
+  {
+   "iteration": 15,
+   "games": 120,
+   "score": 0.93,
+   "ci": [
+    0.874,
+    0.986
+   ]
+  },
+  {
+   "iteration": 30,
+   "games": 240,
+   "score": 0.88,
+   "ci": [
+    0.803,
+    0.957
+   ]
+  },
+  {
+   "iteration": 45,
+   "games": 360,
+   "score": 0.9,
+   "ci": [
+    0.831,
+    0.969
+   ]
+  },
+  {
+   "iteration": 60,
+   "games": 480,
+   "score": 0.91,
+   "ci": [
+    0.849,
+    0.971
+   ]
+  },
+  {
+   "iteration": 75,
+   "games": 600,
+   "score": 0.94,
+   "ci": [
+    0.887,
+    0.993
+   ]
+  },
+  {
+   "iteration": 90,
+   "games": 720,
+   "score": 0.93,
+   "ci": [
+    0.874,
+    0.986
+   ]
+  },
+  {
+   "iteration": 105,
+   "games": 840,
+   "score": 0.94,
+   "ci": [
+    0.887,
+    0.993
+   ]
+  },
+  {
+   "iteration": 120,
+   "games": 960,
+   "score": 0.95,
+   "ci": [
+    0.9,
+    1
+   ]
+  },
+  {
+   "iteration": 135,
+   "games": 1080,
+   "score": 0.96,
+   "ci": [
+    0.922,
+    0.998
+   ]
+  },
+  {
+   "iteration": 150,
+   "games": 1200,
+   "score": 0.96,
+   "ci": [
+    0.913,
+    1
+   ]
+  }
+ ],
+ "convergence": {
+  "games": 3200,
+  "alpha_decay": 200.0,
+  "seeds": 3,
+  "curve": [
+   {
+    "iteration": 40,
+    "games": 320,
+    "score": 0.87
+   },
+   {
+    "iteration": 80,
+    "games": 640,
+    "score": 0.93
+   },
+   {
+    "iteration": 120,
+    "games": 960,
+    "score": 0.93
+   },
+   {
+    "iteration": 160,
+    "games": 1280,
+    "score": 0.95
+   },
+   {
+    "iteration": 200,
+    "games": 1600,
+    "score": 0.97
+   },
+   {
+    "iteration": 240,
+    "games": 1920,
+    "score": 0.96
+   },
+   {
+    "iteration": 280,
+    "games": 2240,
+    "score": 0.93
+   },
+   {
+    "iteration": 320,
+    "games": 2560,
+    "score": 0.89
+   },
+   {
+    "iteration": 360,
+    "games": 2880,
+    "score": 0.93
+   },
+   {
+    "iteration": 400,
+    "games": 3200,
+    "score": 0.92
+   }
+  ],
+  "vs150_d2": {
+   "a": "ab:depth=2,weights=experiments/tdleaf-d2-marbles-400/weights-final.json,name=it400",
+   "b": "ab:depth=2,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=it150",
+   "games": 50,
+   "w": 20,
+   "d": 7,
+   "l": 23,
+   "score": 0.47,
+   "ci": [
+    0.34,
+    0.6
+   ],
+   "margin": -0.22,
+   "reasons": {
+    "six off": 41,
+    "repetition": 7,
+    "ply cap": 2,
+    "no legal move": 0
+   },
+   "plies": 111.1
+  },
+  "vs150_time": {
+   "a": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles-400/weights-final.json,name=it400",
+   "b": "ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=it150",
+   "games": 50,
+   "w": 24,
+   "d": 5,
+   "l": 21,
+   "score": 0.53,
+   "ci": [
+    0.397,
+    0.663
+   ],
+   "margin": 0.08,
+   "reasons": {
+    "six off": 41,
+    "repetition": 0,
+    "ply cap": 9,
+    "no legal move": 0
+   },
+   "plies": 157.9
+  },
+  "positions": 302046,
+  "corr_edge_exposed": 0.714,
+  "eig_min": 0.01228,
+  "eig_max": 1.63236,
+  "weakest": {
+   "marbles": 0.019,
+   "centre": -0.13,
+   "cohesion": 0.095,
+   "edge": -0.588,
+   "exposed": 0.792,
+   "wedge": 0.028
+  },
+  "along_weakest": {
+   "seed 1": [
+    1.97,
+    -2.33
+   ],
+   "seed 2": [
+    2.39,
+    -1.83
+   ],
+   "seed 3": [
+    2.0,
+    -2.42
+   ]
+  },
+  "final": {
+   "seed 1": {
+    "marbles": 23.85,
+    "centre": 17.2,
+    "cohesion": 13.22,
+    "edge": -5.24,
+    "exposed": -6.27,
+    "wedge": 2.54
+   },
+   "seed 2": {
+    "marbles": 22.64,
+    "centre": 16.49,
+    "cohesion": 13.15,
+    "edge": -5.79,
+    "exposed": -6.13,
+    "wedge": 2.58
+   },
+   "seed 3": {
+    "marbles": 22.89,
+    "centre": 16.71,
+    "cohesion": 12.96,
+    "edge": -5.15,
+    "exposed": -6.33,
+    "wedge": 2.18
+   }
+  }
+ },
+ "ch19": {
+  "games": 1200,
+  "train_games": 960,
+  "test_games": 240,
+  "train_positions": 54153,
+  "test_positions": 13006,
+  "weights": {
+   "marbles": 16.344561778275004,
+   "centre": 13.647181072541507,
+   "cohesion": -0.7084714857163604,
+   "edge": 2.774347602038887,
+   "exposed": -5.619009024190456,
+   "wedge": -0.6588979157085766
+  },
+  "test": {
+   "logistic": {
+    "log_loss": 0.5112,
+    "acc": 0.8548
+   },
+   "hand": {
+    "log_loss": 0.5743,
+    "acc": 0.7905
+   },
+   "tdleaf-marbles": {
+    "log_loss": 0.5225,
+    "acc": 0.8312
+   },
+   "tdleaf-result": {
+    "log_loss": 0.5242,
+    "acc": 0.8282
+   }
+  },
+  "coin": 0.6931
+ },
+ "ch22": {
+  "hidden": 16,
+  "parameters": 1985,
+  "best_epoch": 2,
+  "train_seconds": 13.6,
+  "test": {
+   "log_loss": 0.5225,
+   "acc": 0.8328
+  }
+ },
+ "refit": {
+  "logistic_weights": {
+   "marbles": 9.175141994013414,
+   "centre": 11.767099776285237,
+   "cohesion": 3.192242054705261,
+   "edge": 1.342643801783417,
+   "exposed": -3.384504163715833,
+   "wedge": -0.8930200781228345
+  },
+  "test": {
+   "logistic": 0.6553,
+   "hand": 0.6575,
+   "tdleaf-marbles": 0.6548,
+   "logistic-hand-games": 0.6581,
+   "net": 0.6525
+  }
+ },
+ "ch4": {
+  "games": 60,
+  "positions_with_forced_push_off": 529,
+  "agent_chose_forcing_move": 286,
+  "agent": "alpha-beta, TDLeaf weights, depth 3"
+ },
+ "cost": {
+  "positions": 386,
+  "agent": "alpha-beta, TDLeaf weights",
+  "depths": {
+   "3": {
+    "full": {
+     "mean_nodes": 7773,
+     "median_nodes": 7323,
+     "mean_ms": 99.0
+    },
+    "no-ordering": {
+     "mean_nodes": 12811,
+     "median_nodes": 10718,
+     "mean_ms": 225.7
+    },
+    "no-tt": {
+     "mean_nodes": 8032,
+     "median_nodes": 7484,
+     "mean_ms": 97.9
+    },
+    "no-killers": {
+     "mean_nodes": 7861,
+     "median_nodes": 7361,
+     "mean_ms": 95.6
+    },
+    "no-quiescence": {
+     "mean_nodes": 3881,
+     "median_nodes": 3586,
+     "mean_ms": 70.1
+    }
+   },
+   "4": {
+    "full": {
+     "mean_nodes": 27480,
+     "median_nodes": 25070,
+     "mean_ms": 496.8
+    },
+    "no-ordering": {
+     "mean_nodes": 87516,
+     "median_nodes": 56150,
+     "mean_ms": 1892.6
+    },
+    "no-tt": {
+     "mean_nodes": 32305,
+     "median_nodes": 29282,
+     "mean_ms": 693.9
+    },
+    "no-killers": {
+     "mean_nodes": 28955,
+     "median_nodes": 26217,
+     "mean_ms": 535.6
+    },
+    "no-quiescence": {
+     "mean_nodes": 14543,
+     "median_nodes": 13038,
+     "mean_ms": 326.9
+    }
+   }
+  }
+ }
+}

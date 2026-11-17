@@ -1,0 +1,83 @@
+{
+ "data": "experiments/ch19-logistic",
+ "hidden": 16,
+ "parameters": 1985,
+ "augment_symmetries": true,
+ "train_positions": 48804,
+ "val_positions": 5349,
+ "test_positions": 13006,
+ "best_epoch": 2,
+ "log": [
+  {
+   "epoch": 1,
+   "lr": 0.003,
+   "train_log_loss": 0.6302,
+   "val_log_loss": 0.5835,
+   "val_accuracy": 0.7664,
+   "seconds": 1.7
+  },
+  {
+   "epoch": 2,
+   "lr": 0.00285,
+   "train_log_loss": 0.5445,
+   "val_log_loss": 0.5605,
+   "val_accuracy": 0.7907,
+   "seconds": 3.4
+  },
+  {
+   "epoch": 3,
+   "lr": 0.00271,
+   "train_log_loss": 0.5352,
+   "val_log_loss": 0.5842,
+   "val_accuracy": 0.7743,
+   "seconds": 5.0
+  },
+  {
+   "epoch": 4,
+   "lr": 0.00257,
+   "train_log_loss": 0.5323,
+   "val_log_loss": 0.5767,
+   "val_accuracy": 0.7837,
+   "seconds": 6.7
+  },
+  {
+   "epoch": 5,
+   "lr": 0.00244,
+   "train_log_loss": 0.5302,
+   "val_log_loss": 0.5611,
+   "val_accuracy": 0.7987,
+   "seconds": 8.4
+  },
+  {
+   "epoch": 6,
+   "lr": 0.00232,
+   "train_log_loss": 0.5281,
+   "val_log_loss": 0.5609,
+   "val_accuracy": 0.8004,
+   "seconds": 10.1
+  },
+  {
+   "epoch": 7,
+   "lr": 0.00221,
+   "train_log_loss": 0.5269,
+   "val_log_loss": 0.5761,
+   "val_accuracy": 0.774,
+   "seconds": 11.7
+  },
+  {
+   "epoch": 8,
+   "lr": 0.0021,
+   "train_log_loss": 0.5251,
+   "val_log_loss": 0.5632,
+   "val_accuracy": 0.7954,
+   "seconds": 13.4
+  }
+ ],
+ "test": {
+  "log_loss": 0.5225,
+  "accuracy_decisive": 0.8328,
+  "positions": 13006,
+  "decisive_positions": 8865
+ },
+ "train_seconds": 13.6
+}

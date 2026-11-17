@@ -1,0 +1,34 @@
+{
+ "a": "greedy-andor",
+ "b": "greedy",
+ "games": 50,
+ "a_wins": 1,
+ "draws": 49,
+ "a_losses": 0,
+ "a_score": 0.51,
+ "a_score_ci95": [
+  0.49,
+  0.53
+ ],
+ "elo_diff": 7,
+ "a_mean_marble_margin": 0.74,
+ "reasons": {
+  "six off": 1,
+  "repetition": 49,
+  "ply cap": 0,
+  "no legal move": 0
+ },
+ "mean_plies": 67.4,
+ "seconds": 8.7,
+ "conditions": {
+  "openings": 25,
+  "opening_plies": 2,
+  "seed": 7,
+  "starts": [
+   "standard",
+   "belgian-daisy"
+  ],
+  "max_plies": 200,
+  "repetition": "third occurrence = draw"
+ }
+}

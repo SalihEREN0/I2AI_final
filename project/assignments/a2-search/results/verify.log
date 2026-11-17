@@ -1,0 +1,2 @@
+2000/2000 positions: both generators give the same multiset of resulting boards; 124595 moves checked, 2044 of them pushes
+perft(3) from the start: naive 98912, fast 98912

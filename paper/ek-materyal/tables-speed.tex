@@ -1,0 +1,22 @@
+% tablolar.py tarafından üretildi; elle düzenlemeyin.
+\begin{table}[!htbp]
+\centering\caption{The A4 engine and the current engine on the same 386 positions}\label{tab:speed}
+\footnotesize
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+Limit & Engine & Depth & ms & Nodes \\
+\midrule
+depth 3 & A4 engine & 3 & 122.3 & 7,773 \\
+depth 3 & Current engine & 3 & 22.2 & 7,773 \\
+& \multicolumn{4}{l}{speed-up 5.49$\times$, identical search} \\
+\midrule
+depth 4 & A4 engine & 4 & 656.7 & 27,480 \\
+depth 4 & Current engine & 4 & 145.9 & 27,480 \\
+& \multicolumn{4}{l}{speed-up 4.50$\times$, identical search} \\
+\midrule
+0.5 s & A4 engine & 3.33 & -- & 24,566 \\
+0.5 s & Current engine & 4.13 & -- & 150,648 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}{\scriptsize Means per position. Identical search: the same move, value and node count on every position. 0.5 s: mean completed depth and nodes per move; positions per completed depth: A4 engine 1: 3, 2: 4, 3: 241, 4: 138; Current engine 1: 3, 2: 1, 3: 1, 4: 318, 5: 63. One process, one position at a time, pinned to logical CPU 2, high priority, power throttling off; Python 3.14.6.}
+\end{table}

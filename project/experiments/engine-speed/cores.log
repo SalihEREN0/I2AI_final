@@ -1,0 +1,30 @@
+# python experiments/engine-speed/cores.py   (2026-11-17, AMD Ryzen AI 9 HX 370, Windows 11, Balanced power plan)
+# Same 20 depth-4 searches each time; only the logical CPU and the power source change.
+
+# On battery (100% charge, discharging), CPUs 0 2 4 6 8 12 16 20 0:
+cpu  0: mean 267.8 ms, median 214.0 ms, 88727 nodes/s
+cpu  2: mean 264.6 ms, median 211.5 ms, 89796 nodes/s
+cpu  4: mean 271.6 ms, median 223.6 ms, 87480 nodes/s
+cpu  6: mean 266.5 ms, median 211.1 ms, 89171 nodes/s
+cpu  8: mean 283.9 ms, median 226.5 ms, 83694 nodes/s
+cpu 12: mean 267.7 ms, median 214.1 ms, 88760 nodes/s
+cpu 16: mean 267.3 ms, median 213.0 ms, 88891 nodes/s
+cpu 20: mean 268.2 ms, median 214.1 ms, 88601 nodes/s
+cpu  0: mean 264.1 ms, median 210.6 ms, 89973 nodes/s
+
+# On AC power, CPUs 0 2 4 6 8 10 12 14 16 18 20 22 0:
+cpu  0: mean 121.0 ms, median 96.6 ms, 196410 nodes/s
+cpu  2: mean 121.4 ms, median 96.8 ms, 195745 nodes/s
+cpu  4: mean 130.2 ms, median 114.3 ms, 182556 nodes/s
+cpu  6: mean 144.3 ms, median 119.4 ms, 164668 nodes/s
+cpu  8: mean 181.4 ms, median 146.2 ms, 131031 nodes/s
+cpu 10: mean 167.2 ms, median 134.3 ms, 142166 nodes/s
+cpu 12: mean 163.0 ms, median 130.5 ms, 145819 nodes/s
+cpu 14: mean 162.9 ms, median 129.9 ms, 145904 nodes/s
+cpu 16: mean 164.1 ms, median 135.7 ms, 144785 nodes/s
+cpu 18: mean 163.5 ms, median 131.2 ms, 145347 nodes/s
+cpu 20: mean 165.3 ms, median 137.6 ms, 143729 nodes/s
+cpu 22: mean 163.2 ms, median 130.3 ms, 145628 nodes/s
+cpu  0: mean 115.2 ms, median 91.6 ms, 206343 nodes/s
+
+# Chosen for all timing runs: CPU 2 (as fast as CPU 0, which also serves system interrupts).

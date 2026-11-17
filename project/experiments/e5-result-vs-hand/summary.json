@@ -1,0 +1,34 @@
+{
+ "a": "ab:depth=2,weights=experiments/tdleaf-d2-result/weights-final.json,name=result-reward",
+ "b": "ab:depth=2,name=hand",
+ "games": 50,
+ "a_wins": 41,
+ "draws": 7,
+ "a_losses": 2,
+ "a_score": 0.89,
+ "a_score_ci95": [
+  0.82,
+  0.96
+ ],
+ "elo_diff": 363,
+ "a_mean_marble_margin": 2.9,
+ "reasons": {
+  "six off": 14,
+  "repetition": 6,
+  "ply cap": 30,
+  "no legal move": 0
+ },
+ "mean_plies": 170.4,
+ "seconds": 22.9,
+ "conditions": {
+  "openings": 25,
+  "opening_plies": 2,
+  "seed": 7,
+  "starts": [
+   "standard",
+   "belgian-daisy"
+  ],
+  "max_plies": 200,
+  "repetition": "third occurrence = draw"
+ }
+}

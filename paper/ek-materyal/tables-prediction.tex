@@ -1,0 +1,18 @@
+% tablolar.py tarafından üretildi; elle düzenlemeyin.
+\begin{table}[!htbp]
+\centering\caption{Outcome prediction on 240 held-out games of the hand-set agent}\label{tab:prediction}
+\footnotesize
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Model & Log loss & Accuracy (decisive) \\
+\midrule
+Logistic regression & 0.5112 & 85.5\% \\
+TDLeaf, marble reward & 0.5225 & 83.1\% \\
+TDLeaf, result reward & 0.5242 & 82.8\% \\
+Hand-set weights & 0.5743 & 79.0\% \\
+Value network (1,985 parameters) & 0.5225 & 83.3\% \\
+Coin flip & 0.6931 & 50.0\% \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}{\scriptsize 13,006 quiet positions; fixed weight sets are scaled by one factor fitted on the 54,153 training positions.}
+\end{table}

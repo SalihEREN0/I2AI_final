@@ -1,0 +1,60 @@
+{
+ "positions": 386,
+ "agent": "alpha-beta, TDLeaf weights",
+ "depths": {
+  "3": {
+   "full": {
+    "mean_nodes": 7773,
+    "median_nodes": 7323,
+    "mean_ms": 99.0
+   },
+   "no-ordering": {
+    "mean_nodes": 12811,
+    "median_nodes": 10718,
+    "mean_ms": 225.7
+   },
+   "no-tt": {
+    "mean_nodes": 8032,
+    "median_nodes": 7484,
+    "mean_ms": 97.9
+   },
+   "no-killers": {
+    "mean_nodes": 7861,
+    "median_nodes": 7361,
+    "mean_ms": 95.6
+   },
+   "no-quiescence": {
+    "mean_nodes": 3881,
+    "median_nodes": 3586,
+    "mean_ms": 70.1
+   }
+  },
+  "4": {
+   "full": {
+    "mean_nodes": 27480,
+    "median_nodes": 25070,
+    "mean_ms": 496.8
+   },
+   "no-ordering": {
+    "mean_nodes": 87516,
+    "median_nodes": 56150,
+    "mean_ms": 1892.6
+   },
+   "no-tt": {
+    "mean_nodes": 32305,
+    "median_nodes": 29282,
+    "mean_ms": 693.9
+   },
+   "no-killers": {
+    "mean_nodes": 28955,
+    "median_nodes": 26217,
+    "mean_ms": 535.6
+   },
+   "no-quiescence": {
+    "mean_nodes": 14543,
+    "median_nodes": 13038,
+    "mean_ms": 326.9
+   }
+  }
+ }
+}

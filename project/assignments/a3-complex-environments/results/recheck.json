@@ -1,0 +1,101 @@
+{
+ "count": {
+  "start": 44,
+  "startKinds": {
+   "in-line-3": 8,
+   "in-line-2": 12,
+   "in-line-1": 14,
+   "broadside-2": 8,
+   "broadside-3": 2
+  },
+  "midB": 73,
+  "midW": 81,
+  "A2": [
+   44,
+   73,
+   81
+  ]
+ },
+ "perft": {
+  "ours": [
+   44,
+   1936,
+   98912
+  ],
+  "distinct": [
+   44,
+   1936,
+   51436
+  ],
+  "A2": [
+   44,
+   1936,
+   98912
+  ],
+  "A2distinct": [
+   44,
+   1936,
+   51436
+  ]
+ },
+ "plan": {
+  "firstOff": {
+   "b": 0,
+   "w": 1
+  },
+  "replies": 75,
+  "breaks": 6,
+  "breakers": [
+   "C6 D6 → NW",
+   "E9 → NW",
+   "E9 → SW",
+   "F7 G8 → SW",
+   "F7 G7 → SE",
+   "F7 G7 H7 → SE"
+  ],
+  "A2": [
+   75,
+   6
+  ],
+  "sameSet": true
+ },
+ "puzzle": {
+  "ours": {
+   "bfs": {
+    "gen": 89909,
+    "len": 3
+   },
+   "astar": {
+    "gen": 439,
+    "len": 3
+   },
+   "greedy": {
+    "gen": 28046,
+    "len": 320
+   }
+  },
+  "A2": {
+   "BFS": {
+    "gen": 89909,
+    "len": 3
+   },
+   "UCS": {
+    "gen": 2329454,
+    "len": 3
+   },
+   "A* hR": {
+    "gen": 89928,
+    "len": 3
+   },
+   "A* hF": {
+    "gen": 439,
+    "len": 3
+   },
+   "Greedy hF": {
+    "gen": 28046,
+    "len": 320
+   }
+  }
+ },
+ "identical": 4
+}

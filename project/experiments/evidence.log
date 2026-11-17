@@ -1,0 +1,50 @@
+== e1-final-vs-a3: ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=final vs greedy
+   50 0 0 score 1.0 [1.0, 1] reasons {'six off': 43, 'repetition': 0, 'ply cap': 7, 'no legal move': 0} margin 5.44 160.5s
+== e2-ablate-tt: ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=full vs ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,tt=0,name=no-tt
+   26 6 18 score 0.58 [0.451, 0.709] reasons {'six off': 33, 'repetition': 0, 'ply cap': 17, 'no legal move': 0} margin 0.46 626.4s
+== e2-ablate-ordering: ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=full vs ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,ordering=0,name=no-ordering
+   30 4 16 score 0.64 [0.512, 0.768] reasons {'six off': 37, 'repetition': 0, 'ply cap': 13, 'no legal move': 0} margin 1.14 595.7s
+== e2-ablate-killers: ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=full vs ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,killers=0,name=no-killers
+   24 5 21 score 0.53 [0.397, 0.663] reasons {'six off': 36, 'repetition': 2, 'ply cap': 12, 'no legal move': 0} margin 0.18 577.4s
+== e2-ablate-quiescence: ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=full vs ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,quiescence=0,name=no-quiescence
+   32 6 12 score 0.7 [0.581, 0.819] reasons {'six off': 38, 'repetition': 2, 'ply cap': 10, 'no legal move': 0} margin 1.16 543.9s
+== e2-ablate-learning: ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=full vs ab:time=0.5,name=hand-weights
+   37 9 4 score 0.83 [0.743, 0.917] reasons {'six off': 14, 'repetition': 2, 'ply cap': 34, 'no legal move': 0} margin 2.48 702.9s
+== e4-learning-curve/it0015: ab:depth=2,weights=experiments/e4-learning-curve/checkpoint-0015.json,name=it0015 vs ab:depth=2,name=hand
+   44 5 1 score 0.93 [0.874, 0.986] reasons {'six off': 23, 'repetition': 4, 'ply cap': 23, 'no legal move': 0} margin 3.7 20.9s
+== e4-learning-curve/it0030: ab:depth=2,weights=experiments/e4-learning-curve/checkpoint-0030.json,name=it0030 vs ab:depth=2,name=hand
+   41 6 3 score 0.88 [0.803, 0.957] reasons {'six off': 17, 'repetition': 5, 'ply cap': 28, 'no legal move': 0} margin 3.1 21.8s
+== e4-learning-curve/it0045: ab:depth=2,weights=experiments/e4-learning-curve/checkpoint-0045.json,name=it0045 vs ab:depth=2,name=hand
+   42 6 2 score 0.9 [0.831, 0.969] reasons {'six off': 16, 'repetition': 6, 'ply cap': 28, 'no legal move': 0} margin 3.26 22.0s
+== e4-learning-curve/it0060: ab:depth=2,weights=experiments/e4-learning-curve/checkpoint-0060.json,name=it0060 vs ab:depth=2,name=hand
+   42 7 1 score 0.91 [0.849, 0.971] reasons {'six off': 16, 'repetition': 5, 'ply cap': 29, 'no legal move': 0} margin 3.44 22.7s
+== e4-learning-curve/it0075: ab:depth=2,weights=experiments/e4-learning-curve/checkpoint-0075.json,name=it0075 vs ab:depth=2,name=hand
+   45 4 1 score 0.94 [0.887, 0.993] reasons {'six off': 22, 'repetition': 3, 'ply cap': 25, 'no legal move': 0} margin 3.44 22.5s
+== e4-learning-curve/it0090: ab:depth=2,weights=experiments/e4-learning-curve/checkpoint-0090.json,name=it0090 vs ab:depth=2,name=hand
+   44 5 1 score 0.93 [0.874, 0.986] reasons {'six off': 14, 'repetition': 4, 'ply cap': 32, 'no legal move': 0} margin 3.1 21.8s
+== e4-learning-curve/it0105: ab:depth=2,weights=experiments/e4-learning-curve/checkpoint-0105.json,name=it0105 vs ab:depth=2,name=hand
+   45 4 1 score 0.94 [0.887, 0.993] reasons {'six off': 12, 'repetition': 2, 'ply cap': 36, 'no legal move': 0} margin 3.06 22.7s
+== e4-learning-curve/it0120: ab:depth=2,weights=experiments/e4-learning-curve/checkpoint-0120.json,name=it0120 vs ab:depth=2,name=hand
+   46 3 1 score 0.95 [0.9, 1] reasons {'six off': 14, 'repetition': 0, 'ply cap': 36, 'no legal move': 0} margin 3.2 23.2s
+== e4-learning-curve/it0135: ab:depth=2,weights=experiments/e4-learning-curve/checkpoint-0135.json,name=it0135 vs ab:depth=2,name=hand
+   46 4 0 score 0.96 [0.922, 0.998] reasons {'six off': 16, 'repetition': 2, 'ply cap': 32, 'no legal move': 0} margin 3.4 21.9s
+== e4-learning-curve/it0150: ab:depth=2,weights=experiments/e4-learning-curve/checkpoint-0150.json,name=it0150 vs ab:depth=2,name=hand
+   47 2 1 score 0.96 [0.913, 1] reasons {'six off': 18, 'repetition': 2, 'ply cap': 30, 'no legal move': 0} margin 3.36 22.0s
+it  25  games  200      60s  six-off 1 rep 7 cap 0  plies  78.0  off 6.5  w marb=13.07 cent=16.58 cohe=7.63 edge=-11.51 expo=0.80 wedg=0.33
+it  50  games  400     128s  six-off 1 rep 7 cap 0  plies  89.4  off 4.5  w marb=14.69 cent=13.15 cohe=6.87 edge=-9.17 expo=0.31 wedg=1.15
+it  75  games  600     193s  six-off 5 rep 3 cap 0  plies 101.1  off 8.5  w marb=15.26 cent=11.35 cohe=6.85 edge=-8.16 expo=-0.35 wedg=1.52
+it 100  games  800     260s  six-off 4 rep 4 cap 0  plies 105.4  off 8.2  w marb=14.13 cent=11.22 cohe=7.50 edge=-7.00 expo=-1.07 wedg=1.53
+it 125  games 1000     331s  six-off 4 rep 4 cap 0  plies  97.1  off 6.9  w marb=14.07 cent=10.25 cohe=7.64 edge=-6.16 expo=-2.14 wedg=1.85
+it 150  games 1200     401s  six-off 5 rep 2 cap 1  plies 109.8  off 7.6  w marb=13.97 cent=10.06 cohe=7.78 edge=-5.51 expo=-2.93 wedg=1.99
+== e5-result-vs-hand: ab:depth=2,weights=experiments/tdleaf-d2-result/weights-final.json,name=result-reward vs ab:depth=2,name=hand
+   41 7 2 score 0.89 [0.82, 0.96] reasons {'six off': 14, 'repetition': 6, 'ply cap': 30, 'no legal move': 0} margin 2.9 22.9s
+== e5-marbles-vs-result: ab:depth=2,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=marbles-reward vs ab:depth=2,weights=experiments/tdleaf-d2-result/weights-final.json,name=result-reward
+   24 1 25 score 0.49 [0.351, 0.629] reasons {'six off': 49, 'repetition': 0, 'ply cap': 1, 'no legal move': 0} margin 0.2 18.8s
+== done
+== 2026-11-03 · E1 with the Assignment 3 agent as presented (greedy on U + AND–OR); Windows PC, 24 processes
+== e1-a3-andor-vs-greedy: greedy-andor vs greedy
+   1 49 0 score 0.51 [0.49, 0.53] reasons {'six off': 1, 'repetition': 49, 'ply cap': 0, 'no legal move': 0} margin 0.74 plies 67.4 8.7s
+== e1-final-vs-a3-andor: ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=final vs greedy-andor
+   48 2 0 score 0.98 [0.953, 1] reasons {'six off': 45, 'repetition': 2, 'ply cap': 3, 'no legal move': 0} margin 4.48 plies 75.2 73.5s
+== e1-hand-vs-a3-andor: ab:time=0.5,name=hand-U vs greedy-andor
+   49 1 0 score 0.99 [0.97, 1] reasons {'six off': 49, 'repetition': 1, 'ply cap': 0, 'no legal move': 0} margin 4.68 plies 77.9 67.3s

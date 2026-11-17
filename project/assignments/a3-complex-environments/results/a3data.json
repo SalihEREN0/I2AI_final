@@ -1,0 +1,499 @@
+{
+ "meta": {
+  "python": "3.14.6",
+  "ranAt": "2026-10-20T08:03:58+00:00",
+  "labSecs": 1130,
+  "files": {
+   "abalone_search.py": "a4002948016c",
+   "abalone_ch4.py": "27965ee8dd66"
+  }
+ },
+ "verify": {
+  "count": {
+   "start": 44,
+   "startKinds": {
+    "in-line-3": 8,
+    "in-line-2": 12,
+    "in-line-1": 14,
+    "broadside-2": 8,
+    "broadside-3": 2
+   },
+   "midB": 73,
+   "midW": 81,
+   "A2": [
+    44,
+    73,
+    81
+   ]
+  },
+  "perft": {
+   "ours": [
+    44,
+    1936,
+    98912
+   ],
+   "distinct": [
+    44,
+    1936,
+    51436
+   ],
+   "A2": [
+    44,
+    1936,
+    98912
+   ],
+   "A2distinct": [
+    44,
+    1936,
+    51436
+   ]
+  },
+  "plan": {
+   "firstOff": {
+    "b": 0,
+    "w": 1
+   },
+   "replies": 75,
+   "breaks": 6,
+   "breakers": [
+    "C6 D6 → NW",
+    "E9 → NW",
+    "E9 → SW",
+    "F7 G8 → SW",
+    "F7 G7 → SE",
+    "F7 G7 H7 → SE"
+   ],
+   "A2": [
+    75,
+    6
+   ],
+   "sameSet": true
+  },
+  "puzzle": {
+   "ours": {
+    "bfs": {
+     "gen": 89909,
+     "len": 3
+    },
+    "astar": {
+     "gen": 439,
+     "len": 3
+    },
+    "greedy": {
+     "gen": 28046,
+     "len": 320
+    }
+   },
+   "A2": {
+    "BFS": {
+     "gen": 89909,
+     "len": 3
+    },
+    "UCS": {
+     "gen": 2329454,
+     "len": 3
+    },
+    "A* hR": {
+     "gen": 89928,
+     "len": 3
+    },
+    "A* hF": {
+     "gen": 439,
+     "len": 3
+    },
+    "Greedy hF": {
+     "gen": 28046,
+     "len": 320
+    }
+   }
+  },
+  "identical": 4
+ },
+ "ls": {
+  "seed": 2027,
+  "n": 200,
+  "tries": 204,
+  "genMs": 83290,
+  "dHist": {
+   "2": 30,
+   "3": 123,
+   "4": 47
+  },
+  "astar": {
+   "solved": 200,
+   "meanMoves": 3.08,
+   "meanGen": 5165
+  },
+  "algos": {
+   "steepest": {
+    "solved": 16,
+    "n": 200,
+    "meanMoves": 2.0,
+    "meanEvals": 101,
+    "optimal": 16,
+    "stops": {
+     "plateau": 184,
+     "goal": 16
+    }
+   },
+   "sideways": {
+    "solved": 194,
+    "n": 200,
+    "meanMoves": 29.4,
+    "meanEvals": 2473,
+    "optimal": 17,
+    "stops": {
+     "goal": 194,
+     "sideways-limit": 6
+    },
+    "meanRevisits": 0.48
+   },
+   "stochastic": {
+    "solved": 11,
+    "n": 200,
+    "meanMoves": 2.0,
+    "meanEvals": 100,
+    "optimal": 11,
+    "stops": {
+     "plateau": 189,
+     "goal": 11
+    }
+   },
+   "firstChoice": {
+    "solved": 10,
+    "n": 200,
+    "meanMoves": 2.0,
+    "meanEvals": 77,
+    "optimal": 10,
+    "stops": {
+     "stuck": 190,
+     "goal": 10
+    }
+   },
+   "annealing": {
+    "solved": 200,
+    "n": 200,
+    "meanMoves": 224.72,
+    "meanEvals": 234,
+    "optimal": 0,
+    "stops": {
+     "goal": 200
+    }
+   },
+   "lrta": {
+    "solved": 110,
+    "n": 200,
+    "meanMoves": 217.17,
+    "meanEvals": 34448,
+    "optimal": 17,
+    "stops": {
+     "cap": 90,
+     "goal": 110
+    },
+    "meanRevisits": 0.0
+   }
+  },
+  "stuck": {
+   "n": 184,
+   "plateau": 184,
+   "localMin": 0,
+   "meanEq": 64.66,
+   "meanLo": 0.0,
+   "meanHi": 5.33,
+   "hAtStop": {
+    "1": 65,
+    "2": 119
+   },
+   "twoStepEscape": 167,
+   "escapeSidewaysFirst": 167,
+   "escapeWorseFirstOnly": 0,
+   "shoulder": 167,
+   "flatMin": 0,
+   "unknown": 17,
+   "exitSteps": {
+    "1": 167
+   }
+  },
+  "restart": {
+   "R": 20,
+   "solved": 25,
+   "meanTries": 2.76
+  },
+  "climbU": {
+   "n": 200,
+   "anyCapture": 47,
+   "stops": {
+    "local-max": 35,
+    "plateau": 165
+   },
+   "flatTop": {
+    "shoulder": 150,
+    "flatMax": 15,
+    "unknown": 0
+   },
+   "meanMoves": 13.84,
+   "meanEdgeEnd": 0.0,
+   "meanEdgeStart": 5.88,
+   "meanCohEnd": 27.68,
+   "meanCohStart": 17.23,
+   "meanCentreEnd": 34.64,
+   "meanCentreStart": 14.11
+  },
+  "commonSolved": {
+   "methods": [
+    "astar",
+    "sideways",
+    "annealing",
+    "lrta"
+   ],
+   "n": 106,
+   "meanMoves": {
+    "astar": 2.96,
+    "sideways": 25.25,
+    "annealing": 218.12,
+    "lrta": 217.93
+   }
+  }
+ },
+ "ex": {
+  "test": {
+   "board": {
+    "b": [
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "D6",
+     "D7",
+     "E5",
+     "E6",
+     "E7"
+    ],
+    "w": [
+     "E8",
+     "E9",
+     "G7",
+     "H4",
+     "H5",
+     "H6",
+     "H7",
+     "H8",
+     "H9",
+     "I5",
+     "I6",
+     "I7",
+     "I8",
+     "I9"
+    ]
+   },
+   "st": "bbbbb.bbbb.............bb.....bbbww............w..wwwwwwwwwww",
+   "hF": 1,
+   "U": 38,
+   "moves": {
+    "n": 73,
+    "quiet": 72,
+    "pushes": 0,
+    "pushOffs": [
+     "E5 E6 E7 → E"
+    ],
+    "quietReversible": 72
+   },
+   "frozenPlans": 2,
+   "afterCapture": {
+    "st": "bbbbb.bbbb.............bb......bbbw............w..wwwwwwwwwww",
+    "replies": 39,
+    "keep": 37,
+    "breakers": [
+     "E9 → NW",
+     "E9 → SW"
+    ],
+    "breakerBoards": {
+     "E9 → NW": "bbbbb.bbbb.............bb......bbb........w....w..wwwwwwwwwww",
+     "E9 → SW": "bbbbb.bbbb.............bbw.....bbb.............w..wwwwwwwwwww"
+    }
+   },
+   "andor": {
+    "need": 2,
+    "ourMoves": 2,
+    "firstMovesWithPlan": [
+     "E5 E6 E7 → E"
+    ],
+    "of": 73,
+    "answers": [
+     {
+      "act": "D7 E8 → NE",
+      "replies": 1,
+      "which": [
+       "E9 → NW"
+      ]
+     },
+     {
+      "act": "D6 D7 → E",
+      "replies": 1,
+      "which": [
+       "E9 → SW"
+      ]
+     },
+     {
+      "act": "E6 E7 E8 → E",
+      "replies": 37
+     }
+    ],
+    "nodes": 79,
+    "leaves": 39,
+    "lost": 0,
+    "search": {
+     "orCalls": 112,
+     "andCalls": 73,
+     "boards": 11696,
+     "ms": 59
+    }
+   },
+   "recheck": {
+    "firstMovesForcing": [
+     "E5 E6 E7 → E"
+    ],
+    "agrees": true,
+    "ms": 314
+   },
+   "greedy": {
+    "best": "A5 B5 → NW",
+    "bestDU": 8,
+    "captureDU": 5,
+    "rankOfCapture": 4,
+    "replies": 43,
+    "refuting": 7,
+    "refutingExamples": [
+     "E8 → NE",
+     "E8 → NW",
+     "E8 → SE",
+     "E8 E9 → NW",
+     "E9 → NW",
+     "E9 → SW"
+    ]
+   },
+   "counterfactual": {
+    "change": "D6 stays home on B6",
+    "forcedWithin2": false,
+    "unanswered": [
+     "E9 → SW"
+    ]
+   },
+   "belief": [
+    {
+     "radius": 1,
+     "seen": 31,
+     "unseen": 30,
+     "hiddenWhite": 13,
+     "visibleWhite": 1,
+     "beliefSize": 119759850,
+     "formula": "C(30, 13)"
+    },
+    {
+     "radius": 2,
+     "seen": 43,
+     "unseen": 18,
+     "hiddenWhite": 11,
+     "visibleWhite": 3,
+     "beliefSize": 31824,
+     "formula": "C(18, 11)"
+    }
+   ],
+   "backToOpening": 1936
+  },
+  "opening": {
+   "st": "bbbbbbbbbbb..bbb.............................www..wwwwwwwwwww",
+   "hF": 3,
+   "U": 26,
+   "astar": {
+    "d": 5,
+    "gen": 46543
+   },
+   "steepest": {
+    "trace": [
+     3,
+     2
+    ],
+    "nb": [
+     {
+      "h": 3,
+      "n": 44,
+      "lo": 12,
+      "eq": 32,
+      "hi": 0
+     },
+     {
+      "h": 2,
+      "n": 55,
+      "lo": 0,
+      "eq": 52,
+      "hi": 3
+     }
+    ],
+    "stuck": "bb.bbbbbbbb..bbb.......b.....................www..wwwwwwwwwww",
+    "stuckH": 2,
+    "pairs": 3231,
+    "pairsDown": 5,
+    "downVia": {
+     "2 → 1": 5
+    },
+    "distStuck": 4,
+    "exit": 1
+   },
+   "climbU": {
+    "trace": [
+     26,
+     34,
+     43,
+     49,
+     55,
+     63,
+     69,
+     75,
+     78,
+     81,
+     84,
+     86,
+     92,
+     94,
+     96,
+     97,
+     98,
+     100
+    ],
+    "moves": 17,
+    "stop": "flat top",
+    "exit": 1,
+    "n": 82,
+    "higher": 0,
+    "equal": 2,
+    "lower": 80,
+    "captures": 0,
+    "f0": {
+     "centre": 10,
+     "coh": 27,
+     "edge": 7
+    },
+    "f": {
+     "centre": 36,
+     "coh": 28,
+     "edge": 0
+    },
+    "top": ".............bbb....bbbb....bbbbb.....bb.....www..wwwwwwwwwww",
+    "terms": {
+     "centre": 52,
+     "edge": 21,
+     "pairs": 1,
+     "off": 0
+    },
+    "hFTop": 2,
+    "distTop": 3
+   }
+  }
+ }
+}

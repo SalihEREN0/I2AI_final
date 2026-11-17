@@ -1,0 +1,68 @@
+{
+ "data": "experiments/tdleaf-d2-marbles/games.jsonl",
+ "games": 1200,
+ "train_games": 960,
+ "test_games": 240,
+ "train_positions": 46762,
+ "test_positions": 11967,
+ "fit_seconds": 0.4,
+ "results": {
+  "six off": 555,
+  "repetition": 612,
+  "ply cap": 33
+ },
+ "beta": {
+  "marbles": 0.6116761329342276,
+  "centre": 0.7844733184190158,
+  "cohesion": 0.21281613698035073,
+  "edge": 0.08950958678556113,
+  "exposed": -0.22563361091438888,
+  "wedge": -0.05953467187485563
+ },
+ "weights": {
+  "marbles": 9.175141994013414,
+  "centre": 11.767099776285237,
+  "cohesion": 3.192242054705261,
+  "edge": 1.342643801783417,
+  "exposed": -3.384504163715833,
+  "wedge": -0.8930200781228345
+ },
+ "test": {
+  "logistic": {
+   "log_loss": 0.6553,
+   "accuracy_decisive": 0.739,
+   "positions": 11967,
+   "decisive_positions": 5832
+  },
+  "hand": {
+   "log_loss": 0.6575,
+   "accuracy_decisive": 0.7317,
+   "positions": 11967,
+   "decisive_positions": 5832,
+   "fitted_scale": 0.03995261004681712
+  },
+  "tdleaf-marbles": {
+   "log_loss": 0.6548,
+   "accuracy_decisive": 0.7358,
+   "positions": 11967,
+   "decisive_positions": 5832,
+   "fitted_scale": 0.030421504790841592
+  },
+  "logistic-hand-games": {
+   "log_loss": 0.6581,
+   "accuracy_decisive": 0.7296,
+   "positions": 11967,
+   "decisive_positions": 5832,
+   "fitted_scale": 0.04337542063061493
+  }
+ },
+ "train": {
+  "logistic": {
+   "log_loss": 0.6139,
+   "accuracy_decisive": 0.7821,
+   "positions": 46762,
+   "decisive_positions": 24935
+  }
+ },
+ "baseline_coin_flip_log_loss": 0.6931
+}

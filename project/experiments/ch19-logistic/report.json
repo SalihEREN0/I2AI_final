@@ -1,0 +1,67 @@
+{
+ "games": 1200,
+ "train_games": 960,
+ "test_games": 240,
+ "train_positions": 54153,
+ "test_positions": 13006,
+ "fit_seconds": 0.6,
+ "results": {
+  "six off": 315,
+  "repetition": 286,
+  "ply cap": 599
+ },
+ "beta": {
+  "marbles": 1.0896374518850003,
+  "centre": 0.9098120715027671,
+  "cohesion": -0.0472314323810907,
+  "edge": 0.18495650680259246,
+  "exposed": -0.3746006016126971,
+  "wedge": -0.04392652771390511
+ },
+ "weights": {
+  "marbles": 16.344561778275004,
+  "centre": 13.647181072541507,
+  "cohesion": -0.7084714857163604,
+  "edge": 2.774347602038887,
+  "exposed": -5.619009024190456,
+  "wedge": -0.6588979157085766
+ },
+ "test": {
+  "logistic": {
+   "log_loss": 0.5112,
+   "accuracy_decisive": 0.8548,
+   "positions": 13006,
+   "decisive_positions": 8865
+  },
+  "hand": {
+   "log_loss": 0.5743,
+   "accuracy_decisive": 0.7905,
+   "positions": 13006,
+   "decisive_positions": 8865,
+   "fitted_scale": 0.04445170253088074
+  },
+  "tdleaf-marbles": {
+   "log_loss": 0.5225,
+   "accuracy_decisive": 0.8312,
+   "positions": 13006,
+   "decisive_positions": 8865,
+   "fitted_scale": 0.04293892374960276
+  },
+  "tdleaf-result": {
+   "log_loss": 0.5242,
+   "accuracy_decisive": 0.8282,
+   "positions": 13006,
+   "decisive_positions": 8865,
+   "fitted_scale": 0.06701061437176292
+  }
+ },
+ "train": {
+  "logistic": {
+   "log_loss": 0.5271,
+   "accuracy_decisive": 0.8112,
+   "positions": 54153,
+   "decisive_positions": 37664
+  }
+ },
+ "baseline_coin_flip_log_loss": 0.6931
+}

@@ -1,0 +1,17 @@
+% tablolar.py tarafından üretildi; elle düzenlemeyin.
+\begin{table}[!htbp]
+\centering\caption{Search cost of the A4 engine at fixed depth}\label{tab:cost-a4}
+\footnotesize
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Configuration & \multicolumn{2}{c}{Depth 3} & \multicolumn{2}{c}{Depth 4} \\ & Nodes & ms & Nodes & ms \\
+\midrule
+Full agent & 7,773 & 99.0 & 27,480 & 496.8 \\
+No move ordering & 12,811 & 225.7 & 87,516 & 1,892.6 \\
+No TT & 8,032 & 97.9 & 32,305 & 693.9 \\
+No killers & 7,861 & 95.6 & 28,955 & 535.6 \\
+No quiescence & 3,881 & 70.1 & 14,543 & 326.9 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}{\scriptsize Means over 386 middle-game positions.}
+\end{table}

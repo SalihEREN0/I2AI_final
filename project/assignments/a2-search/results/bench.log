@@ -1,0 +1,65 @@
+[1/60] d=3 hF(s0)=2 BFS=141133 UCS=1000042+ A* hR=141154 A* hF=3049 Greedy hF=9065(len 114) 3s
+[2/60] d=3 hF(s0)=2 BFS=105699 UCS=1000025+ A* hR=105707 A* hF=3166 Greedy hF=22313(len 293) 10s
+[3/60] d=3 hF(s0)=2 BFS=30477 UCS=1000024+ A* hR=30506 A* hF=3986 Greedy hF=6168(len 73) 16s
+[4/60] d=4 hF(s0)=2 BFS=836301 UCS=1000006+ A* hR=836319 A* hF=25182 Greedy hF=12849(len 160) 29s
+[5/60] d=3 hF(s0)=2 BFS=93243 UCS=1000006+ A* hR=93261 A* hF=3579 Greedy hF=30571(len 387) 37s
+[6/60] d=4 hF(s0)=2 BFS=1000033+ UCS=1000033+ A* hR=1000033+ A* hF=9188 Greedy hF=76949(len 1013) 52s
+[7/60] d=3 hF(s0)=2 BFS=27937 UCS=1000040+ A* hR=27952 A* hF=4560 Greedy hF=25332(len 300) 55s
+[8/60] d=3 hF(s0)=2 BFS=75836 UCS=1000031+ A* hR=75853 A* hF=3217 Greedy hF=42390(len 529) 61s
+[9/60] d=3 hF(s0)=2 BFS=33138 UCS=997584 A* hR=33147 A* hF=2719 Greedy hF=34096(len 416) 66s
+[10/60] d=3 hF(s0)=2 BFS=46973 UCS=1000081+ A* hR=47031 A* hF=1032 Greedy hF=619(len 7) 68s
+[11/60] d=3 hF(s0)=2 BFS=86883 UCS=1000015+ A* hR=86897 A* hF=1552 Greedy hF=2263(len 29) 71s
+[12/60] d=2 hF(s0)=2 BFS=5765 UCS=286232 A* hR=5775 A* hF=437 Greedy hF=8557(len 104) 73s
+[13/60] d=3 hF(s0)=2 BFS=61933 UCS=1000041+ A* hR=61945 A* hF=1292 Greedy hF=23157(len 267) 77s
+[14/60] d=3 hF(s0)=2 BFS=61891 UCS=1000051+ A* hR=61910 A* hF=1595 Greedy hF=22643(len 297) 81s
+[15/60] d=3 hF(s0)=2 BFS=184581 UCS=1000064+ A* hR=184588 A* hF=3753 Greedy hF=50234(len 603) 88s
+[16/60] d=2 hF(s0)=1 BFS=2886 UCS=120645 A* hR=2894 A* hF=2831 Greedy hF=18997(len 232) 89s
+[17/60] d=2 hF(s0)=2 BFS=3233 UCS=152636 A* hR=3247 A* hF=149 Greedy hF=149 90s
+[18/60] d=2 hF(s0)=2 BFS=5207 UCS=225802 A* hR=5213 A* hF=309 Greedy hF=36664(len 473) 93s
+[19/60] d=2 hF(s0)=2 BFS=2842 UCS=102263 A* hR=2848 A* hF=112 Greedy hF=112 93s
+[20/60] d=2 hF(s0)=2 BFS=4310 UCS=178771 A* hR=4318 A* hF=209 Greedy hF=2930(len 36) 94s
+[21/60] d=3 hF(s0)=2 BFS=31103 UCS=912403 A* hR=31128 A* hF=4108 Greedy hF=23146(len 302) 98s
+[22/60] d=2 hF(s0)=2 BFS=1766 UCS=106023 A* hR=1802 A* hF=157 Greedy hF=157 98s
+[23/60] d=2 hF(s0)=2 BFS=1863 UCS=105855 A* hR=1884 A* hF=153 Greedy hF=153 98s
+[24/60] d=3 hF(s0)=2 BFS=99353 UCS=1000042+ A* hR=99371 A* hF=2139 Greedy hF=16589(len 230) 102s
+[25/60] d=2 hF(s0)=1 BFS=999 UCS=73693 A* hR=1015 A* hF=1015 Greedy hF=16289(len 180) 104s
+[26/60] d=3 hF(s0)=2 BFS=11002 UCS=393393 A* hR=11032 A* hF=284 Greedy hF=1844(len 22) 105s
+[27/60] d=3 hF(s0)=2 BFS=125300 UCS=1000034+ A* hR=125311 A* hF=3536 Greedy hF=13198(len 175) 109s
+[28/60] d=4 hF(s0)=2 BFS=332623 UCS=1000067+ A* hR=332648 A* hF=8020 Greedy hF=3267(len 38) 113s
+[29/60] d=3 hF(s0)=2 BFS=24563 UCS=760715 A* hR=24570 A* hF=488 Greedy hF=1217(len 16) 115s
+[30/60] d=2 hF(s0)=2 BFS=3102 UCS=107259 A* hR=3109 A* hF=121 Greedy hF=121 116s
+[31/60] d=2 hF(s0)=1 BFS=2333 UCS=123411 A* hR=2359 A* hF=2222 Greedy hF=30482(len 381) 118s
+[32/60] d=3 hF(s0)=2 BFS=28961 UCS=870917 A* hR=28989 A* hF=599 Greedy hF=485(len 7) 120s
+[33/60] d=2 hF(s0)=1 BFS=3512 UCS=190797 A* hR=3523 A* hF=3523 Greedy hF=27092(len 362) 122s
+[34/60] d=3 hF(s0)=2 BFS=114895 UCS=1000051+ A* hR=114908 A* hF=2065 Greedy hF=5886(len 79) 126s
+[35/60] d=3 hF(s0)=2 BFS=107645 UCS=1000057+ A* hR=107660 A* hF=2131 Greedy hF=5776(len 76) 129s
+[36/60] d=3 hF(s0)=2 BFS=128570 UCS=1000002+ A* hR=128587 A* hF=2625 Greedy hF=56402(len 690) 138s
+[37/60] d=3 hF(s0)=2 BFS=99001 UCS=1000021+ A* hR=99008 A* hF=1812 Greedy hF=8721(len 110) 141s
+[38/60] d=3 hF(s0)=2 BFS=150308 UCS=1000057+ A* hR=150315 A* hF=3437 Greedy hF=19790(len 241) 146s
+[39/60] d=3 hF(s0)=2 BFS=131848 UCS=1000065+ A* hR=131855 A* hF=3623 Greedy hF=3809(len 50) 149s
+[40/60] d=3 hF(s0)=2 BFS=51780 UCS=1000028+ A* hR=51798 A* hF=1046 Greedy hF=2281(len 33) 152s
+[41/60] d=4 hF(s0)=2 BFS=1000007+ UCS=1000007+ A* hR=1000007+ A* hF=10394 Greedy hF=27400(len 331) 162s
+[42/60] d=3 hF(s0)=3 BFS=90951 UCS=1000023+ A* hR=90955 A* hF=676 Greedy hF=177815(len 2686) 179s
+[43/60] d=3 hF(s0)=2 BFS=171867 UCS=1000041+ A* hR=171877 A* hF=3477 Greedy hF=53636(len 717) 188s
+[44/60] d=3 hF(s0)=2 BFS=55405 UCS=1000046+ A* hR=55431 A* hF=4114 Greedy hF=3576(len 48) 192s
+[45/60] d=3 hF(s0)=2 BFS=8145 UCS=328606 A* hR=8192 A* hF=5404 Greedy hF=39723(len 590) 197s
+[46/60] d=3 hF(s0)=2 BFS=45514 UCS=1000010+ A* hR=45528 A* hF=2362 Greedy hF=1361(len 18) 200s
+[47/60] d=3 hF(s0)=2 BFS=13177 UCS=362394 A* hR=13202 A* hF=2729 Greedy hF=33233(len 450) 205s
+[48/60] d=3 hF(s0)=2 BFS=202482 UCS=1000027+ A* hR=202507 A* hF=4707 Greedy hF=5668(len 69) 210s
+[49/60] d=3 hF(s0)=2 BFS=152836 UCS=1000059+ A* hR=152842 A* hF=4555 Greedy hF=35109(len 477) 217s
+[50/60] d=3 hF(s0)=2 BFS=13552 UCS=436318 A* hR=13568 A* hF=3591 Greedy hF=5625(len 70) 220s
+[51/60] d=3 hF(s0)=2 BFS=21764 UCS=700760 A* hR=21773 A* hF=431 Greedy hF=9417(len 123) 223s
+[52/60] d=2 hF(s0)=2 BFS=1667 UCS=73735 A* hR=1692 A* hF=120 Greedy hF=120 223s
+[53/60] d=2 hF(s0)=2 BFS=3275 UCS=150145 A* hR=3295 A* hF=136 Greedy hF=136 223s
+[54/60] d=3 hF(s0)=2 BFS=30200 UCS=1000003+ A* hR=30211 A* hF=489 Greedy hF=10691(len 116) 227s
+[55/60] d=3 hF(s0)=2 BFS=70042 UCS=1000033+ A* hR=70080 A* hF=1590 Greedy hF=9118(len 110) 230s
+[56/60] d=2 hF(s0)=2 BFS=3251 UCS=178916 A* hR=3274 A* hF=158 Greedy hF=158 230s
+[57/60] d=2 hF(s0)=2 BFS=3408 UCS=133535 A* hR=3415 A* hF=275 Greedy hF=8386(len 105) 231s
+[58/60] d=2 hF(s0)=1 BFS=3266 UCS=138536 A* hR=3275 A* hF=2887 Greedy hF=20658(len 243) 233s
+[59/60] d=2 hF(s0)=2 BFS=2508 UCS=130796 A* hR=2523 A* hF=306 Greedy hF=46384(len 599) 236s
+[60/60] d=2 hF(s0)=1 BFS=1362 UCS=101308 A* hR=1405 A* hF=1405 Greedy hF=1343(len 15) 237s
+d=2 n=19 | BFS: 2,977 b*=54.06 | UCS: 141,071 b*=375.1 | A* hR: 2,993 b*=54.21 | A* hF: 870 b*=29.0 | Greedy hF: 11,520 b*=106.83
+d=3 n=37 | BFS: 79,189 b*=42.6 | UCS: 912,543+ b*=96.66 | A* hR: 79,207 b*=42.61 | A* hF: 2,582 b*=13.37 | Greedy hF: 21,972 b*=27.67
+d=4 n=4 | BFS: 792,241+ b*=29.58 | UCS: 1,000,028+ b*=31.37 | A* hR: 792,252+ b*=29.58 | A* hF: 13,196 b*=10.45 | Greedy hF: 30,116 b*=12.91
+admissible at the start: 60/60; consistency violations: 0 of 103125 edges
+summary: {'BFS': {'solved': 58, 'optimal': 58, 'meanLen': 2.71}, 'UCS': {'solved': 28, 'optimal': 28, 'meanLen': 2.32}, 'A* hR': {'solved': 58, 'optimal': 58, 'meanLen': 2.71}, 'A* hF': {'solved': 60, 'optimal': 60, 'meanLen': 2.75}, 'Greedy hF': {'solved': 60, 'optimal': 8, 'meanLen': 251.8}}

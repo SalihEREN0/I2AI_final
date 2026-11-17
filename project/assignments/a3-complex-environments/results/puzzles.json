@@ -1,0 +1,1002 @@
+[
+ {
+  "st": "bbbbbb.bbb.....b.b.bb.b.......w.......www..www....ww.ww..w.ww",
+  "d": 3,
+  "gen": 3027
+ },
+ {
+  "st": "bb.bbb.b..b..b.b.....bb.....b..b..w..wwbw...www.w.w..w..ww.ww",
+  "d": 3,
+  "gen": 2034
+ },
+ {
+  "st": "b.bbbbbbb.b.b.bb...b.b...............ww.w...www..w.wwww.w..ww",
+  "d": 3,
+  "gen": 2360
+ },
+ {
+  "st": "b.bb..bbb.bb..b.b...bb.bb............w.......wwww.ww.wwww.www",
+  "d": 3,
+  "gen": 3160
+ },
+ {
+  "st": ".bb.bbb.bbb.bb.b.....b......b........bww.w..www.....wwwwwww.w",
+  "d": 3,
+  "gen": 4050
+ },
+ {
+  "st": "bbbbb..b.b..bb..bb...bb.......w....w.ww.b...w.w.ww...w.wwwww.",
+  "d": 3,
+  "gen": 2819
+ },
+ {
+  "st": "bb.bbbbb.bb.bb.b......b....w..ww.........b.w...w.ww.www..wwww",
+  "d": 3,
+  "gen": 601
+ },
+ {
+  "st": "bbb.bbbb.bb.b.b......wbbw....wb..............w...wwwww..wwwww",
+  "d": 2,
+  "gen": 122
+ },
+ {
+  "st": ".bbbb..bbb..bbb....b.b.b......wb......ww...www...w...wwww.www",
+  "d": 3,
+  "gen": 2486
+ },
+ {
+  "st": "bbbb...bb.b.bbb..b..b.bb..............ww.w.www..ww...wwwww..w",
+  "d": 3,
+  "gen": 4222
+ },
+ {
+  "st": "bbbbb....b..bbbbb...bbb.....w........www.......w..wwwww.www.w",
+  "d": 3,
+  "gen": 2608
+ },
+ {
+  "st": "b....bbbbb..bbbbbb..b.b.....w.......w.ww...w.ww.....wwww..www",
+  "d": 3,
+  "gen": 543
+ },
+ {
+  "st": "b....bbbbb.bwbbb.b...b...b..w.w.b....ww.........w..wwwwww.ww.",
+  "d": 3,
+  "gen": 1751
+ },
+ {
+  "st": "b...bbb.bb.bbb..bb..b......w.wwb.....w.bw......w..w.wwww.w.ww",
+  "d": 3,
+  "gen": 5533
+ },
+ {
+  "st": "bbbbbbb.bbb..bb.......wb.....b......ww......wwwww.ww..w...www",
+  "d": 4,
+  "gen": 5425
+ },
+ {
+  "st": "bbb.bbb.b.b..b.b....bw..b...w...b....w..wb.w.w.ww....ww.wwww.",
+  "d": 3,
+  "gen": 290
+ },
+ {
+  "st": "bbbbb..b......bbbb.bbb.......w.b....wwww.......w...w.www.wwww",
+  "d": 3,
+  "gen": 5304
+ },
+ {
+  "st": "bbbb.bbbb.b..bb.b....bb..................w.w.ww.w.w.ww.wwwwww",
+  "d": 3,
+  "gen": 1778
+ },
+ {
+  "st": "bbbbb..bb...b..bb.b.b...b..b................wwwww.wwwwww.w.ww",
+  "d": 3,
+  "gen": 3858
+ },
+ {
+  "st": "b...bbbbbbbb.bbb.....b.b............w.www...w.ww...ww..ww.www",
+  "d": 3,
+  "gen": 4303
+ },
+ {
+  "st": "bb.bb.....bbb.bbb.bb..b......wwb....www.w.....w.....ww.wwww.w",
+  "d": 2,
+  "gen": 148
+ },
+ {
+  "st": "bbbbb..b..b...b.b..bbb.........b....w.wbw..w.ww.wwwww....www.",
+  "d": 3,
+  "gen": 512
+ },
+ {
+  "st": "bb.bbbb.bbb...b.b...bbb.....ww..w..........ww.ww.w..w.www.w.w",
+  "d": 3,
+  "gen": 644
+ },
+ {
+  "st": "bbb.bbbb.bb...bbb....b......b.........ww...www.w..w...wwwwwww",
+  "d": 3,
+  "gen": 3331
+ },
+ {
+  "st": "bbbb.b..bbb...bb..bw.bb.....w.b........ww.....ww..w.www.ww.ww",
+  "d": 4,
+  "gen": 9091
+ },
+ {
+  "st": "b.b.b.bbb.bbbbb.......bb..w.....w..w.bw.......w.w.w.ww.w.wwww",
+  "d": 3,
+  "gen": 1443
+ },
+ {
+  "st": "bbbbb.bb.b...bb..b....wb.....b.wb....w...w....www.w.w..www.ww",
+  "d": 2,
+  "gen": 114
+ },
+ {
+  "st": "b.bbb.bbbbb...b......b.wb...b.b.w....w..w...w.....ww.w.wwwwww",
+  "d": 3,
+  "gen": 3118
+ },
+ {
+  "st": "bbbbbbbb......b......b.bb....b..b....w.www..w..w.wwww...www.w",
+  "d": 2,
+  "gen": 2074
+ },
+ {
+  "st": "bbbb..bb.bb.b..b....bb........b....www.b.w.w...ww..w...wwwwww",
+  "d": 2,
+  "gen": 500
+ },
+ {
+  "st": "bbbbbb.bb.b..b.b....b...b....wb......ww......w.ww..w..wwwwwww",
+  "d": 4,
+  "gen": 22699
+ },
+ {
+  "st": "bbbbb.b.b.b.bbb.......b.b.....bw....w.w...w.www..w..w..www.ww",
+  "d": 3,
+  "gen": 2053
+ },
+ {
+  "st": "bbb.b.bb...bbb.b....w.bbb..w.w....b.w..ww...ww.w..w...ww..ww.",
+  "d": 3,
+  "gen": 610
+ },
+ {
+  "st": ".bbbbbb.b.b.bb.......b.b.......b.....wwbw..w.ww...ww.www.ww.w",
+  "d": 2,
+  "gen": 135
+ },
+ {
+  "st": "..bbbbbbb....bb.b..b.bw.bb.....ww...w...w..w.ww.w......ww.www",
+  "d": 3,
+  "gen": 500
+ },
+ {
+  "st": "b.bb.b..b.b.bbbb.b..b..b.....b.......ww..w..w.w.ww.ww..www.ww",
+  "d": 2,
+  "gen": 168
+ },
+ {
+  "st": "bbbbbb.b.bb.bb.......b.......bb.......www....w.w..ww..wwwwwww",
+  "d": 3,
+  "gen": 2993
+ },
+ {
+  "st": "bbbbbb..b.bb..bbb....bb........w.....w..w....w.ww..wwwwww.ww.",
+  "d": 4,
+  "gen": 14024
+ },
+ {
+  "st": "b.bbb...bb..bb.bb...bb.......bb......w.ww...w.w.w.ww..wwwwww.",
+  "d": 3,
+  "gen": 3093
+ },
+ {
+  "st": "..bbbb.bbb..b.bbbb..b........b..w....w.w.w....ww..ww...wwwwww",
+  "d": 3,
+  "gen": 514
+ },
+ {
+  "st": ".bbbbbbbbb...bb.b.......b.....w.b...........w.wwwwwwww.wwww..",
+  "d": 3,
+  "gen": 3413
+ },
+ {
+  "st": "bbb.bb.b.b..bbbb.b..bb........w.....ww.ww.........wwww.wwww.w",
+  "d": 3,
+  "gen": 1423
+ },
+ {
+  "st": "bb..b.bbb.b.bbb.....bb..b.....wwb....ww....w...www..ww.ww.w.w",
+  "d": 3,
+  "gen": 3531
+ },
+ {
+  "st": "b.bbb..b..bb.b....b..bbb....bw.b.......ww.w.w.www.w.w.w..ww.w",
+  "d": 3,
+  "gen": 812
+ },
+ {
+  "st": "bbbbbb.bb....b.b......bb......bb......w....wwwww.w.w.ww.wwww.",
+  "d": 3,
+  "gen": 3295
+ },
+ {
+  "st": "bb.b.bbbbbb..b...b....bb......bw.....wwww..w.w.w..www.w...ww.",
+  "d": 4,
+  "gen": 4321
+ },
+ {
+  "st": "bbbbbbbbb.b..b.bb......b................w...ww.ww.ww.ww.wwwww",
+  "d": 3,
+  "gen": 1609
+ },
+ {
+  "st": "bbbbbbbb.bb..b.b.....b..........b...w..w.w..w.w.w..ww.wwww.ww",
+  "d": 3,
+  "gen": 1797
+ },
+ {
+  "st": "b.bb.bb.bbb.bb.b.....b.........bb...w..w....w.w.w...wwwwwwwww",
+  "d": 3,
+  "gen": 1028
+ },
+ {
+  "st": ".bbbbb.bbbb..bbb.......b......wb.....www.....wwww...www..w.ww",
+  "d": 4,
+  "gen": 21640
+ },
+ {
+  "st": ".bbbb.bbb..bb.b.b....b..b......wb....ww.ww....w...wwww..wwww.",
+  "d": 3,
+  "gen": 2659
+ },
+ {
+  "st": ".bb.b.bb.bbbb.bbb....bb...............ww......ww..www.wwwwwww",
+  "d": 4,
+  "gen": 8273
+ },
+ {
+  "st": "b.bbbbb.b.bbbb.bb....b.......w.....w..ww.....w.ww.ww...ww.www",
+  "d": 3,
+  "gen": 2628
+ },
+ {
+  "st": "bbbbb...b.b.bbb..b....b......b........bw.w..www...wwww.ww.www",
+  "d": 3,
+  "gen": 1176
+ },
+ {
+  "st": "bbbbb.b...b..bbbb.....b.....bb..w.....www...www.w.w..ww.ww..w",
+  "d": 3,
+  "gen": 396
+ },
+ {
+  "st": "bbbbb.b.bbb.b.b.....b.b.......bw.....ww.w.....w....www.wwwwww",
+  "d": 4,
+  "gen": 3567
+ },
+ {
+  "st": "bbbb..bbb.b....b.b...bb.......b.......www..bwww.wwwww.w..w..w",
+  "d": 4,
+  "gen": 8128
+ },
+ {
+  "st": ".bbbb.bbbb..bbb..b...b.b...............w...wwww.www.w.w..wwww",
+  "d": 3,
+  "gen": 3393
+ },
+ {
+  "st": "...b..b.bbbb..b...bb..bbb...b.b....ww.www...w....ww.w..wwwww.",
+  "d": 2,
+  "gen": 365
+ },
+ {
+  "st": "bbb.b...bbbbbbb.bb.......b...w.......w.ww...ww.....w.w.wwwwww",
+  "d": 4,
+  "gen": 13662
+ },
+ {
+  "st": "bbbbb.b....b...b.b.bbbb.......b.....ww..ww..ww.w..www.w.w..ww",
+  "d": 3,
+  "gen": 2649
+ },
+ {
+  "st": "bbbbb.....b.bbb.b....bbb......bw......w.....w.www...ww.wwwwww",
+  "d": 3,
+  "gen": 2407
+ },
+ {
+  "st": "b.bbbbb.bb...bbb.b...wbb..............w.....ww.wwww.w.w..wwww",
+  "d": 3,
+  "gen": 3320
+ },
+ {
+  "st": "b..bbbbb.bb.bb.b...w.b......w.b....wwwbw.............wwwwwwww",
+  "d": 3,
+  "gen": 348
+ },
+ {
+  "st": "b..b.b.b..b.bb.bb...bbbbw...bw.w.w...www...wwww........w.w..w",
+  "d": 2,
+  "gen": 2214
+ },
+ {
+  "st": ".bbbb.b.b..b.bb.bbb........b.w.w...b..w.....w..ww..ww.wwwww.w",
+  "d": 4,
+  "gen": 10303
+ },
+ {
+  "st": ".b.bbbbb.bbb...bb....b.b....w.bw.......w.....w....wwwwww.wwww",
+  "d": 4,
+  "gen": 16449
+ },
+ {
+  "st": "bbbbb..bbbb.....b...bb.b.....wb.....w...w...wwwww..ww..w.ww.w",
+  "d": 4,
+  "gen": 24566
+ },
+ {
+  "st": "bb..bbb.bb...bb.bb...b.w.....b..w....ww..w...wb....wwwww.www.",
+  "d": 3,
+  "gen": 2239
+ },
+ {
+  "st": "bb.b..bbb.bb.bb.b...b.bb..............www..w.w...wwwww.w.ww.w",
+  "d": 3,
+  "gen": 4507
+ },
+ {
+  "st": "bb.bbb..bbb.b.b.b...bbwb.....ww......ww.w..........w.w.wwwwww",
+  "d": 3,
+  "gen": 1854
+ },
+ {
+  "st": "bbb.b.bbbbb.bbbb...b.................www...w.wwww...ww.ww..ww",
+  "d": 3,
+  "gen": 2627
+ },
+ {
+  "st": "bbb.bbb.b.b..bb.b.....b.......b......bwww....w....wwww.wwwwww",
+  "d": 3,
+  "gen": 4188
+ },
+ {
+  "st": "bbbbbbb.b.b..bb.....b.b.....b.w..........w.wwww.ww...ww..wwww",
+  "d": 2,
+  "gen": 2256
+ },
+ {
+  "st": "b.bbb..bb.bb..bb...b.bb....wb......w....w.....w.www.wwwwww.w.",
+  "d": 3,
+  "gen": 292
+ },
+ {
+  "st": "..bb.bbbbb...bbb.b...bb.........b.....w.....wwwww..w.wwww.www",
+  "d": 3,
+  "gen": 477
+ },
+ {
+  "st": "bbbbbb.b..b..bbb.......bb....b.......www......ww.wwww.w.w.www",
+  "d": 3,
+  "gen": 3081
+ },
+ {
+  "st": "bbb...bbb.bb.b...b..b..b.........b..ww.wb..w.ww.w.ww...w.wwww",
+  "d": 2,
+  "gen": 145
+ },
+ {
+  "st": "bbbbb..bb.b.b...b.bbbb........ww.....w......w.w.wwww.w..w.www",
+  "d": 4,
+  "gen": 126583
+ },
+ {
+  "st": "b.bbb..bbbb.b.bb.b....b.b....ww.......w....www.w.w..www...www",
+  "d": 4,
+  "gen": 8609
+ },
+ {
+  "st": "...bbbbbb.bbb.......b.bbb....w.bw......w.ww.w....w.w..wwwwww.",
+  "d": 3,
+  "gen": 3572
+ },
+ {
+  "st": "bbbbbbbb....b.bbb......b....b.w..........wwww.w...wwww...wwww",
+  "d": 3,
+  "gen": 4660
+ },
+ {
+  "st": "b.b.bbbb.b..b..bb....bb.b....b..w..ww...w..ww.w..w.....wwwwww",
+  "d": 3,
+  "gen": 3496
+ },
+ {
+  "st": "..b.b.b..b.bb.bb.bb..bbb......wbw.....www.......w.www..wwww.w",
+  "d": 3,
+  "gen": 3974
+ },
+ {
+  "st": "bbbbb..bb.bbb.bb....b.......w..b.....w..w...w.ww...w..wwwwwww",
+  "d": 3,
+  "gen": 539
+ },
+ {
+  "st": "bbbbb.bb....b.bb.b.b......b...bw......w.w..w.ww...wwwww..ww.w",
+  "d": 3,
+  "gen": 2241
+ },
+ {
+  "st": "bbbb...bbb.b.bb..b.b....b........b...w.......ww.www.w.wwwwwww",
+  "d": 2,
+  "gen": 142
+ },
+ {
+  "st": "bbbb.bbb..b.bb...b...........bb.....ww...b.w.w.w..ww.wwwwwww.",
+  "d": 3,
+  "gen": 287
+ },
+ {
+  "st": ".bbbb.bb.b.b..b..b..bbwb.....b........w..w.ww..w.w..ww.wwwww.",
+  "d": 3,
+  "gen": 3217
+ },
+ {
+  "st": "bbbb.b..b.b...b.bb.bb.......bb.......w.w....wwww.ww...wwww.ww",
+  "d": 4,
+  "gen": 7788
+ },
+ {
+  "st": "bb.bb...bbb.bbbb...bbb.............w.w.w......ww..ww.www.wwww",
+  "d": 2,
+  "gen": 2607
+ },
+ {
+  "st": "bbbbbb.b.bb..bbb......b.....w.b......ww.....w..w.ww..ww.wwwww",
+  "d": 3,
+  "gen": 2349
+ },
+ {
+  "st": "bbbbbbbb....b.bbbb......b...www...............ww..w.w.wwwwwww",
+  "d": 4,
+  "gen": 6918
+ },
+ {
+  "st": "bbbbbbbbbbb.........bb..............b..w.w..w..w.wwwwww.www.w",
+  "d": 3,
+  "gen": 2849
+ },
+ {
+  "st": "bbbb.b.bb.b.bbwbbb..bw......w............w...ww...ww.www.w.ww",
+  "d": 3,
+  "gen": 1081
+ },
+ {
+  "st": ".bb.b.b..b..bbbbb....b.b....b.......wwb.ww..www.w....w.www.ww",
+  "d": 3,
+  "gen": 2900
+ },
+ {
+  "st": ".b..bbbbbbb..bbbb.....b.b..........w...w.....wwww.www.ww..www",
+  "d": 3,
+  "gen": 1593
+ },
+ {
+  "st": "bbbbb.bbb..b..bb.bb..b.......w........ww....ww..www.www..www.",
+  "d": 4,
+  "gen": 7435
+ },
+ {
+  "st": "bbb....bb.bb...b....bbbb.b......b....w..w...ww.w....wwwwwwwww",
+  "d": 4,
+  "gen": 9391
+ },
+ {
+  "st": "bbb.bb.b.b.bbb.bb...b..bw...w...w.........www...www.w..w.w.ww",
+  "d": 2,
+  "gen": 145
+ },
+ {
+  "st": "bb..bb..b...bb...b...bbbb...wbb.....w..ww...w..w.wwww.www...w",
+  "d": 3,
+  "gen": 4153
+ },
+ {
+  "st": ".bbb.b.bbb...bb.bb....bb...........wwwb.......w.www.ww..wwwww",
+  "d": 4,
+  "gen": 11324
+ },
+ {
+  "st": "bbbb.bbb.bbb.b.bbb.............w....w........www..w.wwwwwww.w",
+  "d": 4,
+  "gen": 39425
+ },
+ {
+  "st": "b.bbbb.b.b...b.b.b..bbbb......w....w.ww..w..www.....w.w..wwww",
+  "d": 3,
+  "gen": 1671
+ },
+ {
+  "st": "bbbbb.bbbbbb..b......b..b....w........w....wwwww...www.w.w.ww",
+  "d": 3,
+  "gen": 1540
+ },
+ {
+  "st": "bbbbbbbbbbb.........bbb...............w.....ww.wwww.ww..wwwww",
+  "d": 4,
+  "gen": 7019
+ },
+ {
+  "st": "b..b.b.bbbb..bb..b..bbb........wb.....ww.wwww.....w.ww..www.w",
+  "d": 3,
+  "gen": 3370
+ },
+ {
+  "st": "bbbbbbbb.bb.b.bb....b..........w....w.......ww.w..wwwwww..www",
+  "d": 4,
+  "gen": 4513
+ },
+ {
+  "st": "bbbb.bb..bb.b.b......bbb........b........w.w.w.ww.wwwww..wwww",
+  "d": 2,
+  "gen": 156
+ },
+ {
+  "st": "b..bb..b.b..bwbb....b.b.....bbwb.....ww.b....www..www.w.w.ww.",
+  "d": 3,
+  "gen": 2870
+ },
+ {
+  "st": "b.bbbbbbbbb..b.b........b....wbw......w.....www.w.ww.wwww...w",
+  "d": 4,
+  "gen": 7177
+ },
+ {
+  "st": "bb.bbb.bbbb..b....b.bbb......w..w.....w.w..ww...ww...ww.wwww.",
+  "d": 3,
+  "gen": 3287
+ },
+ {
+  "st": "bbbbb...b...b.bb.b..b.b.b....wwb......w.w.....ww...wwwwwww..w",
+  "d": 2,
+  "gen": 140
+ },
+ {
+  "st": "bb.bbbb..bbb.bbb.....b...b.ww...........w....w.w..ww.wwwwww.w",
+  "d": 3,
+  "gen": 1224
+ },
+ {
+  "st": "bb.bbbbbbb...bbb....b...............ww.bww...w...ww.wwwwwww..",
+  "d": 3,
+  "gen": 1740
+ },
+ {
+  "st": "bbb.b...bbb.bb..b...bb.....bw.b.....ww......w.wwww.www...ww.w",
+  "d": 3,
+  "gen": 390
+ },
+ {
+  "st": "bbb.bbb.bbb..bb..b....b....w..b..........w...www..www..wwwwww",
+  "d": 4,
+  "gen": 8353
+ },
+ {
+  "st": "bb.bbbbb.bb......b.bb..w.b....w....b.www.w.w...w.....w..wwwww",
+  "d": 3,
+  "gen": 3132
+ },
+ {
+  "st": "bbbb.b.bbb..bb..b....b.b......b......w..w...w.ww.ww.w.wwwwww.",
+  "d": 3,
+  "gen": 4606
+ },
+ {
+  "st": "..bbb..b..bbb.bbb.bwb.b.....w..b...w..w.....w.w....wwww.w.www",
+  "d": 3,
+  "gen": 706
+ },
+ {
+  "st": ".bbbbbbbb..b.bb..b.....b.......w.....wbw....ww..w.w.www.www.w",
+  "d": 4,
+  "gen": 14981
+ },
+ {
+  "st": "bbbbbbb.......wb...bb.b.........b....b..b.w..ww..wwww..wwwwww",
+  "d": 2,
+  "gen": 698
+ },
+ {
+  "st": "b..bbb.bbb.b.bbb...bb....b......w...w..ww..ww.www.....w.www.w",
+  "d": 2,
+  "gen": 163
+ },
+ {
+  "st": "bbbbb.bbbbb...b....bb......b...........w.w.w.ww.wwww.w.w.www.",
+  "d": 2,
+  "gen": 183
+ },
+ {
+  "st": ".bbb.bb..bb.bb.b...b..........bbbw....www.....wwwww..w..ww.ww",
+  "d": 2,
+  "gen": 379
+ },
+ {
+  "st": "b.b.bbbbb..bbb..b....b.b.....b......ww......ww.ww.wwwwww.w..w",
+  "d": 3,
+  "gen": 4361
+ },
+ {
+  "st": "bbbbb.b.b.bb..b....bbb.......wb......w.w.w...w....wwwww.w.www",
+  "d": 4,
+  "gen": 16349
+ },
+ {
+  "st": ".bbbbbbbbb.b.bb......b........wbw.....w..w..w.....wwwww.w.www",
+  "d": 3,
+  "gen": 1982
+ },
+ {
+  "st": "b.bbbbbbbb..bb.b....b.........b.......ww....w..wwwwwwww..ww.w",
+  "d": 3,
+  "gen": 2002
+ },
+ {
+  "st": ".bbbbbbb.b.....bbb.wb.b......b........w.....w.w....wwwwwwwwww",
+  "d": 3,
+  "gen": 2544
+ },
+ {
+  "st": "bb.bbbbbb.b.b....b..bbb.................ww.w.www..w.w.ww.wwww",
+  "d": 4,
+  "gen": 11904
+ },
+ {
+  "st": "bb.bb.bb.bbb.bbb.....b........b......wwww...w.....ww.wwwwww.w",
+  "d": 3,
+  "gen": 1410
+ },
+ {
+  "st": "bb.b.bbbbbb........b..bb....b.w.b......ww....ww...www.ww.wwww",
+  "d": 4,
+  "gen": 11304
+ },
+ {
+  "st": ".bb.b.b.bbb..bb..b..wbbb......b........w....w.www.wwww.ww.ww.",
+  "d": 3,
+  "gen": 1981
+ },
+ {
+  "st": "b.bbb.bbbb......w...bb.b....b..ww...w.b...www.bw.w.w....wwww.",
+  "d": 2,
+  "gen": 297
+ },
+ {
+  "st": "b.b.bbbbb....b.b.b...bbb.......b........w...w.www.wwww.ww.www",
+  "d": 3,
+  "gen": 4708
+ },
+ {
+  "st": "..bbbbbb.bb.b.b.b....b.......bb........ww..www.....w.wwwwwwww",
+  "d": 3,
+  "gen": 3799
+ },
+ {
+  "st": "bbbb.bb.bbb.b..b.b...bb.......w.......w.........wwwwwwwww.www",
+  "d": 4,
+  "gen": 8107
+ },
+ {
+  "st": "bbbbbb.bb....b.b.....b..b.......b....w.wb..w..www..w.wwwwww.w",
+  "d": 3,
+  "gen": 1792
+ },
+ {
+  "st": "b.bbb.bb....b.b.bbbbb..b...............w.w..w..wwww.wwww.www.",
+  "d": 3,
+  "gen": 2536
+ },
+ {
+  "st": ".bbb.bbbbb......b...bbb..b..bwww........ww....ww.....ww.wwwww",
+  "d": 4,
+  "gen": 29569
+ },
+ {
+  "st": "bbbbbbbb.b....b.bbb..w.......b........ww...w.w......wwwwwwwww",
+  "d": 4,
+  "gen": 8650
+ },
+ {
+  "st": "b.b.bbbbbbb.b.......bb.bb......w....ww.........ww.www.www.www",
+  "d": 4,
+  "gen": 9754
+ },
+ {
+  "st": ".bbbbbbbbbb.b..bb............bw......www....www.....w.wwww.ww",
+  "d": 4,
+  "gen": 10556
+ },
+ {
+  "st": "..bbbbb...b.bbbbb...b.wb......w.......b.ww....www.ww.ww.ww.w.",
+  "d": 3,
+  "gen": 4996
+ },
+ {
+  "st": "b..bbbbbbbb..b.b.....b.b........b....ww.ww.w..www.ww....www.w",
+  "d": 2,
+  "gen": 138
+ },
+ {
+  "st": "b.bbb.b.bbb.bb.b...bb..b.....................www.wwwwww.wwwww",
+  "d": 3,
+  "gen": 4924
+ },
+ {
+  "st": "b.bbb..bbbb..bbb....b........bb.......w.w.w..w.wwwww....wwwww",
+  "d": 4,
+  "gen": 11694
+ },
+ {
+  "st": ".b.bbbbbb.b...b.b...b.bb......bw.......ww.....w...www.wwwwwww",
+  "d": 4,
+  "gen": 9399
+ },
+ {
+  "st": "b.bbbbb..bb.b.b.....bb..........w....wwwb...ww.bw.w.w.www.w.w",
+  "d": 2,
+  "gen": 4399
+ },
+ {
+  "st": "bbb.bb.bbb..b..b.....bb......wb.b.......w..w.w.w...www.wwwwww",
+  "d": 3,
+  "gen": 3753
+ },
+ {
+  "st": ".bb.bb..bbbb.b.b..b.bbb.............w.w.....ww..w.wwwwww.www.",
+  "d": 3,
+  "gen": 4339
+ },
+ {
+  "st": ".b.bb..bbbb.b.b.b..bb.b....w..b....w...ww...ww...w..w.wwwwww.",
+  "d": 2,
+  "gen": 226
+ },
+ {
+  "st": ".bbbbbb..b.bb..bbb...........bb....ww....w...ww.w.www.w.w.www",
+  "d": 3,
+  "gen": 1995
+ },
+ {
+  "st": "bbbb.b..bbb...bbwb.b.b..b........w....w..w....ww.www.w.ww.ww.",
+  "d": 3,
+  "gen": 773
+ },
+ {
+  "st": "b..bbbbb.bb.bbbb.....bb................ww....w.wwwwww...wwwww",
+  "d": 3,
+  "gen": 577
+ },
+ {
+  "st": "b.bbbbbbbbb....bb....b........b......ww..w.w.www..w.wwww..w.w",
+  "d": 4,
+  "gen": 7005
+ },
+ {
+  "st": "bbbbbbbbbbb.....b....b........b.......w.w..ww.wwww..www.ww..w",
+  "d": 4,
+  "gen": 6945
+ },
+ {
+  "st": "bbb.bb.bb.bbb...b...b.bb......w.......w.w..w..w.ww..ww..wwwww",
+  "d": 4,
+  "gen": 11717
+ },
+ {
+  "st": "bb..bb.bbb...b.bbb...bb.......b......ww.wwww.ww.w.w.ww.w..w..",
+  "d": 3,
+  "gen": 4113
+ },
+ {
+  "st": "b.b..b.b.b.bbbbb.b...b...b...b.www..w........www.ww..www.w..w",
+  "d": 3,
+  "gen": 5576
+ },
+ {
+  "st": "bbb..bb.b.b.bb.bb..b....b....b.w.....w.w...w.w....w.www.wwwww",
+  "d": 3,
+  "gen": 3154
+ },
+ {
+  "st": ".b.bbbbb..bbbbb.b....b...........b..w.w..w.ww.ww..w...wwww.ww",
+  "d": 3,
+  "gen": 599
+ },
+ {
+  "st": "bb.bb...bbbbbbbb.....b........w..b..w.......ww.ww.w..wwwwww.w",
+  "d": 3,
+  "gen": 1649
+ },
+ {
+  "st": "bb..bbbbbb..bb.b.b...b.....b.w.........w......w...wwwwwwwwwww",
+  "d": 4,
+  "gen": 18124
+ },
+ {
+  "st": "bbbb..b.b.b.bb..b....bb.....wb.b.....w.......w.wwwww.ww..wwww",
+  "d": 3,
+  "gen": 387
+ },
+ {
+  "st": "bb..bb.bbbbb...b....bb..b....wb.....ww.......w.ww.wwwww.ww..w",
+  "d": 4,
+  "gen": 23147
+ },
+ {
+  "st": ".bbbbb.bbbbb.bb.b..........w..b.....w.w.....www....wwwww.w.ww",
+  "d": 3,
+  "gen": 1187
+ },
+ {
+  "st": "bbbbbbb.b.b...b.b...bb..........b....ww......w..www.ww.wwwwww",
+  "d": 3,
+  "gen": 4603
+ },
+ {
+  "st": ".b.bbb.bbbb..b.b.....bbb.....bwww....w......www...ww.ww...www",
+  "d": 3,
+  "gen": 1696
+ },
+ {
+  "st": "bbbbb.bbb.b....b...bbb.....b..w.w....www...ww...w.ww.w.w..w.w",
+  "d": 2,
+  "gen": 203
+ },
+ {
+  "st": "b.b.bbb.bb.b..bb...bb.b..b...ww.....w...w...ww..ww.w.w...wwww",
+  "d": 3,
+  "gen": 3436
+ },
+ {
+  "st": "bbbb...bbb.bbbbb.b..w.........b.w...w.ww.w...w...ww.w...www.w",
+  "d": 3,
+  "gen": 711
+ },
+ {
+  "st": "bbb.bbb.bb....bb.b...b..b........b...w.ww.....w.wwww.w.www.ww",
+  "d": 2,
+  "gen": 149
+ },
+ {
+  "st": "bbbb.bbbb.b..bb.bb...b...............ww.....ww.w.wwww.wwww.w.",
+  "d": 4,
+  "gen": 7806
+ },
+ {
+  "st": "b..bbbbb.b....bbb.....bbb...b.......ww.ww...www.ww.www..w..w.",
+  "d": 3,
+  "gen": 5444
+ },
+ {
+  "st": "bbb.b.bbbbb...bbb...b..b....w......ww..w.w.....w.w.ww.w..wwww",
+  "d": 2,
+  "gen": 129
+ },
+ {
+  "st": "bbb.b..bb.bbbb.bb....bb....w..w....w..ww......w.w..wwwww.w.w.",
+  "d": 3,
+  "gen": 213
+ },
+ {
+  "st": "bbbbbb..bbb..bbb....b...............wbww...w..ww..w..wwwwwww.",
+  "d": 2,
+  "gen": 301
+ },
+ {
+  "st": ".bbbbbbbb.b....b....bbb.b...ww......w.w.....w.w..ww..www.ww.w",
+  "d": 3,
+  "gen": 900
+ },
+ {
+  "st": "b.bb.bbbb.b.b....b.b.bb.....b.........w..w.www..wwww..w.www.w",
+  "d": 3,
+  "gen": 5646
+ },
+ {
+  "st": "bbbbb.bb.bb..bb...b..b.b........w....www....w..w..w.ww.w.wwww",
+  "d": 4,
+  "gen": 40134
+ },
+ {
+  "st": ".bbbbbbb....bbb.bb..........wwbw......w...bww.....ww..wwww.ww",
+  "d": 3,
+  "gen": 763
+ },
+ {
+  "st": "bb.bbbbb.bb.b.b...b..bb......ww......w..w...w..w.wwww.w...www",
+  "d": 4,
+  "gen": 5015
+ },
+ {
+  "st": "b..bbb..b..b..b.bb.b.bb....b...b.......ww...www.w.wwww.www..w",
+  "d": 3,
+  "gen": 2476
+ },
+ {
+  "st": "bbbbbbbbbbb..b......b.b.............ww.ww..ww.w..ww..w..w.www",
+  "d": 2,
+  "gen": 113
+ },
+ {
+  "st": "bbbbbbbb....b..b.b..b.b.......b........w.....w.wwwwwww..wwwww",
+  "d": 4,
+  "gen": 8579
+ },
+ {
+  "st": "b..bbbbbbb..b....b...bb.b...www.b.....w.......w...ww..wwwwwww",
+  "d": 3,
+  "gen": 4221
+ },
+ {
+  "st": "bbbb...bb...b.bb.b....b..b.b.b......ww......w..w..www.wwwwwww",
+  "d": 4,
+  "gen": 9521
+ },
+ {
+  "st": "bbbbb..b.b.b.bb.b.b....b.......w....w..w.wwww..bw..w..w.www.w",
+  "d": 3,
+  "gen": 2169
+ },
+ {
+  "st": "b.bbb.bbbbb...bb..b..........b.b.w...w..w..w...ww.w.ww.wwww.w",
+  "d": 3,
+  "gen": 813
+ },
+ {
+  "st": ".b.bb..bbbbbbbbbb.....b...............ww....w.w.wwwwww.wwww..",
+  "d": 3,
+  "gen": 1137
+ },
+ {
+  "st": "b.bbb.b.bbbbbbb.......bb............w..w...w.w....wwwwwww.www",
+  "d": 3,
+  "gen": 1602
+ },
+ {
+  "st": ".bb.....bb..bbbbb.b...b..b....b...bw...ww..w.w.www...ww..wwww",
+  "d": 3,
+  "gen": 2735
+ },
+ {
+  "st": "bb..bb.bb....bbb.b...bbb.b..........w.w.....w..www.wwww.w.www",
+  "d": 3,
+  "gen": 3676
+ },
+ {
+  "st": "bb.b.bb.bb..b.bbb.....b.b...w.b..............wwww.ww.ww.wwwww",
+  "d": 3,
+  "gen": 5086
+ },
+ {
+  "st": ".b.bb..bbb..bbbbb..b.b.b.......w............www.w.wwwwww.w.ww",
+  "d": 3,
+  "gen": 1927
+ },
+ {
+  "st": "bbbbbb...b....bbbb...b.b.....bw......w.w.....w..w.w.w.wwwwwww",
+  "d": 2,
+  "gen": 132
+ },
+ {
+  "st": "bbbbbb.bbb..bb..b.......b...w.bww........w..www..ww.w..ww.ww.",
+  "d": 4,
+  "gen": 24976
+ },
+ {
+  "st": "bbbbbbb..b...b.bbb...b.........b.....ww.w....w..www.w.w.wwwww",
+  "d": 3,
+  "gen": 1663
+ }
+]

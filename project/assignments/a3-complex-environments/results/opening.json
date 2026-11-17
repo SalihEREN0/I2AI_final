@@ -1,0 +1,89 @@
+{
+ "st": "bbbbbbbbbbb..bbb.............................www..wwwwwwwwwww",
+ "hF": 3,
+ "U": 26,
+ "astar": {
+  "d": 5,
+  "gen": 46543
+ },
+ "steepest": {
+  "trace": [
+   3,
+   2
+  ],
+  "nb": [
+   {
+    "h": 3,
+    "n": 44,
+    "lo": 12,
+    "eq": 32,
+    "hi": 0
+   },
+   {
+    "h": 2,
+    "n": 55,
+    "lo": 0,
+    "eq": 52,
+    "hi": 3
+   }
+  ],
+  "stuck": "bb.bbbbbbbb..bbb.......b.....................www..wwwwwwwwwww",
+  "stuckH": 2,
+  "pairs": 3231,
+  "pairsDown": 5,
+  "downVia": {
+   "2 → 1": 5
+  },
+  "distStuck": 4,
+  "exit": 1
+ },
+ "climbU": {
+  "trace": [
+   26,
+   34,
+   43,
+   49,
+   55,
+   63,
+   69,
+   75,
+   78,
+   81,
+   84,
+   86,
+   92,
+   94,
+   96,
+   97,
+   98,
+   100
+  ],
+  "moves": 17,
+  "stop": "flat top",
+  "exit": 1,
+  "n": 82,
+  "higher": 0,
+  "equal": 2,
+  "lower": 80,
+  "captures": 0,
+  "f0": {
+   "centre": 10,
+   "coh": 27,
+   "edge": 7
+  },
+  "f": {
+   "centre": 36,
+   "coh": 28,
+   "edge": 0
+  },
+  "top": ".............bbb....bbbb....bbbbb.....bb.....www..wwwwwwwwwww",
+  "terms": {
+   "centre": 52,
+   "edge": 21,
+   "pairs": 1,
+   "off": 0
+  },
+  "hFTop": 2,
+  "distTop": 3
+ }
+}

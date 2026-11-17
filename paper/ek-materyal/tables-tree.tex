@@ -1,0 +1,16 @@
+% tablolar.py tarafından üretildi; elle düzenlemeyin.
+\begin{table}[!htbp]
+\centering\caption{Growth of the game tree from the standard opening}\label{tab:tree}
+\footnotesize
+\begin{tabular}{@{}crrrr@{}}
+\toprule
+Plies & Move sequences (perft) & Distinct positions & Positions within & Time (s) \\
+\midrule
+1 & 44 & 44 & 45 & 0.0 \\
+2 & 1,936 & 1,936 & 1,981 & 0.01 \\
+3 & 98,912 & 51,436 & 53,417 & 0.22 \\
+4 & 5,045,110 & 1,358,966 & 1,410,446 & 12.3 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}{\scriptsize Iterative deepening to depth 4 re-expands 2.0\% more nodes than a single depth-limited pass; a position takes 16 bytes.}
+\end{table}

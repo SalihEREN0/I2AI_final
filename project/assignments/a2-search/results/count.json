@@ -1,0 +1,41 @@
+{
+ "start": {
+  "total": 44,
+  "kinds": {
+   "broadside-2": 8,
+   "broadside-3": 2,
+   "in-line-1": 14,
+   "in-line-2": 12,
+   "in-line-3": 8
+  }
+ },
+ "midB": {
+  "total": 73,
+  "kinds": {
+   "broadside-2": 13,
+   "in-line-1": 38,
+   "in-line-2": 16,
+   "in-line-3": 2,
+   "sumito-2": 2,
+   "sumito-3": 2
+  }
+ },
+ "midW": {
+  "total": 81,
+  "kinds": {
+   "broadside-2": 15,
+   "broadside-3": 4,
+   "in-line-1": 34,
+   "in-line-2": 18,
+   "in-line-3": 5,
+   "sumito-2": 4,
+   "sumito-3": 1
+  }
+ },
+ "midPushes": [
+  "C3 C4 C5 → E",
+  "C3 D3 → SE",
+  "C4 C5 → E",
+  "E5 E6 E7 → E"
+ ]
+}

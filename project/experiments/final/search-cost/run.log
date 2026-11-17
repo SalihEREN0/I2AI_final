@@ -1,0 +1,91 @@
+2 full {'mean_nodes': 587, 'median_nodes': 528, 'mean_ms': 4.0}
+2 no-pruning {'mean_nodes': 14176, 'median_nodes': 8226, 'mean_ms': 80.1}
+3 full {'mean_nodes': 7773, 'median_nodes': 7323, 'mean_ms': 22.4}
+3 no-ordering {'mean_nodes': 12811, 'median_nodes': 10718, 'mean_ms': 38.2}
+3 no-tt {'mean_nodes': 8032, 'median_nodes': 7484, 'mean_ms': 22.9}
+3 no-killers {'mean_nodes': 7861, 'median_nodes': 7361, 'mean_ms': 23.0}
+3 no-quiescence {'mean_nodes': 3881, 'median_nodes': 3586, 'mean_ms': 18.7}
+3 no-pruning {'mean_nodes': 699884, 'median_nodes': 477092, 'mean_ms': 3178.5}
+4 full {'mean_nodes': 27480, 'median_nodes': 25070, 'mean_ms': 166.9}
+4 no-ordering {'mean_nodes': 87516, 'median_nodes': 56150, 'mean_ms': 425.6}
+4 no-tt {'mean_nodes': 32305, 'median_nodes': 29282, 'mean_ms': 215.3}
+4 no-killers {'mean_nodes': 28955, 'median_nodes': 26217, 'mean_ms': 171.4}
+4 no-quiescence {'mean_nodes': 14543, 'median_nodes': 13038, 'mean_ms': 131.9}
+{
+ "positions": 386,
+ "agent": "alpha-beta (current engine), TDLeaf weights",
+ "conditions": "pinned to logical CPU 2, high priority, power throttling off",
+ "depths": {
+  "2": {
+   "full": {
+    "mean_nodes": 587,
+    "median_nodes": 528,
+    "mean_ms": 4.0
+   },
+   "no-pruning": {
+    "mean_nodes": 14176,
+    "median_nodes": 8226,
+    "mean_ms": 80.1
+   }
+  },
+  "3": {
+   "full": {
+    "mean_nodes": 7773,
+    "median_nodes": 7323,
+    "mean_ms": 22.4
+   },
+   "no-ordering": {
+    "mean_nodes": 12811,
+    "median_nodes": 10718,
+    "mean_ms": 38.2
+   },
+   "no-tt": {
+    "mean_nodes": 8032,
+    "median_nodes": 7484,
+    "mean_ms": 22.9
+   },
+   "no-killers": {
+    "mean_nodes": 7861,
+    "median_nodes": 7361,
+    "mean_ms": 23.0
+   },
+   "no-quiescence": {
+    "mean_nodes": 3881,
+    "median_nodes": 3586,
+    "mean_ms": 18.7
+   },
+   "no-pruning": {
+    "mean_nodes": 699884,
+    "median_nodes": 477092,
+    "mean_ms": 3178.5
+   }
+  },
+  "4": {
+   "full": {
+    "mean_nodes": 27480,
+    "median_nodes": 25070,
+    "mean_ms": 166.9
+   },
+   "no-ordering": {
+    "mean_nodes": 87516,
+    "median_nodes": 56150,
+    "mean_ms": 425.6
+   },
+   "no-tt": {
+    "mean_nodes": 32305,
+    "median_nodes": 29282,
+    "mean_ms": 215.3
+   },
+   "no-killers": {
+    "mean_nodes": 28955,
+    "median_nodes": 26217,
+    "mean_ms": 171.4
+   },
+   "no-quiescence": {
+    "mean_nodes": 14543,
+    "median_nodes": 13038,
+    "mean_ms": 131.9
+   }
+  }
+ }
+}

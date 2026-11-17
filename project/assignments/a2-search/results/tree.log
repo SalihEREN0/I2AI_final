@@ -1,0 +1,5 @@
+ply 1: 44 paths, 44 distinct boards (1.0 paths/board), 45 reached so far, 0.0s; paths back to the start: 0
+ply 2: 1,936 paths, 1,936 distinct boards (1.0 paths/board), 1,981 reached so far, 0.0s; paths back to the start: 0
+ply 3: 98,912 paths, 51,436 distinct boards (1.9 paths/board), 53,417 reached so far, 0.2s; paths back to the start: 0
+ply 4: 5,045,110 paths, 1,358,966 distinct boards (3.7 paths/board), 1,410,446 reached so far, 12.3s; paths back to the start: 1936
+238,033 nodes/s; IDS generates 2.0% more nodes than BFS up to ply 4

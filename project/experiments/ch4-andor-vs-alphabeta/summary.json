@@ -1,0 +1,6 @@
+{
+ "games": 60,
+ "positions_with_forced_push_off": 529,
+ "agent_chose_forcing_move": 286,
+ "agent": "alpha-beta, TDLeaf weights, depth 3"
+}

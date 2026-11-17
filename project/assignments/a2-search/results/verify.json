@@ -1,0 +1,9 @@
+{
+ "positions": 2000,
+ "same": 2000,
+ "moves": 124595,
+ "pushes": 2044,
+ "perft3naive": 98912,
+ "perft3fast": 98912,
+ "seed": 11
+}

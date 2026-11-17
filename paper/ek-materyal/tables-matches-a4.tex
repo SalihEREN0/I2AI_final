@@ -1,0 +1,39 @@
+% tablolar.py tarafından üretildi; elle düzenlemeyin.
+\begin{table}[!htbp]
+\centering\caption{All Assignment 4 matches (50 games each, A4 engine)}\label{tab:matches-a4}
+\footnotesize
+\begin{tabular}{@{}lllcccr@{}}
+\toprule
+Player A & Player B & Budget & W--D--L & Score (95\% CI) & Six off / rep. / cap & Plies \\
+\midrule
+Final agent & A3 agent & 0.5 s & 48--2--0 & 0.98 (0.95--1.00) & 45 / 2 / 3 & 75 \\
+Final agent & Greedy on $U$ & 0.5 s & 50--0--0 & 1.00 (1.00--1.00) & 43 / 0 / 7 & 92 \\
+Hand-set $U$ & A3 agent & 0.5 s & 49--1--0 & 0.99 (0.97--1.00) & 49 / 1 / 0 & 78 \\
+A3 agent & Greedy on $U$ & -- & 1--49--0 & 0.51 (0.49--0.53) & 1 / 49 / 0 & 67 \\
+\midrule
+Full agent & Hand-set weights & 0.5 s & 37--9--4 & 0.83 (0.74--0.92) & 14 / 2 / 34 & 182 \\
+Full agent & No quiescence & 0.5 s & 32--6--12 & 0.70 (0.58--0.82) & 38 / 2 / 10 & 142 \\
+Full agent & No move ordering & 0.5 s & 30--4--16 & 0.64 (0.51--0.77) & 37 / 0 / 13 & 158 \\
+Full agent & No TT & 0.5 s & 26--6--18 & 0.58 (0.45--0.71) & 33 / 0 / 17 & 160 \\
+Full agent & No killer moves & 0.5 s & 24--5--21 & 0.53 (0.40--0.66) & 36 / 2 / 12 & 158 \\
+\midrule
+TDLeaf & Hand-set & depth 2 & 47--2--1 & 0.96 (0.91--1.00) & 18 / 2 / 30 & 172 \\
+TDLeaf & Hand-set & depth 3 & 44--5--1 & 0.93 (0.87--0.99) & 8 / 1 / 41 & 190 \\
+TDLeaf, result reward & Hand-set & depth 2 & 41--7--2 & 0.89 (0.82--0.96) & 14 / 6 / 30 & 170 \\
+TDLeaf, marble reward & TDLeaf, result reward & depth 2 & 24--1--25 & 0.49 (0.35--0.63) & 49 / 0 / 1 & 128 \\
+TDLeaf, 3,200 games & TDLeaf, 1,200 games & depth 2 & 20--7--23 & 0.47 (0.34--0.60) & 41 / 7 / 2 & 111 \\
+TDLeaf, 3,200 games & TDLeaf, 1,200 games & 0.5 s & 24--5--21 & 0.53 (0.40--0.66) & 41 / 0 / 9 & 158 \\
+\midrule
+Logistic & Hand-set & depth 2 & 38--12--0 & 0.88 (0.82--0.94) & 5 / 9 / 36 & 179 \\
+Logistic & TDLeaf & depth 2 & 9--10--31 & 0.28 (0.17--0.39) & 33 / 7 / 10 & 136 \\
+Logistic, refit & Hand-set & depth 2 & 40--7--3 & 0.87 (0.79--0.95) & 17 / 6 / 27 & 166 \\
+Logistic, refit & TDLeaf & depth 2 & 24--12--14 & 0.60 (0.48--0.72) & 28 / 8 / 14 & 158 \\
+Value network & Hand-set & depth 2 & 18--11--21 & 0.47 (0.35--0.59) & 13 / 6 / 31 & 177 \\
+Value network & TDLeaf & depth 2 & 0--3--47 & 0.03 (0.00--0.06) & 47 / 3 / 0 & 100 \\
+Value network & TDLeaf & 0.5 s & 1--0--49 & 0.02 (0.00--0.06) & 49 / 0 / 1 & 122 \\
+Network, refit & Hand-set & depth 2 & 17--20--13 & 0.54 (0.43--0.65) & 5 / 13 / 32 & 172 \\
+Network, refit & TDLeaf & depth 2 & 2--3--45 & 0.07 (0.01--0.13) & 42 / 2 / 6 & 130 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}{\scriptsize Score = (W + D/2)/N for player A. End reasons: six marbles off, third repetition, 200-ply cap (decided by marble count).}
+\end{table}

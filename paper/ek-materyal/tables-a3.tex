@@ -1,0 +1,20 @@
+% tablolar.py tarafından üretildi; elle düzenlemeyin.
+\begin{table}[!htbp]
+\centering\caption{Assignment 3 benchmark: local and online search on 200 push-off puzzles}\label{tab:a3}
+\scriptsize
+\begin{tabular}{@{}lccrrl@{}}
+\toprule
+Method & Solved & Optimal & Mean moves & Mean evaluations & Stop reasons \\
+\midrule
+A*, $h_F$ & 200 & 200 & 3.08 & 5,165 (generated) & goal 200 \\
+Steepest-ascent HC & 16 & 16 & 2.0 & 101 & plateau 184, goal 16 \\
+Stochastic HC & 11 & 11 & 2.0 & 100 & plateau 189, goal 11 \\
+First-choice HC & 10 & 10 & 2.0 & 77 & stuck 190, goal 10 \\
+HC, up to 100 sideways moves & 194 & 17 & 29.4 & 2,473 & goal 194, sideways-limit 6 \\
+Simulated annealing & 200 & 0 & 224.72 & 234 & goal 200 \\
+LRTA* & 110 & 17 & 217.17 & 34,448 & cap 90, goal 110 \\
+Stochastic HC, up to 20 restarts & 25 & -- & -- & -- & mean tries 2.76 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}{\scriptsize Steepest ascent stopped 184 times, all on plateaus: 167 shoulders, 0 flat minima, 0 strict local minima, 0 ridges, 17 not classified within 500 boards. Hill climbing on the Assignment~1 utility pushed a marble off in 47 of 200 puzzles. On the 106 puzzles solved by A*, sideways HC, annealing and LRTA*, the mean solution lengths are 2.96, 25.25, 218.12, 217.93.}
+\end{table}

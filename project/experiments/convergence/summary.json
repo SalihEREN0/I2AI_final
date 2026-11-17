@@ -1,0 +1,154 @@
+{
+ "games": [
+  "experiments/tdleaf-d2-marbles-400/games.jsonl"
+ ],
+ "positions": 302046,
+ "corr": {
+  "marbles": {
+   "marbles": 1.0,
+   "centre": 0.082,
+   "cohesion": 0.392,
+   "edge": 0.245,
+   "exposed": 0.069,
+   "wedge": -0.158
+  },
+  "centre": {
+   "marbles": 0.082,
+   "centre": 1.0,
+   "cohesion": 0.622,
+   "edge": -0.494,
+   "exposed": -0.224,
+   "wedge": 0.112
+  },
+  "cohesion": {
+   "marbles": 0.392,
+   "centre": 0.622,
+   "cohesion": 1.0,
+   "edge": -0.264,
+   "exposed": -0.275,
+   "wedge": 0.118
+  },
+  "edge": {
+   "marbles": 0.245,
+   "centre": -0.494,
+   "cohesion": -0.264,
+   "edge": 1.0,
+   "exposed": 0.714,
+   "wedge": -0.162
+  },
+  "exposed": {
+   "marbles": 0.069,
+   "centre": -0.224,
+   "cohesion": -0.275,
+   "edge": 0.714,
+   "exposed": 1.0,
+   "wedge": -0.197
+  },
+  "wedge": {
+   "marbles": -0.158,
+   "centre": 0.112,
+   "cohesion": 0.118,
+   "edge": -0.162,
+   "exposed": -0.197,
+   "wedge": 1.0
+  }
+ },
+ "eigenvalues": [
+  0.01228,
+  0.07335,
+  0.08189,
+  0.20461,
+  0.51182,
+  1.63236
+ ],
+ "weakest_direction": {
+  "marbles": 0.019,
+  "centre": -0.13,
+  "cohesion": 0.095,
+  "edge": -0.588,
+  "exposed": 0.792,
+  "wedge": 0.028
+ },
+ "strongest_direction": {
+  "marbles": 0.983,
+  "centre": 0.066,
+  "cohesion": 0.151,
+  "edge": 0.053,
+  "exposed": 0.01,
+  "wedge": -0.061
+ },
+ "seeds": {
+  "seed 1": {
+   "150": {
+    "weights": {
+     "marbles": 22.85,
+     "centre": 15.06,
+     "cohesion": 10.72,
+     "edge": -7.74,
+     "exposed": -2.71,
+     "wedge": 1.95
+    },
+    "along_weakest": 1.97
+   },
+   "400": {
+    "weights": {
+     "marbles": 23.85,
+     "centre": 17.2,
+     "cohesion": 13.22,
+     "edge": -5.24,
+     "exposed": -6.27,
+     "wedge": 2.54
+    },
+    "along_weakest": -2.33
+   }
+  },
+  "seed 2": {
+   "150": {
+    "weights": {
+     "marbles": 22.44,
+     "centre": 14.31,
+     "cohesion": 10.31,
+     "edge": -8.14,
+     "exposed": -2.55,
+     "wedge": 2.1
+    },
+    "along_weakest": 2.39
+   },
+   "400": {
+    "weights": {
+     "marbles": 22.64,
+     "centre": 16.49,
+     "cohesion": 13.15,
+     "edge": -5.79,
+     "exposed": -6.13,
+     "wedge": 2.58
+    },
+    "along_weakest": -1.83
+   }
+  },
+  "seed 3": {
+   "150": {
+    "weights": {
+     "marbles": 22.94,
+     "centre": 16.11,
+     "cohesion": 10.85,
+     "edge": -8.01,
+     "exposed": -2.74,
+     "wedge": 2.53
+    },
+    "along_weakest": 2.0
+   },
+   "400": {
+    "weights": {
+     "marbles": 22.89,
+     "centre": 16.71,
+     "cohesion": 12.96,
+     "edge": -5.15,
+     "exposed": -6.33,
+     "wedge": 2.18
+    },
+    "along_weakest": -2.42
+   }
+  }
+ }
+}

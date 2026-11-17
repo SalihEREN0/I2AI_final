@@ -1,0 +1,16 @@
+% tablolar.py tarafından üretildi; elle düzenlemeyin.
+\begin{table}[!htbp]
+\centering\caption{How far each searcher gets in 0.5 s on 100 middle-game positions}\label{tab:depth}
+\footnotesize
+\begin{tabular}{@{}lcl@{}}
+\toprule
+Searcher & Mean depth & Distribution \\
+\midrule
+Alpha--beta, current engine & 4.13 & positions per depth: 1: 1, 4: 83, 5: 16 \\
+Alpha--beta, A4 engine & 3.21 & positions per depth: 1: 1, 2: 5, 3: 66, 4: 28 \\
+Minimax, no pruning & 2.02 & positions per depth: 1: 3, 2: 92, 3: 5 \\
+MCTS & -- & 12,120 iterations per move (min 2,436, max 22,180) \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}{\scriptsize One process, one position at a time, pinned to logical CPU 2, high priority, power throttling off, nothing else running; all four use the TDLeaf evaluation. Depth: last completed iteration of iterative deepening.}
+\end{table}

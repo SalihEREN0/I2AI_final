@@ -1,0 +1,66 @@
+{
+ "positions": 386,
+ "python": "3.14.6",
+ "conditions": "pinned to logical CPU 2, high priority, power throttling off",
+ "fixed_depth": {
+  "3": {
+   "a4": {
+    "mean_ms": 122.3,
+    "median_ms": 104.6,
+    "total_s": 47.2,
+    "mean_nodes": 7773,
+    "nodes_per_s": 63571
+   },
+   "current": {
+    "mean_ms": 22.2,
+    "median_ms": 20.1,
+    "total_s": 8.6,
+    "mean_nodes": 7773,
+    "nodes_per_s": 350391
+   },
+   "identical_search": true,
+   "speedup": 5.49
+  },
+  "4": {
+   "a4": {
+    "mean_ms": 656.7,
+    "median_ms": 586.4,
+    "total_s": 253.5,
+    "mean_nodes": 27480,
+    "nodes_per_s": 41844
+   },
+   "current": {
+    "mean_ms": 145.9,
+    "median_ms": 130.2,
+    "total_s": 56.3,
+    "mean_nodes": 27480,
+    "nodes_per_s": 188330
+   },
+   "identical_search": true,
+   "speedup": 4.5
+  }
+ },
+ "time_limit_0.5s": {
+  "a4": {
+   "mean_depth": 3.33,
+   "depths": {
+    "1": 3,
+    "2": 4,
+    "3": 241,
+    "4": 138
+   },
+   "mean_nodes": 24566
+  },
+  "current": {
+   "mean_depth": 4.13,
+   "depths": {
+    "1": 3,
+    "2": 1,
+    "3": 1,
+    "4": 318,
+    "5": 63
+   },
+   "mean_nodes": 150648
+  }
+ }
+}

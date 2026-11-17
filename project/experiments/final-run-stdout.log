@@ -1,0 +1,20 @@
+skip final-vs-a4 (done)
+skip e1-final-vs-a3-andor (done)
+skip e1-hand-vs-a3-andor (done)
+skip e2-ablate-learning (done)
+skip e2-ablate-quiescence (done)
+skip e2-ablate-ordering (done)
+skip e2-ablate-tt (done)
+skip e2-ablate-killers (done)
+skip mcts-vs-final (done)
+skip minimax-vs-final (done)
+skip engine-speed (done)
+skip search-cost (done)
+2026-11-17 12:01:22 start baselines-depth (CPU 2)
+2026-11-17 12:04:47 start e2-ablate-tt-200: ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=final vs ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,tt=0,name=no-tt (200 games)
+   112 12 76 score 0.59 [0.524, 0.656] reasons {'six off': 162, 'repetition': 2, 'ply cap': 36, 'no legal move': 0} 728.7s
+2026-11-17 12:16:56 start e2-ablate-killers-200: ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=final vs ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,killers=0,name=no-killers (200 games)
+   93 13 94 score 0.497 [0.43, 0.565] reasons {'six off': 167, 'repetition': 3, 'ply cap': 30, 'no legal move': 0} 714.9s
+2026-11-17 12:28:52 start e2-ablate-ordering-200: ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=final vs ab:time=0.5,weights=experiments/tdleaf-d2-marbles/weights-final.json,ordering=0,name=no-ordering (200 games)
+   122 9 69 score 0.632 [0.567, 0.698] reasons {'six off': 171, 'repetition': 2, 'ply cap': 27, 'no legal move': 0} 762.2s
+2026-11-17 12:41:34 all done

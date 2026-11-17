@@ -1,0 +1,34 @@
+{
+ "a": "ab:depth=2,weights=experiments/e4-learning-curve-400/checkpoint-0400.json,name=it0400",
+ "b": "ab:depth=2,name=hand",
+ "games": 50,
+ "a_wins": 44,
+ "draws": 4,
+ "a_losses": 2,
+ "a_score": 0.92,
+ "a_score_ci95": [
+  0.855,
+  0.985
+ ],
+ "elo_diff": 424,
+ "a_mean_marble_margin": 3.46,
+ "reasons": {
+  "six off": 19,
+  "repetition": 2,
+  "ply cap": 29,
+  "no legal move": 0
+ },
+ "mean_plies": 169.7,
+ "seconds": 17.9,
+ "conditions": {
+  "openings": 25,
+  "opening_plies": 2,
+  "seed": 7,
+  "starts": [
+   "standard",
+   "belgian-daisy"
+  ],
+  "max_plies": 200,
+  "repetition": "third occurrence = draw"
+ }
+}

@@ -1,0 +1,32 @@
+# Local-only material: course slides, assignment briefs, rehearsal scripts, generated PDF/PPTX.
+# Kept on disk, never published.
+private/
+
+# Generated decks and documents: final ones are attached to GitHub Releases instead
+*.pdf
+*.pptx
+*-frames/
+
+# Per-iteration training checkpoints: log.jsonl already records the weights of every iteration
+experiments/**/weights-[0-9]*.json
+# Self-play games of the repeat runs: only the main runs' games are kept (the convergence analysis reads seed 1)
+experiments/tdleaf-d2-marbles-400-seed*/games.jsonl
+experiments/tdleaf-d2-result-400/games.jsonl
+# Games played in the demo app (copy a keeper elsewhere to publish it)
+experiments/demo-games/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# OS / editors / local tool config
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

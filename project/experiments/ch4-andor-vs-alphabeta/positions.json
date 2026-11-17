@@ -1,0 +1,6406 @@
+[
+ {
+  "game": 3,
+  "ply": 41,
+  "forcing": [
+   "C4 D5 SW"
+  ],
+  "first_moves": 37,
+  "agent_move": "C4 D5 SW",
+  "agent_forces": true,
+  "agent_value": -17.3125
+ },
+ {
+  "game": 3,
+  "ply": 43,
+  "forcing": [
+   "C4 D5 SW"
+  ],
+  "first_moves": 38,
+  "agent_move": "C4 D5 SW",
+  "agent_forces": true,
+  "agent_value": -20.1234
+ },
+ {
+  "game": 4,
+  "ply": 19,
+  "forcing": [
+   "D6 SE",
+   "D6 E6 SE",
+   "D6 E6 F6 SE"
+  ],
+  "first_moves": 56,
+  "agent_move": "F4 F5 F6 E",
+  "agent_forces": false,
+  "agent_value": -2.7937
+ },
+ {
+  "game": 4,
+  "ply": 21,
+  "forcing": [
+   "D6 SE",
+   "D6 E6 SE",
+   "D6 E6 F6 SE",
+   "E6 F6 G6 NW",
+   "F6 G6 NW"
+  ],
+  "first_moves": 59,
+  "agent_move": "E6 F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": 3.4579
+ },
+ {
+  "game": 4,
+  "ply": 23,
+  "forcing": [
+   "D5 E6 F7 SW",
+   "D6 SE",
+   "D6 E6 SE",
+   "D6 E6 F6 SE",
+   "E6 F6 G6 NW",
+   "F6 G6 NW"
+  ],
+  "first_moves": 57,
+  "agent_move": "D5 E6 F7 SW",
+  "agent_forces": true,
+  "agent_value": 9.1639
+ },
+ {
+  "game": 4,
+  "ply": 61,
+  "forcing": [
+   "F5 G6 NE"
+  ],
+  "first_moves": 47,
+  "agent_move": "F5 F6 F7 W",
+  "agent_forces": false,
+  "agent_value": -14.1254
+ },
+ {
+  "game": 4,
+  "ply": 75,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE"
+  ],
+  "first_moves": 49,
+  "agent_move": "D5 E6 F7 NE",
+  "agent_forces": true,
+  "agent_value": 17.6253
+ },
+ {
+  "game": 9,
+  "ply": 16,
+  "forcing": [
+   "C3 D4 SW"
+  ],
+  "first_moves": 56,
+  "agent_move": "H8 SW",
+  "agent_forces": false,
+  "agent_value": 12.2484
+ },
+ {
+  "game": 9,
+  "ply": 55,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 44,
+  "agent_move": "G3 SW",
+  "agent_forces": false,
+  "agent_value": -15.1319
+ },
+ {
+  "game": 9,
+  "ply": 85,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 41,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": -11.2372
+ },
+ {
+  "game": 9,
+  "ply": 87,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 39,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": -9.084
+ },
+ {
+  "game": 9,
+  "ply": 93,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 39,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": -11.7829
+ },
+ {
+  "game": 9,
+  "ply": 95,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 38,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": -9.0095
+ },
+ {
+  "game": 9,
+  "ply": 99,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 39,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": -13.4797
+ },
+ {
+  "game": 9,
+  "ply": 103,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 40,
+  "agent_move": "G6 G7 W",
+  "agent_forces": false,
+  "agent_value": -16.8569
+ },
+ {
+  "game": 9,
+  "ply": 105,
+  "forcing": [
+   "E3 F4 G5 NE",
+   "F4 G5 NE",
+   "G5 G6 W"
+  ],
+  "first_moves": 42,
+  "agent_move": "G8 W",
+  "agent_forces": false,
+  "agent_value": -13.818
+ },
+ {
+  "game": 9,
+  "ply": 107,
+  "forcing": [
+   "E3 F4 G5 NE",
+   "F4 G5 NE",
+   "F6 G7 NE",
+   "G5 G6 W",
+   "G5 G6 G7 W"
+  ],
+  "first_moves": 41,
+  "agent_move": "E3 F4 G5 NE",
+  "agent_forces": true,
+  "agent_value": -8.8813
+ },
+ {
+  "game": 9,
+  "ply": 109,
+  "forcing": [
+   "E3 F4 G5 NE",
+   "F4 G5 NE",
+   "G5 G6 W"
+  ],
+  "first_moves": 36,
+  "agent_move": "E3 F4 G5 NE",
+  "agent_forces": true,
+  "agent_value": -11.6547
+ },
+ {
+  "game": 9,
+  "ply": 113,
+  "forcing": [
+   "F4 G5 NE",
+   "G5 G6 W"
+  ],
+  "first_moves": 37,
+  "agent_move": "F4 F5 F6 E",
+  "agent_forces": false,
+  "agent_value": -11.2348
+ },
+ {
+  "game": 9,
+  "ply": 141,
+  "forcing": [
+   "F6 G6 NE"
+  ],
+  "first_moves": 42,
+  "agent_move": "H8 SW",
+  "agent_forces": false,
+  "agent_value": 6.3152
+ },
+ {
+  "game": 9,
+  "ply": 145,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "F5 G6 NE",
+   "G6 NE"
+  ],
+  "first_moves": 38,
+  "agent_move": "H8 W",
+  "agent_forces": false,
+  "agent_value": 3.7328
+ },
+ {
+  "game": 9,
+  "ply": 157,
+  "forcing": [
+   "E4 F5 NE",
+   "F5 NE",
+   "F5 G5 E",
+   "G5 E"
+  ],
+  "first_moves": 44,
+  "agent_move": "I9 SE",
+  "agent_forces": false,
+  "agent_value": 19.5402
+ },
+ {
+  "game": 29,
+  "ply": 83,
+  "forcing": [
+   "D6 E6 SE"
+  ],
+  "first_moves": 41,
+  "agent_move": "D6 E6 SE",
+  "agent_forces": true,
+  "agent_value": -12.515
+ },
+ {
+  "game": 29,
+  "ply": 114,
+  "forcing": [
+   "C3 D3 NW"
+  ],
+  "first_moves": 49,
+  "agent_move": "C3 D3 NW",
+  "agent_forces": true,
+  "agent_value": 65.4326
+ },
+ {
+  "game": 29,
+  "ply": 118,
+  "forcing": [
+   "D3 W"
+  ],
+  "first_moves": 45,
+  "agent_move": "D3 W",
+  "agent_forces": true,
+  "agent_value": 65.3581
+ },
+ {
+  "game": 29,
+  "ply": 122,
+  "forcing": [
+   "D3 W",
+   "D3 D4 W",
+   "D3 D4 D5 W",
+   "F5 W"
+  ],
+  "first_moves": 48,
+  "agent_move": "F5 W",
+  "agent_forces": true,
+  "agent_value": 58.1416
+ },
+ {
+  "game": 29,
+  "ply": 152,
+  "forcing": [
+   "F7 G7 NW",
+   "G5 G6 G7 E",
+   "G6 G7 E"
+  ],
+  "first_moves": 47,
+  "agent_move": "G5 G6 G7 E",
+  "agent_forces": true,
+  "agent_value": 64.1077
+ },
+ {
+  "game": 31,
+  "ply": 52,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 63,
+  "agent_move": "C4 D5 E6 SW",
+  "agent_forces": true,
+  "agent_value": 50.776
+ },
+ {
+  "game": 31,
+  "ply": 54,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 62,
+  "agent_move": "C4 D5 E6 SW",
+  "agent_forces": true,
+  "agent_value": 48.0771
+ },
+ {
+  "game": 31,
+  "ply": 60,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW",
+   "D5 E6 F7 NE",
+   "E6 F7 NE",
+   "F7 G7 NW"
+  ],
+  "first_moves": 55,
+  "agent_move": "C4 D5 E6 SW",
+  "agent_forces": true,
+  "agent_value": 57.8187
+ },
+ {
+  "game": 32,
+  "ply": 17,
+  "forcing": [
+   "C5 D6 SW"
+  ],
+  "first_moves": 50,
+  "agent_move": "C5 D6 SW",
+  "agent_forces": true,
+  "agent_value": 11.9576
+ },
+ {
+  "game": 32,
+  "ply": 19,
+  "forcing": [
+   "C5 D6 SW"
+  ],
+  "first_moves": 51,
+  "agent_move": "C5 D6 SW",
+  "agent_forces": true,
+  "agent_value": 15.0383
+ },
+ {
+  "game": 32,
+  "ply": 21,
+  "forcing": [
+   "C5 D6 SW",
+   "F5 G6 NE"
+  ],
+  "first_moves": 51,
+  "agent_move": "C5 D6 SW",
+  "agent_forces": true,
+  "agent_value": 19.5131
+ },
+ {
+  "game": 32,
+  "ply": 28,
+  "forcing": [
+   "B4 B5 W"
+  ],
+  "first_moves": 45,
+  "agent_move": "B5 NW",
+  "agent_forces": false,
+  "agent_value": -50.4522
+ },
+ {
+  "game": 38,
+  "ply": 69,
+  "forcing": [
+   "F6 G6 NW"
+  ],
+  "first_moves": 32,
+  "agent_move": "F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": -90.0304
+ },
+ {
+  "game": 39,
+  "ply": 60,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 35,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": -61.1479
+ },
+ {
+  "game": 39,
+  "ply": 98,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE"
+  ],
+  "first_moves": 42,
+  "agent_move": "E6 F7 NE",
+  "agent_forces": true,
+  "agent_value": -56.0576
+ },
+ {
+  "game": 39,
+  "ply": 103,
+  "forcing": [
+   "E4 F4 NW"
+  ],
+  "first_moves": 64,
+  "agent_move": "F9 NW",
+  "agent_forces": false,
+  "agent_value": 67.4886
+ },
+ {
+  "game": 39,
+  "ply": 105,
+  "forcing": [
+   "E4 F4 NW"
+  ],
+  "first_moves": 58,
+  "agent_move": "F9 NW",
+  "agent_forces": false,
+  "agent_value": 67.9451
+ },
+ {
+  "game": 39,
+  "ply": 107,
+  "forcing": [
+   "E4 F4 NW"
+  ],
+  "first_moves": 52,
+  "agent_move": "F9 NW",
+  "agent_forces": false,
+  "agent_value": 68.6036
+ },
+ {
+  "game": 39,
+  "ply": 110,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE",
+   "E8 F8 NW"
+  ],
+  "first_moves": 30,
+  "agent_move": "E8 F8 NW",
+  "agent_forces": true,
+  "agent_value": -53.1824
+ },
+ {
+  "game": 39,
+  "ply": 117,
+  "forcing": [
+   "E4 F4 NW"
+  ],
+  "first_moves": 50,
+  "agent_move": "F4 F5 F6 E",
+  "agent_forces": false,
+  "agent_value": 55.1028
+ },
+ {
+  "game": 39,
+  "ply": 121,
+  "forcing": [
+   "E4 F4 NW"
+  ],
+  "first_moves": 40,
+  "agent_move": "G9 SE",
+  "agent_forces": false,
+  "agent_value": 55.6293
+ },
+ {
+  "game": 39,
+  "ply": 135,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "E5 F5 G5 NW",
+   "F5 G5 NW",
+   "F6 G7 NE"
+  ],
+  "first_moves": 55,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 60.6822
+ },
+ {
+  "game": 39,
+  "ply": 137,
+  "forcing": [
+   "E5 F5 G5 NW",
+   "F5 G5 NW"
+  ],
+  "first_moves": 58,
+  "agent_move": "E5 F5 G5 SE",
+  "agent_forces": false,
+  "agent_value": 62.438
+ },
+ {
+  "game": 39,
+  "ply": 173,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 57,
+  "agent_move": "C4 D5 E6 SW",
+  "agent_forces": true,
+  "agent_value": "win in 3"
+ },
+ {
+  "game": 40,
+  "ply": 5,
+  "forcing": [
+   "H4 H5 H6 E"
+  ],
+  "first_moves": 47,
+  "agent_move": "G6 H6 I6 SE",
+  "agent_forces": false,
+  "agent_value": -5.556
+ },
+ {
+  "game": 40,
+  "ply": 7,
+  "forcing": [
+   "H4 H5 H6 E"
+  ],
+  "first_moves": 47,
+  "agent_move": "B6 C6 NW",
+  "agent_forces": false,
+  "agent_value": -6.166
+ },
+ {
+  "game": 40,
+  "ply": 10,
+  "forcing": [
+   "C2 C3 E"
+  ],
+  "first_moves": 77,
+  "agent_move": "A1 B2 C3 NE",
+  "agent_forces": false,
+  "agent_value": 12.7996
+ },
+ {
+  "game": 40,
+  "ply": 66,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE",
+   "F8 G8 SE"
+  ],
+  "first_moves": 64,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 108.4196
+ },
+ {
+  "game": 40,
+  "ply": 80,
+  "forcing": [
+   "H6 NE"
+  ],
+  "first_moves": 52,
+  "agent_move": "H6 NE",
+  "agent_forces": true,
+  "agent_value": 125.6263
+ },
+ {
+  "game": 40,
+  "ply": 82,
+  "forcing": [
+   "H6 NE"
+  ],
+  "first_moves": 51,
+  "agent_move": "H6 NE",
+  "agent_forces": true,
+  "agent_value": 118.2037
+ },
+ {
+  "game": 40,
+  "ply": 102,
+  "forcing": [
+   "D3 D4 W",
+   "D3 D4 D5 W"
+  ],
+  "first_moves": 64,
+  "agent_move": "D3 D4 W",
+  "agent_forces": true,
+  "agent_value": "win in 3"
+ },
+ {
+  "game": 41,
+  "ply": 75,
+  "forcing": [
+   "G5 G6 W",
+   "G5 G6 G7 W"
+  ],
+  "first_moves": 51,
+  "agent_move": "G5 G6 W",
+  "agent_forces": true,
+  "agent_value": -41.7421
+ },
+ {
+  "game": 41,
+  "ply": 85,
+  "forcing": [
+   "E4 F4 NW"
+  ],
+  "first_moves": 51,
+  "agent_move": "E4 F4 NW",
+  "agent_forces": true,
+  "agent_value": -53.2534
+ },
+ {
+  "game": 41,
+  "ply": 88,
+  "forcing": [
+   "E6 F6 G6 NW",
+   "F6 G6 NW"
+  ],
+  "first_moves": 50,
+  "agent_move": "F2 NE",
+  "agent_forces": false,
+  "agent_value": 64.8351
+ },
+ {
+  "game": 41,
+  "ply": 90,
+  "forcing": [
+   "E6 F6 G6 NW",
+   "F6 G6 NW"
+  ],
+  "first_moves": 52,
+  "agent_move": "G5 G6 E",
+  "agent_forces": false,
+  "agent_value": 66.1963
+ },
+ {
+  "game": 41,
+  "ply": 106,
+  "forcing": [
+   "E7 F7 G7 NW",
+   "F7 G7 NW"
+  ],
+  "first_moves": 58,
+  "agent_move": "H4 SW",
+  "agent_forces": false,
+  "agent_value": 66.8583
+ },
+ {
+  "game": 41,
+  "ply": 117,
+  "forcing": [
+   "F5 G5 NW"
+  ],
+  "first_moves": 43,
+  "agent_move": "E3 E4 W",
+  "agent_forces": false,
+  "agent_value": -69.4363
+ },
+ {
+  "game": 41,
+  "ply": 123,
+  "forcing": [
+   "F5 G5 NW"
+  ],
+  "first_moves": 39,
+  "agent_move": "E4 F5 G6 NE",
+  "agent_forces": false,
+  "agent_value": -67.4785
+ },
+ {
+  "game": 41,
+  "ply": 132,
+  "forcing": [
+   "E6 F7 NW",
+   "E7 F7 NW",
+   "F7 NW",
+   "H7 SE"
+  ],
+  "first_moves": 62,
+  "agent_move": "I6 SW",
+  "agent_forces": false,
+  "agent_value": 67.3983
+ },
+ {
+  "game": 41,
+  "ply": 141,
+  "forcing": [
+   "F5 G6 NE",
+   "F7 G7 NW"
+  ],
+  "first_moves": 32,
+  "agent_move": "F7 G7 NW",
+  "agent_forces": true,
+  "agent_value": -76.2062
+ },
+ {
+  "game": 41,
+  "ply": 145,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "F5 G6 NE"
+  ],
+  "first_moves": 39,
+  "agent_move": "E4 F4 SE",
+  "agent_forces": false,
+  "agent_value": -81.132
+ },
+ {
+  "game": 41,
+  "ply": 148,
+  "forcing": [
+   "C6 D7 NE",
+   "F8 G8 SE",
+   "F8 G8 H8 SE"
+  ],
+  "first_moves": 64,
+  "agent_move": "F8 G8 SE",
+  "agent_forces": true,
+  "agent_value": "win in 3"
+ },
+ {
+  "game": 51,
+  "ply": 42,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 68,
+  "agent_move": "C6 D6 E6 NW",
+  "agent_forces": false,
+  "agent_value": 34.3494
+ },
+ {
+  "game": 51,
+  "ply": 44,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 65,
+  "agent_move": "C4 D5 E6 SW",
+  "agent_forces": true,
+  "agent_value": 37.7002
+ },
+ {
+  "game": 51,
+  "ply": 63,
+  "forcing": [
+   "E6 F6 G6 NW",
+   "F4 G5 NE",
+   "F6 G6 NW"
+  ],
+  "first_moves": 49,
+  "agent_move": "F4 G5 NE",
+  "agent_forces": true,
+  "agent_value": 0.191
+ },
+ {
+  "game": 51,
+  "ply": 72,
+  "forcing": [
+   "C4 D5 SW"
+  ],
+  "first_moves": 49,
+  "agent_move": "E4 F5 G6 NE",
+  "agent_forces": false,
+  "agent_value": -3.5572
+ },
+ {
+  "game": 51,
+  "ply": 74,
+  "forcing": [
+   "C3 D3 SE",
+   "C3 D3 E3 SE",
+   "C4 D5 SW",
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 53,
+  "agent_move": "C4 D5 SW",
+  "agent_forces": true,
+  "agent_value": 1.2994
+ },
+ {
+  "game": 51,
+  "ply": 77,
+  "forcing": [
+   "E6 F6 G6 NW",
+   "F6 G6 NW"
+  ],
+  "first_moves": 50,
+  "agent_move": "E6 F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": 5.445
+ },
+ {
+  "game": 51,
+  "ply": 79,
+  "forcing": [
+   "F6 G6 NW"
+  ],
+  "first_moves": 50,
+  "agent_move": "D4 E5 F6 SW",
+  "agent_forces": false,
+  "agent_value": 2.3169
+ },
+ {
+  "game": 51,
+  "ply": 83,
+  "forcing": [
+   "F6 G6 NW"
+  ],
+  "first_moves": 51,
+  "agent_move": "F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": 4.0555
+ },
+ {
+  "game": 51,
+  "ply": 85,
+  "forcing": [
+   "F6 G6 NW"
+  ],
+  "first_moves": 50,
+  "agent_move": "D4 E5 F6 SW",
+  "agent_forces": false,
+  "agent_value": 4.0137
+ },
+ {
+  "game": 51,
+  "ply": 89,
+  "forcing": [
+   "F6 G6 NW"
+  ],
+  "first_moves": 51,
+  "agent_move": "F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": 5.7523
+ },
+ {
+  "game": 51,
+  "ply": 91,
+  "forcing": [
+   "E6 F6 G6 NW",
+   "F6 G6 NW"
+  ],
+  "first_moves": 47,
+  "agent_move": "E6 F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": 11.2572
+ },
+ {
+  "game": 51,
+  "ply": 94,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 49,
+  "agent_move": "A1 E",
+  "agent_forces": false,
+  "agent_value": -13.336
+ },
+ {
+  "game": 51,
+  "ply": 95,
+  "forcing": [
+   "C3 D4 SW",
+   "C3 D4 E5 SW"
+  ],
+  "first_moves": 47,
+  "agent_move": "F7 W",
+  "agent_forces": false,
+  "agent_value": 18.039
+ },
+ {
+  "game": 51,
+  "ply": 97,
+  "forcing": [
+   "F6 G6 NW"
+  ],
+  "first_moves": 42,
+  "agent_move": "E4 F5 G6 SW",
+  "agent_forces": false,
+  "agent_value": 22.9701
+ },
+ {
+  "game": 51,
+  "ply": 111,
+  "forcing": [
+   "E6 F6 G6 NW",
+   "F6 G6 NW"
+  ],
+  "first_moves": 45,
+  "agent_move": "F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": 58.7199
+ },
+ {
+  "game": 51,
+  "ply": 113,
+  "forcing": [
+   "E6 F6 G6 NW",
+   "F6 G6 NW"
+  ],
+  "first_moves": 51,
+  "agent_move": "E6 F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": 62.23
+ },
+ {
+  "game": 51,
+  "ply": 115,
+  "forcing": [
+   "E6 F6 G6 NW",
+   "F6 G6 NW"
+  ],
+  "first_moves": 45,
+  "agent_move": "E6 F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": 61.6843
+ },
+ {
+  "game": 51,
+  "ply": 121,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 39,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 60.5333
+ },
+ {
+  "game": 51,
+  "ply": 123,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 40,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 59.2656
+ },
+ {
+  "game": 51,
+  "ply": 127,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 41,
+  "agent_move": "E4 F5 G6 NE",
+  "agent_forces": false,
+  "agent_value": 62.9194
+ },
+ {
+  "game": 51,
+  "ply": 129,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 40,
+  "agent_move": "F7 G7 NW",
+  "agent_forces": false,
+  "agent_value": 58.0085
+ },
+ {
+  "game": 51,
+  "ply": 131,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 41,
+  "agent_move": "E4 F5 G6 NE",
+  "agent_forces": false,
+  "agent_value": 64.9724
+ },
+ {
+  "game": 51,
+  "ply": 135,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 50,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 63.3855
+ },
+ {
+  "game": 51,
+  "ply": 151,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 41,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 63.5448
+ },
+ {
+  "game": 51,
+  "ply": 153,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 39,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 67.3203
+ },
+ {
+  "game": 51,
+  "ply": 155,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 40,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 64.6214
+ },
+ {
+  "game": 51,
+  "ply": 157,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 39,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 67.3203
+ },
+ {
+  "game": 59,
+  "ply": 21,
+  "forcing": [
+   "C3 D4 SW"
+  ],
+  "first_moves": 61,
+  "agent_move": "A2 E",
+  "agent_forces": false,
+  "agent_value": -3.9401
+ },
+ {
+  "game": 59,
+  "ply": 135,
+  "forcing": [
+   "E7 F7 NW"
+  ],
+  "first_moves": 39,
+  "agent_move": "E7 F7 NW",
+  "agent_forces": true,
+  "agent_value": 21.6064
+ },
+ {
+  "game": 59,
+  "ply": 145,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 42,
+  "agent_move": "F3 NE",
+  "agent_forces": false,
+  "agent_value": 24.6305
+ },
+ {
+  "game": 59,
+  "ply": 147,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 45,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 25.5626
+ },
+ {
+  "game": 59,
+  "ply": 149,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 43,
+  "agent_move": "B5 NE",
+  "agent_forces": false,
+  "agent_value": 23.5686
+ },
+ {
+  "game": 59,
+  "ply": 151,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 48,
+  "agent_move": "B4 B5 NE",
+  "agent_forces": false,
+  "agent_value": 26.6776
+ },
+ {
+  "game": 59,
+  "ply": 153,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 50,
+  "agent_move": "E7 F7 G7 NW",
+  "agent_forces": false,
+  "agent_value": 31.1942
+ },
+ {
+  "game": 59,
+  "ply": 155,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 47,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 20.2969
+ },
+ {
+  "game": 59,
+  "ply": 159,
+  "forcing": [
+   "G6 G7 E"
+  ],
+  "first_moves": 42,
+  "agent_move": "G6 G7 E",
+  "agent_forces": true,
+  "agent_value": 18.7235
+ },
+ {
+  "game": 59,
+  "ply": 171,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 42,
+  "agent_move": "E1 NE",
+  "agent_forces": false,
+  "agent_value": 28.6195
+ },
+ {
+  "game": 75,
+  "ply": 36,
+  "forcing": [
+   "F4 G5 NE"
+  ],
+  "first_moves": 58,
+  "agent_move": "G5 G6 G7 W",
+  "agent_forces": false,
+  "agent_value": 44.9446
+ },
+ {
+  "game": 75,
+  "ply": 38,
+  "forcing": [
+   "F4 G5 NE"
+  ],
+  "first_moves": 56,
+  "agent_move": "B3 C3 NW",
+  "agent_forces": false,
+  "agent_value": 41.2856
+ },
+ {
+  "game": 75,
+  "ply": 40,
+  "forcing": [
+   "F4 G5 NE"
+  ],
+  "first_moves": 57,
+  "agent_move": "D3 D4 D5 E",
+  "agent_forces": false,
+  "agent_value": 45.4903
+ },
+ {
+  "game": 75,
+  "ply": 66,
+  "forcing": [
+   "C3 D3 E3 NW",
+   "D3 D4 W",
+   "D3 D4 D5 W",
+   "D3 E3 NW",
+   "E2 NE",
+   "E3 F4 SW",
+   "F4 F5 W",
+   "F4 F5 F6 W",
+   "G4 SW"
+  ],
+  "first_moves": 53,
+  "agent_move": "D3 D4 W",
+  "agent_forces": true,
+  "agent_value": 70.7874
+ },
+ {
+  "game": 75,
+  "ply": 90,
+  "forcing": [
+   "C5 D5 SE"
+  ],
+  "first_moves": 49,
+  "agent_move": "C5 D5 SE",
+  "agent_forces": true,
+  "agent_value": 89.2193
+ },
+ {
+  "game": 75,
+  "ply": 92,
+  "forcing": [
+   "C5 D5 SE"
+  ],
+  "first_moves": 55,
+  "agent_move": "C5 D5 SE",
+  "agent_forces": true,
+  "agent_value": 92.2582
+ },
+ {
+  "game": 75,
+  "ply": 94,
+  "forcing": [
+   "C5 D5 SE"
+  ],
+  "first_moves": 53,
+  "agent_move": "C5 D5 SE",
+  "agent_forces": true,
+  "agent_value": 91.3725
+ },
+ {
+  "game": 78,
+  "ply": 51,
+  "forcing": [
+   "E7 F7 SE",
+   "E7 F7 G7 SE"
+  ],
+  "first_moves": 68,
+  "agent_move": "F4 W",
+  "agent_forces": false,
+  "agent_value": 25.9028
+ },
+ {
+  "game": 78,
+  "ply": 59,
+  "forcing": [
+   "E7 F7 SE",
+   "E7 F7 G7 SE"
+  ],
+  "first_moves": 69,
+  "agent_move": "C1 D2 NE",
+  "agent_forces": false,
+  "agent_value": 42.6004
+ },
+ {
+  "game": 78,
+  "ply": 61,
+  "forcing": [
+   "D6 E7 NE"
+  ],
+  "first_moves": 65,
+  "agent_move": "D6 E7 NE",
+  "agent_forces": true,
+  "agent_value": 52.1436
+ },
+ {
+  "game": 78,
+  "ply": 63,
+  "forcing": [
+   "E7 F7 SE",
+   "E7 F7 G7 SE"
+  ],
+  "first_moves": 70,
+  "agent_move": "E3 SW",
+  "agent_forces": false,
+  "agent_value": 45.9939
+ },
+ {
+  "game": 78,
+  "ply": 114,
+  "forcing": [
+   "B3 B4 E"
+  ],
+  "first_moves": 51,
+  "agent_move": "C1 NE",
+  "agent_forces": false,
+  "agent_value": -34.9105
+ },
+ {
+  "game": 78,
+  "ply": 131,
+  "forcing": [
+   "E4 F4 NW"
+  ],
+  "first_moves": 49,
+  "agent_move": "F4 F5 W",
+  "agent_forces": false,
+  "agent_value": 35.4097
+ },
+ {
+  "game": 78,
+  "ply": 147,
+  "forcing": [
+   "E3 F4 G5 NE",
+   "F4 G5 NE",
+   "H7 W"
+  ],
+  "first_moves": 60,
+  "agent_move": "E3 F4 G5 NE",
+  "agent_forces": true,
+  "agent_value": 58.3696
+ },
+ {
+  "game": 78,
+  "ply": 150,
+  "forcing": [
+   "C4 C5 E"
+  ],
+  "first_moves": 47,
+  "agent_move": "C4 C5 E",
+  "agent_forces": true,
+  "agent_value": -46.3904
+ },
+ {
+  "game": 78,
+  "ply": 190,
+  "forcing": [
+   "E3 F4 SW"
+  ],
+  "first_moves": 49,
+  "agent_move": "E3 F4 SW",
+  "agent_forces": true,
+  "agent_value": -38.8713
+ },
+ {
+  "game": 78,
+  "ply": 191,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE"
+  ],
+  "first_moves": 60,
+  "agent_move": "D5 E5 F5 NW",
+  "agent_forces": false,
+  "agent_value": 40.6055
+ },
+ {
+  "game": 78,
+  "ply": 193,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE"
+  ],
+  "first_moves": 54,
+  "agent_move": "F4 F5 NE",
+  "agent_forces": false,
+  "agent_value": 37.5149
+ },
+ {
+  "game": 82,
+  "ply": 85,
+  "forcing": [
+   "F6 NE"
+  ],
+  "first_moves": 50,
+  "agent_move": "H9 NW",
+  "agent_forces": false,
+  "agent_value": -46.5196
+ },
+ {
+  "game": 82,
+  "ply": 87,
+  "forcing": [
+   "F6 NE"
+  ],
+  "first_moves": 68,
+  "agent_move": "H9 W",
+  "agent_forces": false,
+  "agent_value": -55.3691
+ },
+ {
+  "game": 82,
+  "ply": 89,
+  "forcing": [
+   "F6 NE"
+  ],
+  "first_moves": 70,
+  "agent_move": "H9 W",
+  "agent_forces": false,
+  "agent_value": -54.1288
+ },
+ {
+  "game": 82,
+  "ply": 91,
+  "forcing": [
+   "F6 NE",
+   "H8 SW"
+  ],
+  "first_moves": 69,
+  "agent_move": "H8 SW",
+  "agent_forces": true,
+  "agent_value": -44.059
+ },
+ {
+  "game": 82,
+  "ply": 107,
+  "forcing": [
+   "F6 NE"
+  ],
+  "first_moves": 42,
+  "agent_move": "E1 SE",
+  "agent_forces": false,
+  "agent_value": -87.0617
+ },
+ {
+  "game": 87,
+  "ply": 87,
+  "forcing": [
+   "E4 F4 NW"
+  ],
+  "first_moves": 32,
+  "agent_move": "B6 NE",
+  "agent_forces": false,
+  "agent_value": -33.1392
+ },
+ {
+  "game": 87,
+  "ply": 99,
+  "forcing": [
+   "E3 E4 W",
+   "E3 E4 E5 W"
+  ],
+  "first_moves": 38,
+  "agent_move": "E3 E4 E5 W",
+  "agent_forces": true,
+  "agent_value": -19.8623
+ },
+ {
+  "game": 91,
+  "ply": 16,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 66,
+  "agent_move": "B1 C2 NE",
+  "agent_forces": false,
+  "agent_value": -10.6472
+ },
+ {
+  "game": 91,
+  "ply": 18,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 68,
+  "agent_move": "G9 SW",
+  "agent_forces": false,
+  "agent_value": -9.4069
+ },
+ {
+  "game": 91,
+  "ply": 24,
+  "forcing": [
+   "C3 C4 C5 E",
+   "C4 C5 E"
+  ],
+  "first_moves": 54,
+  "agent_move": "G9 SW",
+  "agent_forces": false,
+  "agent_value": -5.2542
+ },
+ {
+  "game": 91,
+  "ply": 26,
+  "forcing": [
+   "C3 C4 C5 E",
+   "C4 C5 E"
+  ],
+  "first_moves": 53,
+  "agent_move": "C3 C4 C5 E",
+  "agent_forces": true,
+  "agent_value": -2.1352
+ },
+ {
+  "game": 91,
+  "ply": 28,
+  "forcing": [
+   "C3 C4 C5 E",
+   "C4 C5 E"
+  ],
+  "first_moves": 51,
+  "agent_move": "C3 C4 C5 E",
+  "agent_forces": true,
+  "agent_value": -2.1524
+ },
+ {
+  "game": 91,
+  "ply": 40,
+  "forcing": [
+   "C4 D4 SE",
+   "C5 D5 SE",
+   "C5 D5 E5 SE"
+  ],
+  "first_moves": 44,
+  "agent_move": "I9 W",
+  "agent_forces": false,
+  "agent_value": -0.0246
+ },
+ {
+  "game": 91,
+  "ply": 42,
+  "forcing": [
+   "C5 D5 SE",
+   "C5 D5 E5 SE"
+  ],
+  "first_moves": 45,
+  "agent_move": "D5 E5 F5 NW",
+  "agent_forces": false,
+  "agent_value": 3.2616
+ },
+ {
+  "game": 91,
+  "ply": 48,
+  "forcing": [
+   "C5 D5 SE",
+   "C5 D5 E5 SE"
+  ],
+  "first_moves": 47,
+  "agent_move": "G5 E",
+  "agent_forces": false,
+  "agent_value": 4.5301
+ },
+ {
+  "game": 91,
+  "ply": 72,
+  "forcing": [
+   "D4 E4 F4 NW",
+   "E4 F4 NW",
+   "E6 F6 G6 NW",
+   "F4 G5 NE",
+   "F6 G6 NW"
+  ],
+  "first_moves": 41,
+  "agent_move": "G5 G6 E",
+  "agent_forces": false,
+  "agent_value": 3.9382
+ },
+ {
+  "game": 91,
+  "ply": 81,
+  "forcing": [
+   "H6 H7 W",
+   "H6 H7 H8 W"
+  ],
+  "first_moves": 75,
+  "agent_move": "H6 H7 W",
+  "agent_forces": true,
+  "agent_value": 11.3601
+ },
+ {
+  "game": 101,
+  "ply": 39,
+  "forcing": [
+   "D4 E4 F4 NW",
+   "E4 F4 NW"
+  ],
+  "first_moves": 48,
+  "agent_move": "E4 F4 NW",
+  "agent_forces": true,
+  "agent_value": 10.8382
+ },
+ {
+  "game": 101,
+  "ply": 41,
+  "forcing": [
+   "C4 C5 E"
+  ],
+  "first_moves": 49,
+  "agent_move": "C4 C5 E",
+  "agent_forces": true,
+  "agent_value": 0.382
+ },
+ {
+  "game": 101,
+  "ply": 42,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 51,
+  "agent_move": "D3 E4 SW",
+  "agent_forces": true,
+  "agent_value": -0.3446
+ },
+ {
+  "game": 101,
+  "ply": 112,
+  "forcing": [
+   "B3 B4 E",
+   "D6 E6 SE",
+   "D6 E6 F6 SE"
+  ],
+  "first_moves": 51,
+  "agent_move": "B3 B4 E",
+  "agent_forces": true,
+  "agent_value": 41.9384
+ },
+ {
+  "game": 101,
+  "ply": 116,
+  "forcing": [
+   "C5 D6 SW",
+   "C5 D5 SE",
+   "C5 D5 E5 SE"
+  ],
+  "first_moves": 48,
+  "agent_move": "C5 D6 SW",
+  "agent_forces": true,
+  "agent_value": 53.9378
+ },
+ {
+  "game": 101,
+  "ply": 118,
+  "forcing": [
+   "C5 D6 SW"
+  ],
+  "first_moves": 47,
+  "agent_move": "C5 D6 SW",
+  "agent_forces": true,
+  "agent_value": 57.4479
+ },
+ {
+  "game": 101,
+  "ply": 156,
+  "forcing": [
+   "C5 D6 SW",
+   "C5 D6 E7 SW"
+  ],
+  "first_moves": 52,
+  "agent_move": "C5 D6 E7 SW",
+  "agent_forces": true,
+  "agent_value": 74.5491
+ },
+ {
+  "game": 108,
+  "ply": 74,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "F5 G6 NE"
+  ],
+  "first_moves": 50,
+  "agent_move": "I7 W",
+  "agent_forces": false,
+  "agent_value": 53.8149
+ },
+ {
+  "game": 114,
+  "ply": 120,
+  "forcing": [
+   "D5 E5 F5 NW",
+   "E4 F5 G6 NE",
+   "E5 F5 NW",
+   "F5 G6 NE"
+  ],
+  "first_moves": 43,
+  "agent_move": "F5 G6 NE",
+  "agent_forces": true,
+  "agent_value": 89.8668
+ },
+ {
+  "game": 114,
+  "ply": 122,
+  "forcing": [
+   "D5 E5 F5 NW",
+   "E4 F5 G6 NE",
+   "E5 F5 NW",
+   "F5 G6 NE"
+  ],
+  "first_moves": 55,
+  "agent_move": "F5 G6 NE",
+  "agent_forces": true,
+  "agent_value": 91.3725
+ },
+ {
+  "game": 114,
+  "ply": 124,
+  "forcing": [
+   "D5 E5 F5 NW",
+   "E4 F5 G6 NE",
+   "E5 F5 NW",
+   "F5 G6 NE"
+  ],
+  "first_moves": 65,
+  "agent_move": "C7 NW",
+  "agent_forces": false,
+  "agent_value": 90.2756
+ },
+ {
+  "game": 114,
+  "ply": 126,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "F5 G6 NE"
+  ],
+  "first_moves": 57,
+  "agent_move": "E4 F5 G6 NE",
+  "agent_forces": true,
+  "agent_value": 99.227
+ },
+ {
+  "game": 114,
+  "ply": 128,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "F5 G6 NE"
+  ],
+  "first_moves": 50,
+  "agent_move": "F5 G6 NE",
+  "agent_forces": true,
+  "agent_value": 96.7283
+ },
+ {
+  "game": 114,
+  "ply": 130,
+  "forcing": [
+   "F5 G6 NE"
+  ],
+  "first_moves": 51,
+  "agent_move": "F5 G6 NE",
+  "agent_forces": true,
+  "agent_value": 92.4492
+ },
+ {
+  "game": 114,
+  "ply": 132,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "F5 G6 NE"
+  ],
+  "first_moves": 48,
+  "agent_move": "E6 F6 SE",
+  "agent_forces": false,
+  "agent_value": 92.8528
+ },
+ {
+  "game": 114,
+  "ply": 134,
+  "forcing": [
+   "E4 E5 E6 E",
+   "E4 F5 G6 NE",
+   "F5 G6 NE"
+  ],
+  "first_moves": 51,
+  "agent_move": "E4 E5 E6 E",
+  "agent_forces": true,
+  "agent_value": 101.5849
+ },
+ {
+  "game": 120,
+  "ply": 27,
+  "forcing": [
+   "C3 C4 W",
+   "C3 C4 C5 W",
+   "C3 D3 SE"
+  ],
+  "first_moves": 65,
+  "agent_move": "G5 G6 G7 E",
+  "agent_forces": false,
+  "agent_value": 9.3642
+ },
+ {
+  "game": 120,
+  "ply": 59,
+  "forcing": [
+   "E4 E5 E6 W"
+  ],
+  "first_moves": 50,
+  "agent_move": "E4 E5 E6 W",
+  "agent_forces": true,
+  "agent_value": -30.472
+ },
+ {
+  "game": 120,
+  "ply": 90,
+  "forcing": [
+   "G6 G7 W"
+  ],
+  "first_moves": 47,
+  "agent_move": "H6 SW",
+  "agent_forces": false,
+  "agent_value": 10.2643
+ },
+ {
+  "game": 120,
+  "ply": 96,
+  "forcing": [
+   "G6 G7 W"
+  ],
+  "first_moves": 67,
+  "agent_move": "G6 G7 W",
+  "agent_forces": true,
+  "agent_value": 15.6622
+ },
+ {
+  "game": 120,
+  "ply": 104,
+  "forcing": [
+   "G6 G7 G8 W"
+  ],
+  "first_moves": 56,
+  "agent_move": "G6 G7 G8 W",
+  "agent_forces": true,
+  "agent_value": 29.2474
+ },
+ {
+  "game": 120,
+  "ply": 113,
+  "forcing": [
+   "E4 E5 E6 W"
+  ],
+  "first_moves": 44,
+  "agent_move": "E4 E5 E6 W",
+  "agent_forces": true,
+  "agent_value": -30.435
+ },
+ {
+  "game": 120,
+  "ply": 127,
+  "forcing": [
+   "F6 G6 NW"
+  ],
+  "first_moves": 33,
+  "agent_move": "F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": -30.4148
+ },
+ {
+  "game": 120,
+  "ply": 198,
+  "forcing": [
+   "E5 F5 G5 NW",
+   "F5 G5 NW"
+  ],
+  "first_moves": 38,
+  "agent_move": "E5 F5 G5 NW",
+  "agent_forces": true,
+  "agent_value": 32.377
+ },
+ {
+  "game": 121,
+  "ply": 12,
+  "forcing": [
+   "C4 D4 SE"
+  ],
+  "first_moves": 69,
+  "agent_move": "C2 C3 C4 E",
+  "agent_forces": false,
+  "agent_value": 9.7506
+ },
+ {
+  "game": 121,
+  "ply": 14,
+  "forcing": [
+   "C4 D4 SE"
+  ],
+  "first_moves": 67,
+  "agent_move": "F7 G7 H7 SE",
+  "agent_forces": false,
+  "agent_value": 12.6876
+ },
+ {
+  "game": 121,
+  "ply": 140,
+  "forcing": [
+   "D5 SE"
+  ],
+  "first_moves": 60,
+  "agent_move": "D5 SE",
+  "agent_forces": true,
+  "agent_value": "win in 3"
+ },
+ {
+  "game": 125,
+  "ply": 10,
+  "forcing": [
+   "C4 D4 SE"
+  ],
+  "first_moves": 72,
+  "agent_move": "B1 NE",
+  "agent_forces": false,
+  "agent_value": 8.0547
+ },
+ {
+  "game": 125,
+  "ply": 12,
+  "forcing": [
+   "C4 D4 SE"
+  ],
+  "first_moves": 77,
+  "agent_move": "H7 I8 SW",
+  "agent_forces": false,
+  "agent_value": 7.7093
+ },
+ {
+  "game": 125,
+  "ply": 30,
+  "forcing": [
+   "E3 F4 G5 NE",
+   "F4 G5 NE"
+  ],
+  "first_moves": 62,
+  "agent_move": "E3 F4 G5 NE",
+  "agent_forces": true,
+  "agent_value": 39.0423
+ },
+ {
+  "game": 125,
+  "ply": 40,
+  "forcing": [
+   "E6 F7 NE"
+  ],
+  "first_moves": 55,
+  "agent_move": "E6 F7 NE",
+  "agent_forces": true,
+  "agent_value": 40.9728
+ },
+ {
+  "game": 125,
+  "ply": 42,
+  "forcing": [
+   "E6 F7 NE"
+  ],
+  "first_moves": 49,
+  "agent_move": "E6 F7 NE",
+  "agent_forces": true,
+  "agent_value": 42.0494
+ },
+ {
+  "game": 125,
+  "ply": 46,
+  "forcing": [
+   "F4 G5 NE"
+  ],
+  "first_moves": 52,
+  "agent_move": "C2 SE",
+  "agent_forces": false,
+  "agent_value": 38.6559
+ },
+ {
+  "game": 125,
+  "ply": 52,
+  "forcing": [
+   "D6 E7 NE"
+  ],
+  "first_moves": 55,
+  "agent_move": "E5 F6 G7 SW",
+  "agent_forces": false,
+  "agent_value": 40.6608
+ },
+ {
+  "game": 125,
+  "ply": 54,
+  "forcing": [
+   "D6 E7 NE"
+  ],
+  "first_moves": 56,
+  "agent_move": "A3 NE",
+  "agent_forces": false,
+  "agent_value": 44.1009
+ },
+ {
+  "game": 125,
+  "ply": 58,
+  "forcing": [
+   "D6 E7 NE"
+  ],
+  "first_moves": 47,
+  "agent_move": "C1 NE",
+  "agent_forces": false,
+  "agent_value": 44.949
+ },
+ {
+  "game": 125,
+  "ply": 60,
+  "forcing": [
+   "C5 D6 E7 NE",
+   "D6 E7 NE"
+  ],
+  "first_moves": 49,
+  "agent_move": "D4 E4 F4 SE",
+  "agent_forces": false,
+  "agent_value": 50.4588
+ },
+ {
+  "game": 125,
+  "ply": 70,
+  "forcing": [
+   "C5 D6 E7 NE",
+   "D6 E7 NE"
+  ],
+  "first_moves": 48,
+  "agent_move": "C5 D6 E7 NE",
+  "agent_forces": true,
+  "agent_value": 68.3586
+ },
+ {
+  "game": 125,
+  "ply": 81,
+  "forcing": [
+   "B3 B4 SW",
+   "B3 B4 B5 SW"
+  ],
+  "first_moves": 59,
+  "agent_move": "B4 NE",
+  "agent_forces": false,
+  "agent_value": -59.4274
+ },
+ {
+  "game": 125,
+  "ply": 83,
+  "forcing": [
+   "B3 B4 SW",
+   "B3 B4 B5 SW"
+  ],
+  "first_moves": 64,
+  "agent_move": "B5 NE",
+  "agent_forces": false,
+  "agent_value": -62.4662
+ },
+ {
+  "game": 125,
+  "ply": 85,
+  "forcing": [
+   "B3 B4 SW",
+   "B3 B4 B5 SW"
+  ],
+  "first_moves": 61,
+  "agent_move": "B3 B4 B5 SW",
+  "agent_forces": true,
+  "agent_value": -71.6804
+ },
+ {
+  "game": 125,
+  "ply": 89,
+  "forcing": [
+   "A3 A4 W",
+   "B2 C2 SE",
+   "B3 SW"
+  ],
+  "first_moves": 58,
+  "agent_move": "A4 B5 NE",
+  "agent_forces": false,
+  "agent_value": -68.8171
+ },
+ {
+  "game": 125,
+  "ply": 90,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW",
+   "D5 E5 SE",
+   "D5 E5 F5 SE",
+   "D6 SW"
+  ],
+  "first_moves": 54,
+  "agent_move": "D6 SW",
+  "agent_forces": true,
+  "agent_value": 68.8171
+ },
+ {
+  "game": 125,
+  "ply": 91,
+  "forcing": [
+   "B2 C2 SE",
+   "B2 C2 D2 SE"
+  ],
+  "first_moves": 69,
+  "agent_move": "B5 C6 NE",
+  "agent_forces": false,
+  "agent_value": -62.7552
+ },
+ {
+  "game": 125,
+  "ply": 92,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW",
+   "D5 E5 SE",
+   "D5 E5 F5 SE"
+  ],
+  "first_moves": 50,
+  "agent_move": "D5 E5 F5 SE",
+  "agent_forces": true,
+  "agent_value": 71.5013
+ },
+ {
+  "game": 125,
+  "ply": 93,
+  "forcing": [
+   "B2 C2 SE",
+   "B2 C2 D2 SE"
+  ],
+  "first_moves": 57,
+  "agent_move": "C5 D6 NE",
+  "agent_forces": false,
+  "agent_value": -62.7927
+ },
+ {
+  "game": 125,
+  "ply": 94,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW",
+   "D5 E5 SE",
+   "D5 E5 F5 SE"
+  ],
+  "first_moves": 43,
+  "agent_move": "D5 E5 F5 SE",
+  "agent_forces": true,
+  "agent_value": 71.5013
+ },
+ {
+  "game": 125,
+  "ply": 106,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 47,
+  "agent_move": "B3 B4 W",
+  "agent_forces": false,
+  "agent_value": 85.6101
+ },
+ {
+  "game": 125,
+  "ply": 131,
+  "forcing": [
+   "C2 D2 SW"
+  ],
+  "first_moves": 58,
+  "agent_move": "D2 NE",
+  "agent_forces": false,
+  "agent_value": -53.955
+ },
+ {
+  "game": 125,
+  "ply": 144,
+  "forcing": [
+   "C3 D4 SW",
+   "C3 D4 E5 SW"
+  ],
+  "first_moves": 48,
+  "agent_move": "I7 SW",
+  "agent_forces": false,
+  "agent_value": 51.0607
+ },
+ {
+  "game": 125,
+  "ply": 146,
+  "forcing": [
+   "C3 D4 SW",
+   "C3 D4 E5 SW"
+  ],
+  "first_moves": 53,
+  "agent_move": "I7 E",
+  "agent_forces": false,
+  "agent_value": 51.2561
+ },
+ {
+  "game": 125,
+  "ply": 150,
+  "forcing": [
+   "C4 D4 SE",
+   "C4 D4 E4 SE"
+  ],
+  "first_moves": 49,
+  "agent_move": "D5 E5 F5 NW",
+  "agent_forces": false,
+  "agent_value": 49.2939
+ },
+ {
+  "game": 125,
+  "ply": 152,
+  "forcing": [
+   "C3 D4 SW",
+   "C3 D4 E5 SW"
+  ],
+  "first_moves": 45,
+  "agent_move": "C3 D4 SW",
+  "agent_forces": true,
+  "agent_value": 47.6863
+ },
+ {
+  "game": 125,
+  "ply": 184,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E4 F5 G6 NE",
+   "E6 F7 NE",
+   "F5 G6 NE"
+  ],
+  "first_moves": 51,
+  "agent_move": "E4 F5 G6 NE",
+  "agent_forces": true,
+  "agent_value": 39.415
+ },
+ {
+  "game": 125,
+  "ply": 192,
+  "forcing": [
+   "E7 F7 SE",
+   "E7 F7 G7 SE"
+  ],
+  "first_moves": 49,
+  "agent_move": "D5 E5 F5 SE",
+  "agent_forces": false,
+  "agent_value": 59.5437
+ },
+ {
+  "game": 133,
+  "ply": 54,
+  "forcing": [
+   "E3 E4 W"
+  ],
+  "first_moves": 51,
+  "agent_move": "B1 NW",
+  "agent_forces": false,
+  "agent_value": -20.7424
+ },
+ {
+  "game": 133,
+  "ply": 66,
+  "forcing": [
+   "E3 E4 W"
+  ],
+  "first_moves": 54,
+  "agent_move": "E3 E4 W",
+  "agent_forces": true,
+  "agent_value": -40.8618
+ },
+ {
+  "game": 133,
+  "ply": 121,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 49,
+  "agent_move": "D3 D4 D5 W",
+  "agent_forces": false,
+  "agent_value": 19.7367
+ },
+ {
+  "game": 133,
+  "ply": 123,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 46,
+  "agent_move": "D3 D4 D5 W",
+  "agent_forces": false,
+  "agent_value": 21.7263
+ },
+ {
+  "game": 133,
+  "ply": 129,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW",
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 45,
+  "agent_move": "D3 D4 D5 W",
+  "agent_forces": false,
+  "agent_value": 25.5807
+ },
+ {
+  "game": 133,
+  "ply": 130,
+  "forcing": [
+   "B3 NW"
+  ],
+  "first_moves": 72,
+  "agent_move": "B3 NW",
+  "agent_forces": true,
+  "agent_value": -19.0974
+ },
+ {
+  "game": 133,
+  "ply": 131,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 47,
+  "agent_move": "D3 D4 D5 W",
+  "agent_forces": false,
+  "agent_value": 23.46
+ },
+ {
+  "game": 133,
+  "ply": 165,
+  "forcing": [
+   "D4 SE",
+   "D4 D5 SE",
+   "D4 E4 SE",
+   "D4 E4 F4 SE",
+   "D5 SW",
+   "D5 E6 SW"
+  ],
+  "first_moves": 46,
+  "agent_move": "D4 E4 F4 SE",
+  "agent_forces": true,
+  "agent_value": 42.8615
+ },
+ {
+  "game": 133,
+  "ply": 167,
+  "forcing": [
+   "D4 E4 SE"
+  ],
+  "first_moves": 41,
+  "agent_move": "D4 E4 SE",
+  "agent_forces": true,
+  "agent_value": 43.5607
+ },
+ {
+  "game": 133,
+  "ply": 171,
+  "forcing": [
+   "D4 E4 SE"
+  ],
+  "first_moves": 41,
+  "agent_move": "D4 E4 SE",
+  "agent_forces": true,
+  "agent_value": 43.5607
+ },
+ {
+  "game": 133,
+  "ply": 173,
+  "forcing": [
+   "D3 E4 SW",
+   "D4 E4 SE"
+  ],
+  "first_moves": 38,
+  "agent_move": "D3 E4 SW",
+  "agent_forces": true,
+  "agent_value": 44.669
+ },
+ {
+  "game": 133,
+  "ply": 175,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW",
+   "D4 E4 SE"
+  ],
+  "first_moves": 41,
+  "agent_move": "D3 E4 F5 SW",
+  "agent_forces": true,
+  "agent_value": 45.6666
+ },
+ {
+  "game": 133,
+  "ply": 183,
+  "forcing": [
+   "D3 SW",
+   "D3 E4 SW",
+   "D3 E4 F5 SW",
+   "D4 E4 SE"
+  ],
+  "first_moves": 46,
+  "agent_move": "D4 E4 SE",
+  "agent_forces": true,
+  "agent_value": 65.7725
+ },
+ {
+  "game": 134,
+  "ply": 74,
+  "forcing": [
+   "D6 E7 NE",
+   "F5 F6 F7 E",
+   "F6 F7 E"
+  ],
+  "first_moves": 44,
+  "agent_move": "C6 NE",
+  "agent_forces": false,
+  "agent_value": -15.0685
+ },
+ {
+  "game": 134,
+  "ply": 109,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 54,
+  "agent_move": "D8 NE",
+  "agent_forces": false,
+  "agent_value": 46.4279
+ },
+ {
+  "game": 134,
+  "ply": 111,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 58,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 36.6491
+ },
+ {
+  "game": 134,
+  "ply": 120,
+  "forcing": [
+   "D4 D5 D6 E",
+   "D5 D6 E",
+   "E5 E6 E7 E",
+   "E6 E7 E"
+  ],
+  "first_moves": 36,
+  "agent_move": "D5 E5 SE",
+  "agent_forces": false,
+  "agent_value": -47.36
+ },
+ {
+  "game": 141,
+  "ply": 31,
+  "forcing": [
+   "C3 D4 SW"
+  ],
+  "first_moves": 62,
+  "agent_move": "E1 SE",
+  "agent_forces": false,
+  "agent_value": 38.3314
+ },
+ {
+  "game": 141,
+  "ply": 33,
+  "forcing": [
+   "C3 D4 SW"
+  ],
+  "first_moves": 60,
+  "agent_move": "E1 NE",
+  "agent_forces": false,
+  "agent_value": 43.256
+ },
+ {
+  "game": 141,
+  "ply": 35,
+  "forcing": [
+   "C3 D4 SW"
+  ],
+  "first_moves": 59,
+  "agent_move": "B1 SE",
+  "agent_forces": false,
+  "agent_value": 41.3376
+ },
+ {
+  "game": 141,
+  "ply": 37,
+  "forcing": [
+   "C3 D4 SW",
+   "D5 SE"
+  ],
+  "first_moves": 63,
+  "agent_move": "B1 SE",
+  "agent_forces": false,
+  "agent_value": 42.3869
+ },
+ {
+  "game": 141,
+  "ply": 50,
+  "forcing": [
+   "C4 SW",
+   "C4 C5 SW"
+  ],
+  "first_moves": 40,
+  "agent_move": "C4 C5 SW",
+  "agent_forces": true,
+  "agent_value": -38.3578
+ },
+ {
+  "game": 141,
+  "ply": 58,
+  "forcing": [
+   "D4 E5 F6 SW"
+  ],
+  "first_moves": 31,
+  "agent_move": "D4 E5 F6 SW",
+  "agent_forces": true,
+  "agent_value": -25.1762
+ },
+ {
+  "game": 141,
+  "ply": 124,
+  "forcing": [
+   "E3 E4 W",
+   "E3 E4 E5 W"
+  ],
+  "first_moves": 36,
+  "agent_move": "E3 E4 E5 E",
+  "agent_forces": false,
+  "agent_value": -36.1735
+ },
+ {
+  "game": 141,
+  "ply": 150,
+  "forcing": [
+   "C5 D6 SW"
+  ],
+  "first_moves": 40,
+  "agent_move": "C5 D6 SW",
+  "agent_forces": true,
+  "agent_value": -16.8944
+ },
+ {
+  "game": 141,
+  "ply": 160,
+  "forcing": [
+   "B2 B3 E",
+   "C4 D4 SE"
+  ],
+  "first_moves": 34,
+  "agent_move": "B2 B3 E",
+  "agent_forces": true,
+  "agent_value": -7.8637
+ },
+ {
+  "game": 141,
+  "ply": 189,
+  "forcing": [
+   "E3 F4 SW"
+  ],
+  "first_moves": 46,
+  "agent_move": "E3 F4 SW",
+  "agent_forces": true,
+  "agent_value": 30.9884
+ },
+ {
+  "game": 141,
+  "ply": 197,
+  "forcing": [
+   "E7 F7 SE"
+  ],
+  "first_moves": 46,
+  "agent_move": "E7 F7 SE",
+  "agent_forces": true,
+  "agent_value": 43.7246
+ },
+ {
+  "game": 147,
+  "ply": 43,
+  "forcing": [
+   "H6 H7 E",
+   "H6 H7 NE"
+  ],
+  "first_moves": 41,
+  "agent_move": "H6 H7 E",
+  "agent_forces": true,
+  "agent_value": -55.8675
+ },
+ {
+  "game": 156,
+  "ply": 64,
+  "forcing": [
+   "F8 G8 NW"
+  ],
+  "first_moves": 60,
+  "agent_move": "B6 W",
+  "agent_forces": false,
+  "agent_value": 6.9181
+ },
+ {
+  "game": 156,
+  "ply": 72,
+  "forcing": [
+   "C3 D4 SW"
+  ],
+  "first_moves": 53,
+  "agent_move": "H8 I8 SE",
+  "agent_forces": false,
+  "agent_value": 1.9407
+ },
+ {
+  "game": 156,
+  "ply": 74,
+  "forcing": [
+   "C3 D4 SW"
+  ],
+  "first_moves": 65,
+  "agent_move": "C3 D4 SW",
+  "agent_forces": true,
+  "agent_value": 3.3019
+ },
+ {
+  "game": 156,
+  "ply": 89,
+  "forcing": [
+   "F5 G6 NE",
+   "F7 G7 NW"
+  ],
+  "first_moves": 53,
+  "agent_move": "F5 G6 NE",
+  "agent_forces": true,
+  "agent_value": 18.57
+ },
+ {
+  "game": 156,
+  "ply": 91,
+  "forcing": [
+   "C5 D6 SW",
+   "F5 G6 NE"
+  ],
+  "first_moves": 51,
+  "agent_move": "C5 D6 SW",
+  "agent_forces": true,
+  "agent_value": 11.8346
+ },
+ {
+  "game": 156,
+  "ply": 100,
+  "forcing": [
+   "D4 D5 D6 E",
+   "D5 D6 E"
+  ],
+  "first_moves": 46,
+  "agent_move": "D5 D6 E",
+  "agent_forces": true,
+  "agent_value": -8.5112
+ },
+ {
+  "game": 156,
+  "ply": 102,
+  "forcing": [
+   "D4 D5 D6 E",
+   "D5 D6 E"
+  ],
+  "first_moves": 48,
+  "agent_move": "D4 D5 D6 E",
+  "agent_forces": true,
+  "agent_value": -14.922
+ },
+ {
+  "game": 161,
+  "ply": 33,
+  "forcing": [
+   "D3 E3 NW"
+  ],
+  "first_moves": 70,
+  "agent_move": "F5 F6 E",
+  "agent_forces": false,
+  "agent_value": 2.9644
+ },
+ {
+  "game": 161,
+  "ply": 35,
+  "forcing": [
+   "D3 E3 NW"
+  ],
+  "first_moves": 73,
+  "agent_move": "D3 E3 NW",
+  "agent_forces": true,
+  "agent_value": 10.738
+ },
+ {
+  "game": 161,
+  "ply": 45,
+  "forcing": [
+   "D3 E3 NW"
+  ],
+  "first_moves": 68,
+  "agent_move": "D3 E3 NW",
+  "agent_forces": true,
+  "agent_value": 3.5889
+ },
+ {
+  "game": 161,
+  "ply": 49,
+  "forcing": [
+   "D4 E4 F4 NW",
+   "E4 F4 NW"
+  ],
+  "first_moves": 65,
+  "agent_move": "D4 E4 F4 NW",
+  "agent_forces": true,
+  "agent_value": 4.5219
+ },
+ {
+  "game": 161,
+  "ply": 77,
+  "forcing": [
+   "C6 D7 SW"
+  ],
+  "first_moves": 46,
+  "agent_move": "C6 D7 SW",
+  "agent_forces": true,
+  "agent_value": 16.3115
+ },
+ {
+  "game": 161,
+  "ply": 78,
+  "forcing": [
+   "E7 F7 SE",
+   "E7 F7 G7 SE",
+   "G8 SE"
+  ],
+  "first_moves": 50,
+  "agent_move": "E7 F7 G7 SE",
+  "agent_forces": true,
+  "agent_value": 2.2094
+ },
+ {
+  "game": 161,
+  "ply": 85,
+  "forcing": [
+   "G5 G6 W"
+  ],
+  "first_moves": 53,
+  "agent_move": "G5 G6 W",
+  "agent_forces": true,
+  "agent_value": -6.1995
+ },
+ {
+  "game": 161,
+  "ply": 87,
+  "forcing": [
+   "G5 G6 W"
+  ],
+  "first_moves": 56,
+  "agent_move": "G5 G6 W",
+  "agent_forces": true,
+  "agent_value": -5.8867
+ },
+ {
+  "game": 161,
+  "ply": 93,
+  "forcing": [
+   "E4 F4 NW"
+  ],
+  "first_moves": 54,
+  "agent_move": "H6 H7 W",
+  "agent_forces": false,
+  "agent_value": -22.8602
+ },
+ {
+  "game": 161,
+  "ply": 95,
+  "forcing": [
+   "E4 F4 NW"
+  ],
+  "first_moves": 51,
+  "agent_move": "E4 F4 NW",
+  "agent_forces": true,
+  "agent_value": -19.5602
+ },
+ {
+  "game": 161,
+  "ply": 97,
+  "forcing": [
+   "E4 F4 NW",
+   "G5 G6 W"
+  ],
+  "first_moves": 46,
+  "agent_move": "E4 F4 NW",
+  "agent_forces": true,
+  "agent_value": -17.6724
+ },
+ {
+  "game": 161,
+  "ply": 103,
+  "forcing": [
+   "G5 G6 W",
+   "G5 G6 G7 W"
+  ],
+  "first_moves": 49,
+  "agent_move": "G5 G6 G7 W",
+  "agent_forces": true,
+  "agent_value": -4.5865
+ },
+ {
+  "game": 161,
+  "ply": 107,
+  "forcing": [
+   "E4 F4 NW",
+   "G5 G6 W"
+  ],
+  "first_moves": 44,
+  "agent_move": "E4 F4 NW",
+  "agent_forces": true,
+  "agent_value": -6.9726
+ },
+ {
+  "game": 161,
+  "ply": 126,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "E8 F8 G8 NW",
+   "F6 G7 NE",
+   "F8 G8 NW"
+  ],
+  "first_moves": 72,
+  "agent_move": "I5 E",
+  "agent_forces": false,
+  "agent_value": 15.5413
+ },
+ {
+  "game": 161,
+  "ply": 142,
+  "forcing": [
+   "E7 F7 SE",
+   "E7 F7 G7 SE"
+  ],
+  "first_moves": 46,
+  "agent_move": "E7 F7 G7 SE",
+  "agent_forces": true,
+  "agent_value": 19.0093
+ },
+ {
+  "game": 161,
+  "ply": 183,
+  "forcing": [
+   "G5 G6 W"
+  ],
+  "first_moves": 38,
+  "agent_move": "D5 E6 F7 SW",
+  "agent_forces": false,
+  "agent_value": -1.4141
+ },
+ {
+  "game": 161,
+  "ply": 191,
+  "forcing": [
+   "E6 F6 G6 NW",
+   "F5 G6 NE",
+   "F6 G6 NW"
+  ],
+  "first_moves": 45,
+  "agent_move": "F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": -0.9902
+ },
+ {
+  "game": 164,
+  "ply": 73,
+  "forcing": [
+   "C4 W",
+   "C4 C5 W"
+  ],
+  "first_moves": 52,
+  "agent_move": "C4 W",
+  "agent_forces": true,
+  "agent_value": 55.051
+ },
+ {
+  "game": 164,
+  "ply": 75,
+  "forcing": [
+   "C4 W",
+   "C4 C5 W"
+  ],
+  "first_moves": 53,
+  "agent_move": "C2 E",
+  "agent_forces": false,
+  "agent_value": 52.3413
+ },
+ {
+  "game": 164,
+  "ply": 77,
+  "forcing": [
+   "C4 W",
+   "C4 C5 W",
+   "D4 SW",
+   "D4 E5 SW",
+   "D4 E5 F6 SW"
+  ],
+  "first_moves": 47,
+  "agent_move": "D4 E5 F6 SW",
+  "agent_forces": true,
+  "agent_value": 55.2149
+ },
+ {
+  "game": 164,
+  "ply": 167,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "F5 G6 NE"
+  ],
+  "first_moves": 47,
+  "agent_move": "E4 F5 G6 NE",
+  "agent_forces": true,
+  "agent_value": 66.7656
+ },
+ {
+  "game": 164,
+  "ply": 169,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "F5 G6 NE"
+  ],
+  "first_moves": 47,
+  "agent_move": "E4 F5 G6 NE",
+  "agent_forces": true,
+  "agent_value": 66.5746
+ },
+ {
+  "game": 164,
+  "ply": 171,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "E6 F6 G6 NW",
+   "F5 G6 NE",
+   "F6 G6 NW"
+  ],
+  "first_moves": 49,
+  "agent_move": "E6 F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": 69.2779
+ },
+ {
+  "game": 164,
+  "ply": 172,
+  "forcing": [
+   "C4 C5 E"
+  ],
+  "first_moves": 54,
+  "agent_move": "H6 H7 H8 E",
+  "agent_forces": false,
+  "agent_value": -60.4687
+ },
+ {
+  "game": 164,
+  "ply": 173,
+  "forcing": [
+   "E3 F4 G5 NE",
+   "F4 G5 NE"
+  ],
+  "first_moves": 55,
+  "agent_move": "E3 F4 G5 NE",
+  "agent_forces": true,
+  "agent_value": 69.2779
+ },
+ {
+  "game": 164,
+  "ply": 174,
+  "forcing": [
+   "C4 C5 E"
+  ],
+  "first_moves": 55,
+  "agent_move": "H6 H7 H8 E",
+  "agent_forces": false,
+  "agent_value": -65.4068
+ },
+ {
+  "game": 164,
+  "ply": 175,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "E6 F6 G6 NW",
+   "F5 G6 NE",
+   "F6 G6 NW"
+  ],
+  "first_moves": 49,
+  "agent_move": "E6 F6 G6 NW",
+  "agent_forces": true,
+  "agent_value": 69.2779
+ },
+ {
+  "game": 164,
+  "ply": 176,
+  "forcing": [
+   "C4 C5 E"
+  ],
+  "first_moves": 53,
+  "agent_move": "C4 C5 E",
+  "agent_forces": true,
+  "agent_value": -67.7722
+ },
+ {
+  "game": 166,
+  "ply": 38,
+  "forcing": [
+   "D3 D4 W"
+  ],
+  "first_moves": 51,
+  "agent_move": "D3 D4 W",
+  "agent_forces": true,
+  "agent_value": -30.4148
+ },
+ {
+  "game": 166,
+  "ply": 46,
+  "forcing": [
+   "B2 C2 NW",
+   "D3 E3 NW",
+   "E3 F4 SW",
+   "E3 F4 G5 SW"
+  ],
+  "first_moves": 60,
+  "agent_move": "D3 E3 SE",
+  "agent_forces": false,
+  "agent_value": -40.0924
+ },
+ {
+  "game": 166,
+  "ply": 50,
+  "forcing": [
+   "E3 F4 SW",
+   "E3 F4 G5 SW"
+  ],
+  "first_moves": 55,
+  "agent_move": "C3 D3 SE",
+  "agent_forces": false,
+  "agent_value": -37.431
+ },
+ {
+  "game": 166,
+  "ply": 52,
+  "forcing": [
+   "C3 D3 SE",
+   "C3 D3 E3 SE"
+  ],
+  "first_moves": 56,
+  "agent_move": "C3 D3 E3 NW",
+  "agent_forces": false,
+  "agent_value": -42.4367
+ },
+ {
+  "game": 166,
+  "ply": 53,
+  "forcing": [
+   "E5 F5 G5 NW",
+   "F5 G5 NW"
+  ],
+  "first_moves": 46,
+  "agent_move": "E4 E5 E6 W",
+  "agent_forces": false,
+  "agent_value": 46.8699
+ },
+ {
+  "game": 166,
+  "ply": 55,
+  "forcing": [
+   "E5 F5 G5 NW",
+   "F5 G5 NW"
+  ],
+  "first_moves": 39,
+  "agent_move": "G7 NW",
+  "agent_forces": false,
+  "agent_value": 44.3619
+ },
+ {
+  "game": 166,
+  "ply": 135,
+  "forcing": [
+   "C5 D5 SE",
+   "C5 D5 E5 SE"
+  ],
+  "first_moves": 48,
+  "agent_move": "C5 D5 SE",
+  "agent_forces": true,
+  "agent_value": 45.2993
+ },
+ {
+  "game": 166,
+  "ply": 137,
+  "forcing": [
+   "C5 D5 SE",
+   "C5 D5 E5 SE",
+   "D3 E3 NW"
+  ],
+  "first_moves": 54,
+  "agent_move": "F6 F7 W",
+  "agent_forces": false,
+  "agent_value": 47.6134
+ },
+ {
+  "game": 171,
+  "ply": 47,
+  "forcing": [
+   "E3 F4 SW",
+   "E3 F4 G5 SW"
+  ],
+  "first_moves": 62,
+  "agent_move": "E3 F4 G5 SW",
+  "agent_forces": true,
+  "agent_value": 28.538
+ },
+ {
+  "game": 171,
+  "ply": 108,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 39,
+  "agent_move": "E8 E9 SW",
+  "agent_forces": false,
+  "agent_value": -52.1384
+ },
+ {
+  "game": 171,
+  "ply": 110,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 41,
+  "agent_move": "D3 E4 SW",
+  "agent_forces": true,
+  "agent_value": -49.2604
+ },
+ {
+  "game": 171,
+  "ply": 112,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 44,
+  "agent_move": "D3 E4 F5 SW",
+  "agent_forces": true,
+  "agent_value": -51.2254
+ },
+ {
+  "game": 171,
+  "ply": 114,
+  "forcing": [
+   "D3 E4 SW"
+  ],
+  "first_moves": 45,
+  "agent_move": "C3 C4 C5 W",
+  "agent_forces": false,
+  "agent_value": -49.174
+ },
+ {
+  "game": 171,
+  "ply": 116,
+  "forcing": [
+   "E3 F4 SW"
+  ],
+  "first_moves": 48,
+  "agent_move": "E3 F4 SW",
+  "agent_forces": true,
+  "agent_value": -48.1674
+ },
+ {
+  "game": 171,
+  "ply": 120,
+  "forcing": [
+   "C3 C4 W",
+   "D3 E4 SW",
+   "D3 E4 F5 SW",
+   "E3 E4 W"
+  ],
+  "first_moves": 47,
+  "agent_move": "D3 E4 F5 SW",
+  "agent_forces": true,
+  "agent_value": -45.7487
+ },
+ {
+  "game": 171,
+  "ply": 122,
+  "forcing": [
+   "D3 E4 SW"
+  ],
+  "first_moves": 46,
+  "agent_move": "C3 C4 W",
+  "agent_forces": false,
+  "agent_value": -48.9786
+ },
+ {
+  "game": 171,
+  "ply": 171,
+  "forcing": [
+   "E7 F7 SE"
+  ],
+  "first_moves": 44,
+  "agent_move": "E7 F7 SE",
+  "agent_forces": true,
+  "agent_value": 80.9317
+ },
+ {
+  "game": 171,
+  "ply": 181,
+  "forcing": [
+   "C3 C4 W",
+   "C3 C4 C5 W",
+   "C4 D5 SW",
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 48,
+  "agent_move": "D3 E4 F5 SW",
+  "agent_forces": true,
+  "agent_value": 97.0255
+ },
+ {
+  "game": 171,
+  "ply": 185,
+  "forcing": [
+   "C4 D5 SW"
+  ],
+  "first_moves": 54,
+  "agent_move": "C4 D5 SW",
+  "agent_forces": true,
+  "agent_value": 94.6024
+ },
+ {
+  "game": 171,
+  "ply": 187,
+  "forcing": [
+   "C4 D5 SW"
+  ],
+  "first_moves": 47,
+  "agent_move": "C3 D3 NW",
+  "agent_forces": false,
+  "agent_value": 95.297
+ },
+ {
+  "game": 171,
+  "ply": 189,
+  "forcing": [
+   "D3 D4 W",
+   "D3 D4 D5 W"
+  ],
+  "first_moves": 48,
+  "agent_move": "C4 D5 SW",
+  "agent_forces": false,
+  "agent_value": 97.6877
+ },
+ {
+  "game": 171,
+  "ply": 191,
+  "forcing": [
+   "D3 D4 W",
+   "D3 D4 D5 W"
+  ],
+  "first_moves": 49,
+  "agent_move": "D3 D4 D5 W",
+  "agent_forces": true,
+  "agent_value": 99.6927
+ },
+ {
+  "game": 171,
+  "ply": 193,
+  "forcing": [
+   "D3 D4 W",
+   "D3 D4 D5 W"
+  ],
+  "first_moves": 46,
+  "agent_move": "D3 D4 D5 W",
+  "agent_forces": true,
+  "agent_value": 101.124
+ },
+ {
+  "game": 171,
+  "ply": 195,
+  "forcing": [
+   "D3 D4 W",
+   "D3 D4 D5 W"
+  ],
+  "first_moves": 47,
+  "agent_move": "D3 D4 D5 W",
+  "agent_forces": true,
+  "agent_value": 102.0096
+ },
+ {
+  "game": 178,
+  "ply": 75,
+  "forcing": [
+   "C3 C4 W",
+   "C3 D3 SE"
+  ],
+  "first_moves": 32,
+  "agent_move": "E4 E5 E",
+  "agent_forces": false,
+  "agent_value": -31.4041
+ },
+ {
+  "game": 178,
+  "ply": 77,
+  "forcing": [
+   "C3 C4 W",
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 39,
+  "agent_move": "D5 E5 F5 SE",
+  "agent_forces": false,
+  "agent_value": -33.2128
+ },
+ {
+  "game": 178,
+  "ply": 79,
+  "forcing": [
+   "C3 C4 W"
+  ],
+  "first_moves": 39,
+  "agent_move": "H4 SW",
+  "agent_forces": false,
+  "agent_value": -35.0587
+ },
+ {
+  "game": 178,
+  "ply": 83,
+  "forcing": [
+   "D4 E5 SW",
+   "D4 E5 F6 SW"
+  ],
+  "first_moves": 33,
+  "agent_move": "I5 E",
+  "agent_forces": false,
+  "agent_value": -35.9862
+ },
+ {
+  "game": 178,
+  "ply": 91,
+  "forcing": [
+   "D4 E4 SW"
+  ],
+  "first_moves": 43,
+  "agent_move": "I6 SE",
+  "agent_forces": false,
+  "agent_value": -32.7476
+ },
+ {
+  "game": 178,
+  "ply": 177,
+  "forcing": [
+   "E5 E6 E7 E",
+   "E6 E7 E"
+  ],
+  "first_moves": 38,
+  "agent_move": "E7 F8 SW",
+  "agent_forces": false,
+  "agent_value": -73.6384
+ },
+ {
+  "game": 197,
+  "ply": 25,
+  "forcing": [
+   "C4 D4 SE"
+  ],
+  "first_moves": 55,
+  "agent_move": "B5 C5 NW",
+  "agent_forces": false,
+  "agent_value": -50.7861
+ },
+ {
+  "game": 197,
+  "ply": 47,
+  "forcing": [
+   "C6 W"
+  ],
+  "first_moves": 39,
+  "agent_move": "H5 I5 E",
+  "agent_forces": false,
+  "agent_value": -25.7117
+ },
+ {
+  "game": 197,
+  "ply": 57,
+  "forcing": [
+   "C5 D6 SW"
+  ],
+  "first_moves": 37,
+  "agent_move": "G4 W",
+  "agent_forces": false,
+  "agent_value": -41.1217
+ },
+ {
+  "game": 197,
+  "ply": 76,
+  "forcing": [
+   "C3 D3 SE"
+  ],
+  "first_moves": 44,
+  "agent_move": "C3 D3 SE",
+  "agent_forces": true,
+  "agent_value": 37.813
+ },
+ {
+  "game": 197,
+  "ply": 196,
+  "forcing": [
+   "D3 E3 NW",
+   "E3 F4 SW",
+   "E3 F4 G5 SW",
+   "F4 F5 W"
+  ],
+  "first_moves": 49,
+  "agent_move": "D3 E4 F5 NE",
+  "agent_forces": false,
+  "agent_value": 11.4416
+ },
+ {
+  "game": 205,
+  "ply": 42,
+  "forcing": [
+   "C3 SE",
+   "C3 D3 SE",
+   "C4 D5 SW",
+   "C4 D5 E6 SW",
+   "C5 D6 SW",
+   "C5 D6 E7 SW",
+   "C5 D5 SE"
+  ],
+  "first_moves": 50,
+  "agent_move": "C5 D5 SE",
+  "agent_forces": true,
+  "agent_value": 4.8359
+ },
+ {
+  "game": 205,
+  "ply": 46,
+  "forcing": [
+   "C3 D3 SE",
+   "C4 D5 SW",
+   "C4 D5 E6 SW",
+   "C5 D6 SW",
+   "C5 D6 E7 SW"
+  ],
+  "first_moves": 50,
+  "agent_move": "C3 D3 SE",
+  "agent_forces": true,
+  "agent_value": 19.514
+ },
+ {
+  "game": 205,
+  "ply": 60,
+  "forcing": [
+   "C5 D6 SW",
+   "C5 D6 E7 SW"
+  ],
+  "first_moves": 50,
+  "agent_move": "C5 D6 SW",
+  "agent_forces": true,
+  "agent_value": 39.0533
+ },
+ {
+  "game": 205,
+  "ply": 133,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 38,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": -69.3515
+ },
+ {
+  "game": 205,
+  "ply": 135,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 39,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": -68.5404
+ },
+ {
+  "game": 205,
+  "ply": 137,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 45,
+  "agent_move": "E5 F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": -77.5483
+ },
+ {
+  "game": 205,
+  "ply": 150,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 60,
+  "agent_move": "C4 D5 E6 SW",
+  "agent_forces": true,
+  "agent_value": 92.8783
+ },
+ {
+  "game": 205,
+  "ply": 156,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 60,
+  "agent_move": "C4 D5 E6 SW",
+  "agent_forces": true,
+  "agent_value": 92.0392
+ },
+ {
+  "game": 205,
+  "ply": 157,
+  "forcing": [
+   "F7 G7 NW"
+  ],
+  "first_moves": 41,
+  "agent_move": "F7 G7 NW",
+  "agent_forces": true,
+  "agent_value": -80.7354
+ },
+ {
+  "game": 205,
+  "ply": 164,
+  "forcing": [
+   "C5 D5 SE"
+  ],
+  "first_moves": 60,
+  "agent_move": "C5 D5 SE",
+  "agent_forces": true,
+  "agent_value": 91.5827
+ },
+ {
+  "game": 205,
+  "ply": 168,
+  "forcing": [
+   "C5 D5 SE"
+  ],
+  "first_moves": 64,
+  "agent_move": "C5 D5 SE",
+  "agent_forces": true,
+  "agent_value": 96.8003
+ },
+ {
+  "game": 205,
+  "ply": 170,
+  "forcing": [
+   "C5 D5 SE"
+  ],
+  "first_moves": 68,
+  "agent_move": "C5 D5 SE",
+  "agent_forces": true,
+  "agent_value": 95.7237
+ },
+ {
+  "game": 205,
+  "ply": 171,
+  "forcing": [
+   "F7 G7 NW"
+  ],
+  "first_moves": 47,
+  "agent_move": "F7 G7 NW",
+  "agent_forces": true,
+  "agent_value": -90.0732
+ },
+ {
+  "game": 205,
+  "ply": 172,
+  "forcing": [
+   "C5 D5 SE"
+  ],
+  "first_moves": 63,
+  "agent_move": "C5 C6 W",
+  "agent_forces": false,
+  "agent_value": 96.4628
+ },
+ {
+  "game": 209,
+  "ply": 17,
+  "forcing": [
+   "C4 D4 SE",
+   "C4 D4 E4 SE"
+  ],
+  "first_moves": 57,
+  "agent_move": "F2 F3 SE",
+  "agent_forces": false,
+  "agent_value": 9.5462
+ },
+ {
+  "game": 209,
+  "ply": 18,
+  "forcing": [
+   "F4 G5 NE"
+  ],
+  "first_moves": 56,
+  "agent_move": "B2 B3 B4 E",
+  "agent_forces": false,
+  "agent_value": -4.9225
+ },
+ {
+  "game": 209,
+  "ply": 19,
+  "forcing": [
+   "C4 D4 SE",
+   "C4 D4 E4 SE"
+  ],
+  "first_moves": 56,
+  "agent_move": "E2 E3 E4 E",
+  "agent_forces": false,
+  "agent_value": 12.2594
+ },
+ {
+  "game": 209,
+  "ply": 20,
+  "forcing": [
+   "F4 G5 NE"
+  ],
+  "first_moves": 58,
+  "agent_move": "A1 A2 E",
+  "agent_forces": false,
+  "agent_value": -6.1669
+ },
+ {
+  "game": 209,
+  "ply": 22,
+  "forcing": [
+   "F4 G5 NE"
+  ],
+  "first_moves": 66,
+  "agent_move": "A1 NW",
+  "agent_forces": false,
+  "agent_value": -6.7871
+ },
+ {
+  "game": 209,
+  "ply": 23,
+  "forcing": [
+   "C4 D4 SE",
+   "C4 D4 E4 SE"
+  ],
+  "first_moves": 54,
+  "agent_move": "E3 E4 W",
+  "agent_forces": false,
+  "agent_value": 7.2017
+ },
+ {
+  "game": 209,
+  "ply": 24,
+  "forcing": [
+   "F4 G5 NE"
+  ],
+  "first_moves": 66,
+  "agent_move": "F4 G5 NE",
+  "agent_forces": true,
+  "agent_value": 1.1295
+ },
+ {
+  "game": 209,
+  "ply": 25,
+  "forcing": [
+   "C4 D4 SE",
+   "C4 D4 E4 SE"
+  ],
+  "first_moves": 53,
+  "agent_move": "H5 I6 SW",
+  "agent_forces": false,
+  "agent_value": 10.5626
+ },
+ {
+  "game": 209,
+  "ply": 26,
+  "forcing": [
+   "G5 G6 W",
+   "G5 G6 G7 W"
+  ],
+  "first_moves": 73,
+  "agent_move": "F4 F5 F6 W",
+  "agent_forces": false,
+  "agent_value": -5.2813
+ },
+ {
+  "game": 209,
+  "ply": 27,
+  "forcing": [
+   "C4 D4 SE",
+   "C4 D4 E4 SE"
+  ],
+  "first_moves": 57,
+  "agent_move": "F2 SW",
+  "agent_forces": false,
+  "agent_value": 6.5917
+ },
+ {
+  "game": 209,
+  "ply": 44,
+  "forcing": [
+   "D3 E3 NW",
+   "F4 F5 W",
+   "F4 F5 F6 W"
+  ],
+  "first_moves": 43,
+  "agent_move": "D3 E3 NW",
+  "agent_forces": true,
+  "agent_value": 13.4422
+ },
+ {
+  "game": 209,
+  "ply": 47,
+  "forcing": [
+   "C3 D3 SE"
+  ],
+  "first_moves": 60,
+  "agent_move": "C3 D3 SE",
+  "agent_forces": true,
+  "agent_value": -7.0482
+ },
+ {
+  "game": 209,
+  "ply": 48,
+  "forcing": [
+   "E2 E",
+   "E4 W",
+   "E4 E5 W",
+   "E4 E5 E6 W",
+   "E5 F5 NW"
+  ],
+  "first_moves": 52,
+  "agent_move": "E2 E",
+  "agent_forces": true,
+  "agent_value": 8.9403
+ },
+ {
+  "game": 209,
+  "ply": 81,
+  "forcing": [
+   "C5 D5 SE"
+  ],
+  "first_moves": 61,
+  "agent_move": "H4 NE",
+  "agent_forces": false,
+  "agent_value": -27.8287
+ },
+ {
+  "game": 209,
+  "ply": 168,
+  "forcing": [
+   "C3 C4 W"
+  ],
+  "first_moves": 54,
+  "agent_move": "G4 SE",
+  "agent_forces": false,
+  "agent_value": 39.5505
+ },
+ {
+  "game": 209,
+  "ply": 196,
+  "forcing": [
+   "C3 C4 W",
+   "C3 C4 C5 W"
+  ],
+  "first_moves": 49,
+  "agent_move": "C3 C4 C5 W",
+  "agent_forces": true,
+  "agent_value": 66.1589
+ },
+ {
+  "game": 216,
+  "ply": 59,
+  "forcing": [
+   "E7 F7 SE",
+   "E7 F7 G7 SE"
+  ],
+  "first_moves": 59,
+  "agent_move": "H6 SE",
+  "agent_forces": false,
+  "agent_value": 9.5561
+ },
+ {
+  "game": 216,
+  "ply": 61,
+  "forcing": [
+   "E7 F7 SE",
+   "E7 F7 G7 SE"
+  ],
+  "first_moves": 50,
+  "agent_move": "I5 SW",
+  "agent_forces": false,
+  "agent_value": 8.0547
+ },
+ {
+  "game": 216,
+  "ply": 63,
+  "forcing": [
+   "E7 F7 SE",
+   "E7 F7 G7 SE"
+  ],
+  "first_moves": 49,
+  "agent_move": "I5 E",
+  "agent_forces": false,
+  "agent_value": 13.6015
+ },
+ {
+  "game": 216,
+  "ply": 73,
+  "forcing": [
+   "E7 F7 SE"
+  ],
+  "first_moves": 48,
+  "agent_move": "I5 SW",
+  "agent_forces": false,
+  "agent_value": 21.0043
+ },
+ {
+  "game": 216,
+  "ply": 75,
+  "forcing": [
+   "E7 F7 SE",
+   "E7 F7 G7 SE"
+  ],
+  "first_moves": 49,
+  "agent_move": "I5 E",
+  "agent_forces": false,
+  "agent_value": 24.3131
+ },
+ {
+  "game": 216,
+  "ply": 119,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 43,
+  "agent_move": "D3 E4 F5 SW",
+  "agent_forces": true,
+  "agent_value": 14.5197
+ },
+ {
+  "game": 216,
+  "ply": 121,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 46,
+  "agent_move": "D3 E4 F5 SW",
+  "agent_forces": true,
+  "agent_value": 13.1776
+ },
+ {
+  "game": 216,
+  "ply": 123,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 41,
+  "agent_move": "D3 E4 F5 SW",
+  "agent_forces": true,
+  "agent_value": 12.0309
+ },
+ {
+  "game": 216,
+  "ply": 187,
+  "forcing": [
+   "C3 C4 W",
+   "C3 C4 C5 W"
+  ],
+  "first_moves": 41,
+  "agent_move": "C3 C4 C5 W",
+  "agent_forces": true,
+  "agent_value": 11.5602
+ },
+ {
+  "game": 216,
+  "ply": 193,
+  "forcing": [
+   "D4 E5 SW",
+   "D4 E5 F6 SW"
+  ],
+  "first_moves": 41,
+  "agent_move": "D4 E5 F6 SW",
+  "agent_forces": true,
+  "agent_value": 6.4871
+ },
+ {
+  "game": 216,
+  "ply": 195,
+  "forcing": [
+   "D4 E5 SW",
+   "D4 E5 F6 SW"
+  ],
+  "first_moves": 39,
+  "agent_move": "D4 E5 F6 SW",
+  "agent_forces": true,
+  "agent_value": 11.0145
+ },
+ {
+  "game": 219,
+  "ply": 40,
+  "forcing": [
+   "C3 D3 SE"
+  ],
+  "first_moves": 53,
+  "agent_move": "B5 C6 NE",
+  "agent_forces": false,
+  "agent_value": 24.5988
+ },
+ {
+  "game": 219,
+  "ply": 58,
+  "forcing": [
+   "E6 F6 G6 NW",
+   "F6 G6 NW"
+  ],
+  "first_moves": 47,
+  "agent_move": "A4 A5 W",
+  "agent_forces": false,
+  "agent_value": 17.5093
+ },
+ {
+  "game": 219,
+  "ply": 98,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 42,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": -24.9799
+ },
+ {
+  "game": 221,
+  "ply": 43,
+  "forcing": [
+   "D4 E4 F4 NW",
+   "E4 F4 NW"
+  ],
+  "first_moves": 45,
+  "agent_move": "D4 E4 F4 NW",
+  "agent_forces": true,
+  "agent_value": -40.3819
+ },
+ {
+  "game": 221,
+  "ply": 45,
+  "forcing": [
+   "D4 E4 F4 NW",
+   "E4 F4 NW"
+  ],
+  "first_moves": 45,
+  "agent_move": "D4 E4 F4 NW",
+  "agent_forces": true,
+  "agent_value": -42.4933
+ },
+ {
+  "game": 221,
+  "ply": 62,
+  "forcing": [
+   "G6 G7 E"
+  ],
+  "first_moves": 48,
+  "agent_move": "F7 G7 NW",
+  "agent_forces": false,
+  "agent_value": 26.5921
+ },
+ {
+  "game": 221,
+  "ply": 83,
+  "forcing": [
+   "E6 F7 NE"
+  ],
+  "first_moves": 47,
+  "agent_move": "E6 F7 NE",
+  "agent_forces": true,
+  "agent_value": -39.7944
+ },
+ {
+  "game": 221,
+  "ply": 85,
+  "forcing": [
+   "E6 F7 NE"
+  ],
+  "first_moves": 44,
+  "agent_move": "E6 F7 NE",
+  "agent_forces": true,
+  "agent_value": -36.2544
+ },
+ {
+  "game": 221,
+  "ply": 91,
+  "forcing": [
+   "E6 F7 NE"
+  ],
+  "first_moves": 53,
+  "agent_move": "I5 E",
+  "agent_forces": false,
+  "agent_value": -47.6479
+ },
+ {
+  "game": 221,
+  "ply": 92,
+  "forcing": [
+   "F4 G5 NE"
+  ],
+  "first_moves": 55,
+  "agent_move": "F4 G5 NE",
+  "agent_forces": true,
+  "agent_value": 51.498
+ },
+ {
+  "game": 221,
+  "ply": 93,
+  "forcing": [
+   "E6 F7 NE"
+  ],
+  "first_moves": 45,
+  "agent_move": "H5 I6 SW",
+  "agent_forces": false,
+  "agent_value": -51.498
+ },
+ {
+  "game": 221,
+  "ply": 95,
+  "forcing": [
+   "E6 F7 NE"
+  ],
+  "first_moves": 36,
+  "agent_move": "H7 SW",
+  "agent_forces": false,
+  "agent_value": -54.5571
+ },
+ {
+  "game": 221,
+  "ply": 97,
+  "forcing": [
+   "E6 F7 NE"
+  ],
+  "first_moves": 36,
+  "agent_move": "E7 SW",
+  "agent_forces": false,
+  "agent_value": -64.4996
+ },
+ {
+  "game": 221,
+  "ply": 99,
+  "forcing": [
+   "E6 F7 NE"
+  ],
+  "first_moves": 37,
+  "agent_move": "H7 SW",
+  "agent_forces": false,
+  "agent_value": -60.7615
+ },
+ {
+  "game": 221,
+  "ply": 105,
+  "forcing": [
+   "E3 F4 G5 NE",
+   "F4 G5 NE",
+   "F5 G6 NE"
+  ],
+  "first_moves": 38,
+  "agent_move": "E3 F4 G5 NE",
+  "agent_forces": true,
+  "agent_value": -57.4941
+ },
+ {
+  "game": 221,
+  "ply": 121,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "D6 E6 F6 NW",
+   "E6 F7 NE",
+   "E6 F6 NW",
+   "F7 NE"
+  ],
+  "first_moves": 36,
+  "agent_move": "D6 E6 F6 NW",
+  "agent_forces": true,
+  "agent_value": -55.9928
+ },
+ {
+  "game": 221,
+  "ply": 123,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE",
+   "E6 F6 NW",
+   "F7 NE"
+  ],
+  "first_moves": 35,
+  "agent_move": "E6 F6 NW",
+  "agent_forces": true,
+  "agent_value": -55.75
+ },
+ {
+  "game": 221,
+  "ply": 129,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE",
+   "E6 F6 NW",
+   "F7 NE"
+  ],
+  "first_moves": 30,
+  "agent_move": "E6 F6 NW",
+  "agent_forces": true,
+  "agent_value": -55.2935
+ },
+ {
+  "game": 221,
+  "ply": 131,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "D6 E6 F6 NW",
+   "E6 F7 NE",
+   "E6 F6 NW",
+   "F7 NE"
+  ],
+  "first_moves": 35,
+  "agent_move": "D6 E6 F6 NW",
+  "agent_forces": true,
+  "agent_value": -57.536
+ },
+ {
+  "game": 221,
+  "ply": 133,
+  "forcing": [
+   "D6 E6 F6 NW",
+   "E6 F6 NW"
+  ],
+  "first_moves": 30,
+  "agent_move": "D6 E6 F6 NW",
+  "agent_forces": true,
+  "agent_value": -55.8392
+ },
+ {
+  "game": 221,
+  "ply": 137,
+  "forcing": [
+   "D6 E6 F6 NW",
+   "E4 F5 NE",
+   "E6 F6 NW",
+   "F5 NE",
+   "F6 NW",
+   "G5 E"
+  ],
+  "first_moves": 34,
+  "agent_move": "D6 E6 F6 NW",
+  "agent_forces": true,
+  "agent_value": -58.1835
+ },
+ {
+  "game": 221,
+  "ply": 143,
+  "forcing": [
+   "D6 E6 F6 NW",
+   "E6 F7 NE",
+   "E6 F6 NW",
+   "F6 NW",
+   "F7 NE",
+   "G5 E"
+  ],
+  "first_moves": 35,
+  "agent_move": "D6 E6 F6 NW",
+  "agent_forces": true,
+  "agent_value": -60.6539
+ },
+ {
+  "game": 221,
+  "ply": 175,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE"
+  ],
+  "first_moves": 41,
+  "agent_move": "D5 E6 F7 NE",
+  "agent_forces": true,
+  "agent_value": -38.0084
+ },
+ {
+  "game": 223,
+  "ply": 53,
+  "forcing": [
+   "G5 G6 G7 E",
+   "G6 G7 E"
+  ],
+  "first_moves": 64,
+  "agent_move": "G5 G6 G7 E",
+  "agent_forces": true,
+  "agent_value": 11.862
+ },
+ {
+  "game": 223,
+  "ply": 55,
+  "forcing": [
+   "G5 G6 G7 E",
+   "G6 G7 E"
+  ],
+  "first_moves": 60,
+  "agent_move": "H8 W",
+  "agent_forces": false,
+  "agent_value": 10.4882
+ },
+ {
+  "game": 223,
+  "ply": 57,
+  "forcing": [
+   "G5 G6 G7 E",
+   "G6 G7 E"
+  ],
+  "first_moves": 61,
+  "agent_move": "E7 F7 G7 SE",
+  "agent_forces": false,
+  "agent_value": 9.8998
+ },
+ {
+  "game": 223,
+  "ply": 88,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 51,
+  "agent_move": "D4 D5 D6 W",
+  "agent_forces": false,
+  "agent_value": 7.09
+ },
+ {
+  "game": 223,
+  "ply": 90,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 48,
+  "agent_move": "C4 D5 E6 SW",
+  "agent_forces": true,
+  "agent_value": 5.445
+ },
+ {
+  "game": 223,
+  "ply": 106,
+  "forcing": [
+   "B2 C2 SE",
+   "B3 C4 SW",
+   "B3 C4 D5 SW"
+  ],
+  "first_moves": 49,
+  "agent_move": "C4 D4 E4 SE",
+  "agent_forces": false,
+  "agent_value": 3.4627
+ },
+ {
+  "game": 223,
+  "ply": 108,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW"
+  ],
+  "first_moves": 49,
+  "agent_move": "C4 D5 E6 SW",
+  "agent_forces": true,
+  "agent_value": 8.2545
+ },
+ {
+  "game": 223,
+  "ply": 144,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 44,
+  "agent_move": "D3 E4 SW",
+  "agent_forces": true,
+  "agent_value": 17.9868
+ },
+ {
+  "game": 223,
+  "ply": 148,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 44,
+  "agent_move": "D3 E4 SW",
+  "agent_forces": true,
+  "agent_value": 17.9868
+ },
+ {
+  "game": 223,
+  "ply": 174,
+  "forcing": [
+   "D6 E6 SE",
+   "D6 E6 F6 SE"
+  ],
+  "first_moves": 42,
+  "agent_move": "F5 F6 W",
+  "agent_forces": false,
+  "agent_value": 6.0993
+ },
+ {
+  "game": 223,
+  "ply": 176,
+  "forcing": [
+   "B3 B4 SE"
+  ],
+  "first_moves": 45,
+  "agent_move": "B4 SW",
+  "agent_forces": false,
+  "agent_value": 8.2673
+ },
+ {
+  "game": 223,
+  "ply": 178,
+  "forcing": [
+   "D6 E6 SE",
+   "D6 E6 F6 SE"
+  ],
+  "first_moves": 42,
+  "agent_move": "F5 F6 W",
+  "agent_forces": false,
+  "agent_value": 6.0993
+ },
+ {
+  "game": 223,
+  "ply": 188,
+  "forcing": [
+   "D6 E6 SE"
+  ],
+  "first_moves": 42,
+  "agent_move": "D6 E6 SE",
+  "agent_forces": true,
+  "agent_value": 10.8962
+ },
+ {
+  "game": 236,
+  "ply": 30,
+  "forcing": [
+   "F4 G5 NE"
+  ],
+  "first_moves": 49,
+  "agent_move": "C1 NE",
+  "agent_forces": false,
+  "agent_value": 16.7229
+ },
+ {
+  "game": 236,
+  "ply": 32,
+  "forcing": [
+   "F4 G5 NE"
+  ],
+  "first_moves": 47,
+  "agent_move": "F4 G5 NE",
+  "agent_forces": true,
+  "agent_value": 20.2374
+ },
+ {
+  "game": 236,
+  "ply": 46,
+  "forcing": [
+   "F5 G5 NW"
+  ],
+  "first_moves": 42,
+  "agent_move": "D6 NE",
+  "agent_forces": false,
+  "agent_value": -5.5895
+ },
+ {
+  "game": 236,
+  "ply": 47,
+  "forcing": [
+   "C3 D3 SE",
+   "C3 D3 E3 SE"
+  ],
+  "first_moves": 44,
+  "agent_move": "C3 D3 E3 SE",
+  "agent_forces": true,
+  "agent_value": 9.5605
+ },
+ {
+  "game": 236,
+  "ply": 48,
+  "forcing": [
+   "F5 G5 NW"
+  ],
+  "first_moves": 41,
+  "agent_move": "F5 G6 NE",
+  "agent_forces": false,
+  "agent_value": -10.1245
+ },
+ {
+  "game": 236,
+  "ply": 50,
+  "forcing": [
+   "F5 G5 NW"
+  ],
+  "first_moves": 40,
+  "agent_move": "F5 G6 NE",
+  "agent_forces": false,
+  "agent_value": -8.5022
+ },
+ {
+  "game": 236,
+  "ply": 52,
+  "forcing": [
+   "F5 G5 NW"
+  ],
+  "first_moves": 45,
+  "agent_move": "F5 G5 NW",
+  "agent_forces": true,
+  "agent_value": -5.0395
+ },
+ {
+  "game": 236,
+  "ply": 53,
+  "forcing": [
+   "C3 D3 SE",
+   "C3 D3 E3 SE"
+  ],
+  "first_moves": 45,
+  "agent_move": "C3 D3 E3 SE",
+  "agent_forces": true,
+  "agent_value": 10.4644
+ },
+ {
+  "game": 236,
+  "ply": 54,
+  "forcing": [
+   "F5 G5 NW"
+  ],
+  "first_moves": 40,
+  "agent_move": "F5 G6 NE",
+  "agent_forces": false,
+  "agent_value": -10.199
+ },
+ {
+  "game": 236,
+  "ply": 56,
+  "forcing": [
+   "F5 G5 NW"
+  ],
+  "first_moves": 43,
+  "agent_move": "F5 G5 NW",
+  "agent_forces": true,
+  "agent_value": -8.7677
+ },
+ {
+  "game": 236,
+  "ply": 63,
+  "forcing": [
+   "C3 D3 SE",
+   "C3 D3 E3 SE"
+  ],
+  "first_moves": 46,
+  "agent_move": "C3 D3 E3 SE",
+  "agent_forces": true,
+  "agent_value": 10.7072
+ },
+ {
+  "game": 236,
+  "ply": 69,
+  "forcing": [
+   "D3 SE",
+   "D3 D4 SW",
+   "D4 SW",
+   "D4 E5 SW",
+   "D4 E5 F6 SW"
+  ],
+  "first_moves": 43,
+  "agent_move": "E4 E5 E6 E",
+  "agent_forces": false,
+  "agent_value": 4.3492
+ },
+ {
+  "game": 236,
+  "ply": 71,
+  "forcing": [
+   "D3 SE",
+   "D3 D4 SW",
+   "D4 SW",
+   "D4 E5 SW",
+   "D4 E5 F6 SW",
+   "E5 E6 E7 E",
+   "E6 E7 E"
+  ],
+  "first_moves": 40,
+  "agent_move": "E6 F6 SE",
+  "agent_forces": false,
+  "agent_value": 10.399
+ },
+ {
+  "game": 236,
+  "ply": 79,
+  "forcing": [
+   "C3 C4 C5 E",
+   "C3 D3 SE",
+   "C4 C5 E",
+   "E5 E6 E7 E",
+   "E6 E7 E"
+  ],
+  "first_moves": 41,
+  "agent_move": "C3 D3 SE",
+  "agent_forces": true,
+  "agent_value": 11.7411
+ },
+ {
+  "game": 236,
+  "ply": 86,
+  "forcing": [
+   "G8 H8 SE"
+  ],
+  "first_moves": 45,
+  "agent_move": "E7 F7 NW",
+  "agent_forces": false,
+  "agent_value": -26.1784
+ },
+ {
+  "game": 236,
+  "ply": 101,
+  "forcing": [
+   "D6 E6 SE",
+   "D6 E6 F6 SE"
+  ],
+  "first_moves": 46,
+  "agent_move": "D5 E5 F5 NW",
+  "agent_forces": false,
+  "agent_value": 33.7228
+ },
+ {
+  "game": 236,
+  "ply": 117,
+  "forcing": [
+   "D6 E6 SE",
+   "D6 E6 F6 SE",
+   "E6 F6 G6 NW",
+   "F6 G6 NW"
+  ],
+  "first_moves": 51,
+  "agent_move": "D6 E6 SE",
+  "agent_forces": true,
+  "agent_value": 61.9114
+ },
+ {
+  "game": 236,
+  "ply": 119,
+  "forcing": [
+   "D5 E6 SW",
+   "D6 E6 SE",
+   "D6 E6 F6 SE",
+   "E6 F6 G6 NW",
+   "F6 G7 NE",
+   "F6 G6 NW"
+  ],
+  "first_moves": 43,
+  "agent_move": "D6 E6 SE",
+  "agent_forces": true,
+  "agent_value": 63.2535
+ },
+ {
+  "game": 236,
+  "ply": 121,
+  "forcing": [
+   "D5 E6 SW",
+   "E6 F6 G6 NW",
+   "F6 G7 NE",
+   "F6 G6 NW"
+  ],
+  "first_moves": 44,
+  "agent_move": "D5 E6 SW",
+  "agent_forces": true,
+  "agent_value": 61.1704
+ },
+ {
+  "game": 236,
+  "ply": 123,
+  "forcing": [
+   "D5 E6 SW"
+  ],
+  "first_moves": 42,
+  "agent_move": "F5 F6 E",
+  "agent_forces": false,
+  "agent_value": 57.6966
+ },
+ {
+  "game": 236,
+  "ply": 125,
+  "forcing": [
+   "D5 E6 SW"
+  ],
+  "first_moves": 44,
+  "agent_move": "E4 F5 G6 NE",
+  "agent_forces": false,
+  "agent_value": 53.9859
+ },
+ {
+  "game": 236,
+  "ply": 133,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 51,
+  "agent_move": "F5 G5 NW",
+  "agent_forces": false,
+  "agent_value": 53.0311
+ },
+ {
+  "game": 236,
+  "ply": 135,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 47,
+  "agent_move": "F5 G5 NW",
+  "agent_forces": false,
+  "agent_value": 54.9188
+ },
+ {
+  "game": 236,
+  "ply": 141,
+  "forcing": [
+   "C4 D4 SE"
+  ],
+  "first_moves": 50,
+  "agent_move": "F5 G6 NE",
+  "agent_forces": false,
+  "agent_value": 47.1443
+ },
+ {
+  "game": 238,
+  "ply": 12,
+  "forcing": [
+   "B1 B2 B3 E",
+   "C4 D4 SE"
+  ],
+  "first_moves": 73,
+  "agent_move": "B1 B2 B3 E",
+  "agent_forces": true,
+  "agent_value": 17.1171
+ },
+ {
+  "game": 238,
+  "ply": 28,
+  "forcing": [
+   "D6 E6 SE"
+  ],
+  "first_moves": 41,
+  "agent_move": "D3 NE",
+  "agent_forces": false,
+  "agent_value": 20.0958
+ },
+ {
+  "game": 238,
+  "ply": 30,
+  "forcing": [
+   "D6 E6 SE"
+  ],
+  "first_moves": 42,
+  "agent_move": "D6 E6 SE",
+  "agent_forces": true,
+  "agent_value": 20.5668
+ },
+ {
+  "game": 238,
+  "ply": 32,
+  "forcing": [
+   "D6 E6 SE",
+   "E5 E6 W"
+  ],
+  "first_moves": 46,
+  "agent_move": "E5 E6 E7 W",
+  "agent_forces": false,
+  "agent_value": 39.5978
+ },
+ {
+  "game": 238,
+  "ply": 46,
+  "forcing": [
+   "C4 D4 SE",
+   "C4 D4 E4 SE"
+  ],
+  "first_moves": 50,
+  "agent_move": "D5 E5 F5 NW",
+  "agent_forces": false,
+  "agent_value": 47.0696
+ },
+ {
+  "game": 238,
+  "ply": 62,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "F5 G6 NE"
+  ],
+  "first_moves": 44,
+  "agent_move": "E4 F5 G6 NE",
+  "agent_forces": true,
+  "agent_value": 47.0653
+ },
+ {
+  "game": 238,
+  "ply": 82,
+  "forcing": [
+   "D6 E6 SE",
+   "D6 E6 F6 SE"
+  ],
+  "first_moves": 37,
+  "agent_move": "D6 E6 F6 SE",
+  "agent_forces": true,
+  "agent_value": 82.1667
+ },
+ {
+  "game": 243,
+  "ply": 39,
+  "forcing": [
+   "E5 F6 NE",
+   "G5 G6 E",
+   "G6 E",
+   "H7 SE",
+   "H8 SW"
+  ],
+  "first_moves": 51,
+  "agent_move": "H8 SW",
+  "agent_forces": true,
+  "agent_value": -22.3601
+ },
+ {
+  "game": 243,
+  "ply": 43,
+  "forcing": [
+   "D4 E5 F6 NE",
+   "E5 F6 NE",
+   "G6 H7 E",
+   "H7 SE"
+  ],
+  "first_moves": 47,
+  "agent_move": "H7 SE",
+  "agent_forces": true,
+  "agent_value": -20.827
+ },
+ {
+  "game": 243,
+  "ply": 45,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE"
+  ],
+  "first_moves": 49,
+  "agent_move": "D5 E6 F7 NE",
+  "agent_forces": true,
+  "agent_value": -11.8776
+ },
+ {
+  "game": 243,
+  "ply": 61,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE"
+  ],
+  "first_moves": 38,
+  "agent_move": "H8 W",
+  "agent_forces": false,
+  "agent_value": -22.1992
+ },
+ {
+  "game": 243,
+  "ply": 67,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE"
+  ],
+  "first_moves": 43,
+  "agent_move": "D4 E4 NW",
+  "agent_forces": false,
+  "agent_value": -23.4296
+ },
+ {
+  "game": 243,
+  "ply": 141,
+  "forcing": [
+   "C3 D4 SW",
+   "C3 D4 E5 SW"
+  ],
+  "first_moves": 36,
+  "agent_move": "C3 D4 SW",
+  "agent_forces": true,
+  "agent_value": -50.7344
+ },
+ {
+  "game": 243,
+  "ply": 166,
+  "forcing": [
+   "D6 E7 NE"
+  ],
+  "first_moves": 66,
+  "agent_move": "D6 E7 NE",
+  "agent_forces": true,
+  "agent_value": "win in 3"
+ },
+ {
+  "game": 253,
+  "ply": 32,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E5 E6 E",
+   "E6 F7 NE"
+  ],
+  "first_moves": 71,
+  "agent_move": "B3 NE",
+  "agent_forces": false,
+  "agent_value": 19.12
+ },
+ {
+  "game": 253,
+  "ply": 34,
+  "forcing": [
+   "E5 E6 E"
+  ],
+  "first_moves": 63,
+  "agent_move": "E5 E6 E",
+  "agent_forces": true,
+  "agent_value": 20.5461
+ },
+ {
+  "game": 253,
+  "ply": 41,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 50,
+  "agent_move": "G7 H7 SE",
+  "agent_forces": false,
+  "agent_value": -30.1537
+ },
+ {
+  "game": 253,
+  "ply": 53,
+  "forcing": [
+   "G5 G6 G7 E",
+   "G6 G7 E"
+  ],
+  "first_moves": 47,
+  "agent_move": "F7 F8 W",
+  "agent_forces": false,
+  "agent_value": -3.0534
+ },
+ {
+  "game": 253,
+  "ply": 55,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE",
+   "G5 G6 G7 E",
+   "G6 G7 E"
+  ],
+  "first_moves": 56,
+  "agent_move": "D5 E6 F7 NE",
+  "agent_forces": true,
+  "agent_value": 3.6273
+ },
+ {
+  "game": 253,
+  "ply": 57,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE",
+   "G5 G6 G7 E",
+   "G6 G7 E"
+  ],
+  "first_moves": 56,
+  "agent_move": "E6 F7 NE",
+  "agent_forces": true,
+  "agent_value": 6.7554
+ },
+ {
+  "game": 253,
+  "ply": 73,
+  "forcing": [
+   "D4 D5 D6 E",
+   "D5 D6 E"
+  ],
+  "first_moves": 64,
+  "agent_move": "D4 D5 D6 E",
+  "agent_forces": true,
+  "agent_value": -6.7597
+ },
+ {
+  "game": 253,
+  "ply": 156,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "E6 F6 G6 NW",
+   "F5 G6 NE",
+   "F6 G6 NW"
+  ],
+  "first_moves": 47,
+  "agent_move": "E4 F5 G6 NE",
+  "agent_forces": true,
+  "agent_value": 47.5971
+ },
+ {
+  "game": 253,
+  "ply": 158,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "E6 F7 NE",
+   "E6 F6 G6 NW",
+   "E7 F7 G7 NW",
+   "F5 G6 NE",
+   "F6 G6 NW",
+   "F7 G7 NW"
+  ],
+  "first_moves": 54,
+  "agent_move": "E6 F7 NE",
+  "agent_forces": true,
+  "agent_value": 50.8318
+ },
+ {
+  "game": 253,
+  "ply": 162,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "E6 F6 G6 NW",
+   "E7 F7 G7 NW",
+   "F5 G6 NE",
+   "F6 G6 NW",
+   "F7 G7 NW"
+  ],
+  "first_moves": 50,
+  "agent_move": "E5 F5 G5 SE",
+  "agent_forces": false,
+  "agent_value": 42.9522
+ },
+ {
+  "game": 253,
+  "ply": 166,
+  "forcing": [
+   "E4 F5 G6 NE",
+   "E5 F6 G7 NE",
+   "E7 F7 G7 NW",
+   "F5 G6 NE",
+   "F6 G7 NE",
+   "F7 G7 NW"
+  ],
+  "first_moves": 49,
+  "agent_move": "E7 F7 G7 NW",
+  "agent_forces": true,
+  "agent_value": 58.8907
+ },
+ {
+  "game": 253,
+  "ply": 168,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "E7 F7 G7 NW",
+   "F6 G7 NE",
+   "F7 G7 NW"
+  ],
+  "first_moves": 50,
+  "agent_move": "D5 E5 F5 NW",
+  "agent_forces": false,
+  "agent_value": 64.7822
+ },
+ {
+  "game": 253,
+  "ply": 170,
+  "forcing": [
+   "G6 G7 E"
+  ],
+  "first_moves": 51,
+  "agent_move": "G6 G7 E",
+  "agent_forces": true,
+  "agent_value": 66.5625
+ },
+ {
+  "game": 259,
+  "ply": 18,
+  "forcing": [
+   "C4 D4 SE"
+  ],
+  "first_moves": 70,
+  "agent_move": "C4 D4 SE",
+  "agent_forces": true,
+  "agent_value": -0.2928
+ },
+ {
+  "game": 259,
+  "ply": 144,
+  "forcing": [
+   "C3 C4 C5 E",
+   "C4 C5 E",
+   "D6 E6 SE",
+   "D6 E6 F6 SE"
+  ],
+  "first_moves": 59,
+  "agent_move": "D6 E6 F6 SE",
+  "agent_forces": true,
+  "agent_value": 94.8362
+ },
+ {
+  "game": 265,
+  "ply": 56,
+  "forcing": [
+   "B3 B4 W",
+   "B3 B4 B5 W",
+   "C3 D4 SW",
+   "C3 D4 E5 SW"
+  ],
+  "first_moves": 53,
+  "agent_move": "C7 SW",
+  "agent_forces": false,
+  "agent_value": 7.6582
+ },
+ {
+  "game": 265,
+  "ply": 58,
+  "forcing": [
+   "B3 B4 W",
+   "B3 B4 B5 W",
+   "C3 D4 SW",
+   "C3 D4 E5 SW"
+  ],
+  "first_moves": 57,
+  "agent_move": "C7 W",
+  "agent_forces": false,
+  "agent_value": 15.1346
+ },
+ {
+  "game": 265,
+  "ply": 60,
+  "forcing": [
+   "B3 B4 W",
+   "B3 B4 B5 W",
+   "C3 D4 SW",
+   "C3 D4 E5 SW"
+  ],
+  "first_moves": 56,
+  "agent_move": "C3 D4 E5 NE",
+  "agent_forces": false,
+  "agent_value": 17.2605
+ },
+ {
+  "game": 265,
+  "ply": 62,
+  "forcing": [
+   "C3 D4 SW",
+   "C3 D4 E5 SW"
+  ],
+  "first_moves": 54,
+  "agent_move": "C3 D4 E5 NE",
+  "agent_forces": false,
+  "agent_value": 18.379
+ },
+ {
+  "game": 265,
+  "ply": 101,
+  "forcing": [
+   "E7 F7 SE"
+  ],
+  "first_moves": 46,
+  "agent_move": "E7 F7 SE",
+  "agent_forces": true,
+  "agent_value": 23.8806
+ },
+ {
+  "game": 265,
+  "ply": 103,
+  "forcing": [
+   "E7 F7 SE"
+  ],
+  "first_moves": 43,
+  "agent_move": "E3 SE",
+  "agent_forces": false,
+  "agent_value": 26.9474
+ },
+ {
+  "game": 265,
+  "ply": 144,
+  "forcing": [
+   "C3 C4 W",
+   "D3 E4 SW"
+  ],
+  "first_moves": 42,
+  "agent_move": "C3 C4 W",
+  "agent_forces": true,
+  "agent_value": -23.1146
+ },
+ {
+  "game": 265,
+  "ply": 179,
+  "forcing": [
+   "C4 D5 SW",
+   "C4 D5 E6 SW",
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 47,
+  "agent_move": "C4 D5 SW",
+  "agent_forces": true,
+  "agent_value": 17.6641
+ },
+ {
+  "game": 265,
+  "ply": 181,
+  "forcing": [
+   "C3 D3 SE",
+   "C3 D3 E3 SE",
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 54,
+  "agent_move": "C3 D3 E3 SE",
+  "agent_forces": true,
+  "agent_value": 19.2073
+ },
+ {
+  "game": 265,
+  "ply": 183,
+  "forcing": [
+   "D3 E4 SW",
+   "D3 E4 F5 SW"
+  ],
+  "first_moves": 53,
+  "agent_move": "D5 E5 F5 SE",
+  "agent_forces": false,
+  "agent_value": 21.2905
+ },
+ {
+  "game": 267,
+  "ply": 48,
+  "forcing": [
+   "F7 G7 NW"
+  ],
+  "first_moves": 47,
+  "agent_move": "E6 F6 G6 SE",
+  "agent_forces": false,
+  "agent_value": 35.7886
+ },
+ {
+  "game": 267,
+  "ply": 58,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE"
+  ],
+  "first_moves": 56,
+  "agent_move": "E4 E5 E6 E",
+  "agent_forces": false,
+  "agent_value": 33.0344
+ },
+ {
+  "game": 267,
+  "ply": 60,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE"
+  ],
+  "first_moves": 54,
+  "agent_move": "D5 E5 F5 NW",
+  "agent_forces": false,
+  "agent_value": 35.2621
+ },
+ {
+  "game": 267,
+  "ply": 62,
+  "forcing": [
+   "D4 E4 F4 NW",
+   "E3 F4 G5 NE",
+   "E4 F4 NW",
+   "E6 F7 NE",
+   "F4 G5 NE",
+   "F7 G7 NW"
+  ],
+  "first_moves": 61,
+  "agent_move": "F7 G7 NW",
+  "agent_forces": true,
+  "agent_value": 44.164
+ },
+ {
+  "game": 267,
+  "ply": 102,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE",
+   "F7 NE"
+  ],
+  "first_moves": 59,
+  "agent_move": "F7 NE",
+  "agent_forces": true,
+  "agent_value": 115.6684
+ },
+ {
+  "game": 267,
+  "ply": 104,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE",
+   "F7 NE"
+  ],
+  "first_moves": 57,
+  "agent_move": "F7 NE",
+  "agent_forces": true,
+  "agent_value": 118.4092
+ },
+ {
+  "game": 267,
+  "ply": 106,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE",
+   "F7 NE"
+  ],
+  "first_moves": 56,
+  "agent_move": "F7 NE",
+  "agent_forces": true,
+  "agent_value": 117.0997
+ },
+ {
+  "game": 267,
+  "ply": 112,
+  "forcing": [
+   "E6 F6 NW"
+  ],
+  "first_moves": 51,
+  "agent_move": "E6 F6 NW",
+  "agent_forces": true,
+  "agent_value": 118.6328
+ },
+ {
+  "game": 267,
+  "ply": 114,
+  "forcing": [
+   "E4 F5 NE",
+   "F5 NE",
+   "F5 G5 NE",
+   "G5 E"
+  ],
+  "first_moves": 55,
+  "agent_move": "G5 E",
+  "agent_forces": true,
+  "agent_value": 121.83
+ },
+ {
+  "game": 267,
+  "ply": 116,
+  "forcing": [
+   "E6 F6 NW"
+  ],
+  "first_moves": 51,
+  "agent_move": "E6 F6 NW",
+  "agent_forces": true,
+  "agent_value": 118.6328
+ },
+ {
+  "game": 267,
+  "ply": 118,
+  "forcing": [
+   "E6 F6 NW"
+  ],
+  "first_moves": 48,
+  "agent_move": "C4 D5 E6 NE",
+  "agent_forces": false,
+  "agent_value": 110.4507
+ },
+ {
+  "game": 267,
+  "ply": 120,
+  "forcing": [
+   "D5 E6 F7 NE",
+   "E6 F7 NE",
+   "E6 F6 NW"
+  ],
+  "first_moves": 46,
+  "agent_move": "D5 E6 F7 NE",
+  "agent_forces": true,
+  "agent_value": 121.0934
+ },
+ {
+  "game": 268,
+  "ply": 38,
+  "forcing": [
+   "C5 D6 SW"
+  ],
+  "first_moves": 64,
+  "agent_move": "C5 D6 SW",
+  "agent_forces": true,
+  "agent_value": 20.9915
+ },
+ {
+  "game": 268,
+  "ply": 40,
+  "forcing": [
+   "C5 D6 SW"
+  ],
+  "first_moves": 56,
+  "agent_move": "D4 D5 D6 E",
+  "agent_forces": false,
+  "agent_value": 16.4075
+ },
+ {
+  "game": 268,
+  "ply": 58,
+  "forcing": [
+   "D6 E6 SE"
+  ],
+  "first_moves": 61,
+  "agent_move": "D6 E6 SE",
+  "agent_forces": true,
+  "agent_value": 33.05
+ },
+ {
+  "game": 268,
+  "ply": 90,
+  "forcing": [
+   "C5 D5 SE",
+   "C5 D5 E5 SE"
+  ],
+  "first_moves": 56,
+  "agent_move": "C5 D5 SE",
+  "agent_forces": true,
+  "agent_value": 25.9182
+ },
+ {
+  "game": 268,
+  "ply": 94,
+  "forcing": [
+   "C5 D5 SE",
+   "C5 D5 E5 SE"
+  ],
+  "first_moves": 55,
+  "agent_move": "F3 SE",
+  "agent_forces": false,
+  "agent_value": 18.9573
+ },
+ {
+  "game": 268,
+  "ply": 98,
+  "forcing": [
+   "C5 D5 SE",
+   "C5 D5 E5 SE"
+  ],
+  "first_moves": 48,
+  "agent_move": "I6 W",
+  "agent_forces": false,
+  "agent_value": 34.1866
+ },
+ {
+  "game": 268,
+  "ply": 100,
+  "forcing": [
+   "C5 D5 SE",
+   "C5 D5 E5 SE"
+  ],
+  "first_moves": 52,
+  "agent_move": "I6 SE",
+  "agent_forces": false,
+  "agent_value": 38.7032
+ },
+ {
+  "game": 268,
+  "ply": 102,
+  "forcing": [
+   "C5 D5 SE",
+   "C5 D5 E5 SE"
+  ],
+  "first_moves": 48,
+  "agent_move": "C5 D5 SE",
+  "agent_forces": true,
+  "agent_value": 41.672
+ },
+ {
+  "game": 268,
+  "ply": 104,
+  "forcing": [
+   "C5 D5 SE",
+   "C5 D5 E5 SE"
+  ],
+  "first_moves": 47,
+  "agent_move": "D5 E5 F5 NW",
+  "agent_forces": false,
+  "agent_value": 46.7897
+ },
+ {
+  "game": 268,
+  "ply": 108,
+  "forcing": [
+   "E5 F5 G5 NW",
+   "F5 G5 NW"
+  ],
+  "first_moves": 57,
+  "agent_move": "F5 G5 NW",
+  "agent_forces": true,
+  "agent_value": 56.3984
+ },
+ {
+  "game": 268,
+  "ply": 134,
+  "forcing": [
+   "D4 E4 F4 NW",
+   "E4 F4 NW"
+  ],
+  "first_moves": 44,
+  "agent_move": "F4 F5 W",
+  "agent_forces": false,
+  "agent_value": 81.4755
+ },
+ {
+  "game": 268,
+  "ply": 154,
+  "forcing": [
+   "C4 D4 E4 NW",
+   "D4 E4 NW",
+   "E3 NE",
+   "E4 NW",
+   "F5 W",
+   "F5 F6 W"
+  ],
+  "first_moves": 50,
+  "agent_move": "C4 D4 E4 NW",
+  "agent_forces": true,
+  "agent_value": 98.4533
+ },
+ {
+  "game": 268,
+  "ply": 158,
+  "forcing": [
+   "C4 D4 E4 NW",
+   "D4 E4 NW",
+   "E3 NE",
+   "E4 NW",
+   "F5 W",
+   "F5 F6 W"
+  ],
+  "first_moves": 47,
+  "agent_move": "C4 D4 E4 NW",
+  "agent_forces": true,
+  "agent_value": 96.7565
+ },
+ {
+  "game": 270,
+  "ply": 81,
+  "forcing": [
+   "E5 F5 G5 NW",
+   "F5 G5 NW"
+  ],
+  "first_moves": 39,
+  "agent_move": "F5 G5 NW",
+  "agent_forces": true,
+  "agent_value": -76.0743
+ },
+ {
+  "game": 270,
+  "ply": 83,
+  "forcing": [
+   "E5 F5 G5 NW",
+   "F5 G5 NW"
+  ],
+  "first_moves": 31,
+  "agent_move": "F5 G5 NW",
+  "agent_forces": true,
+  "agent_value": -71.0732
+ },
+ {
+  "game": 270,
+  "ply": 85,
+  "forcing": [
+   "E5 F5 G5 NW",
+   "F5 G5 NW"
+  ],
+  "first_moves": 35,
+  "agent_move": "E4 F5 G6 NE",
+  "agent_forces": false,
+  "agent_value": -66.8685
+ },
+ {
+  "game": 270,
+  "ply": 106,
+  "forcing": [
+   "B5 C6 NE",
+   "C6 NE",
+   "C6 D6 E",
+   "D5 D6 E",
+   "D5 E6 NE",
+   "D6 E",
+   "E6 NE"
+  ],
+  "first_moves": 68,
+  "agent_move": "B5 C6 NE",
+  "agent_forces": true,
+  "agent_value": 70.9883
+ },
+ {
+  "game": 270,
+  "ply": 108,
+  "forcing": [
+   "B5 C6 NE",
+   "C6 NE",
+   "C6 D6 E",
+   "D5 D6 E",
+   "D5 E6 NE",
+   "D6 E",
+   "E6 NE",
+   "G7 SE"
+  ],
+  "first_moves": 65,
+  "agent_move": "G7 SE",
+  "agent_forces": true,
+  "agent_value": 74.303
+ },
+ {
+  "game": 270,
+  "ply": 110,
+  "forcing": [
+   "C5 D6 E",
+   "D5 D6 E",
+   "D5 E6 NE",
+   "D6 E",
+   "E6 NE",
+   "F6 E",
+   "F6 G7 E",
+   "G7 SE"
+  ],
+  "first_moves": 67,
+  "agent_move": "G7 SE",
+  "agent_forces": true,
+  "agent_value": 70.4574
+ },
+ {
+  "game": 270,
+  "ply": 131,
+  "forcing": [
+   "E3 E4 W",
+   "E3 E4 E5 W"
+  ],
+  "first_moves": 55,
+  "agent_move": "D3 E3 F3 SE",
+  "agent_forces": false,
+  "agent_value": -77.0764
+ },
+ {
+  "game": 270,
+  "ply": 135,
+  "forcing": [
+   "E3 E4 W",
+   "E3 E4 E5 W",
+   "G5 G6 W",
+   "G5 G6 G7 W"
+  ],
+  "first_moves": 49,
+  "agent_move": "G5 G6 W",
+  "agent_forces": true,
+  "agent_value": -69.7547
+ },
+ {
+  "game": 270,
+  "ply": 139,
+  "forcing": [
+   "D3 D4 W",
+   "E3 E4 W",
+   "E3 E4 E5 W",
+   "G5 G6 W"
+  ],
+  "first_moves": 43,
+  "agent_move": "D3 D4 W",
+  "agent_forces": true,
+  "agent_value": -65.5061
+ },
+ {
+  "game": 270,
+  "ply": 145,
+  "forcing": [
+   "C3 D3 E3 NW",
+   "D3 E3 NW"
+  ],
+  "first_moves": 45,
+  "agent_move": "E4 F4 G4 SE",
+  "agent_forces": false,
+  "agent_value": -56.8841
+ },
+ {
+  "game": 270,
+  "ply": 147,
+  "forcing": [
+   "E3 F4 SW",
+   "E3 F4 G5 SW"
+  ],
+  "first_moves": 40,
+  "agent_move": "E3 F4 G5 SW",
+  "agent_forces": true,
+  "agent_value": -55.2676
+ },
+ {
+  "game": 270,
+  "ply": 149,
+  "forcing": [
+   "F4 F5 W",
+   "F4 F5 F6 W"
+  ],
+  "first_moves": 40,
+  "agent_move": "F4 F5 F6 E",
+  "agent_forces": false,
+  "agent_value": -56.1195
+ },
+ {
+  "game": 270,
+  "ply": 176,
+  "forcing": [
+   "D5 D6 E"
+  ],
+  "first_moves": 55,
+  "agent_move": "A5 W",
+  "agent_forces": false,
+  "agent_value": 38.7552
+ },
+ {
+  "game": 270,
+  "ply": 178,
+  "forcing": [
+   "D5 D6 E"
+  ],
+  "first_moves": 57,
+  "agent_move": "A5 W",
+  "agent_forces": false,
+  "agent_value": 41.9578
+ },
+ {
+  "game": 270,
+  "ply": 180,
+  "forcing": [
+   "D5 D6 E"
+  ],
+  "first_moves": 58,
+  "agent_move": "C4 C5 E",
+  "agent_forces": false,
+  "agent_value": 40.1444
+ },
+ {
+  "game": 270,
+  "ply": 181,
+  "forcing": [
+   "E3 F4 SW"
+  ],
+  "first_moves": 44,
+  "agent_move": "E3 F4 SW",
+  "agent_forces": true,
+  "agent_value": -36.4854
+ },
+ {
+  "game": 270,
+  "ply": 193,
+  "forcing": [
+   "D3 E3 NW"
+  ],
+  "first_moves": 41,
+  "agent_move": "D3 E3 NW",
+  "agent_forces": true,
+  "agent_value": -55.351
+ },
+ {
+  "game": 272,
+  "ply": 36,
+  "forcing": [
+   "E3 F4 SW"
+  ],
+  "first_moves": 54,
+  "agent_move": "E3 F4 SW",
+  "agent_forces": true,
+  "agent_value": 30.3139
+ },
+ {
+  "game": 272,
+  "ply": 62,
+  "forcing": [
+   "C3 C4 W",
+   "C3 C4 C5 W",
+   "D3 E4 SW"
+  ],
+  "first_moves": 61,
+  "agent_move": "C3 C4 W",
+  "agent_forces": true,
+  "agent_value": 35.7816
+ },
+ {
+  "game": 272,
+  "ply": 77,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 47,
+  "agent_move": "G6 G7 E",
+  "agent_forces": false,
+  "agent_value": -39.6781
+ },
+ {
+  "game": 272,
+  "ply": 79,
+  "forcing": [
+   "F6 G7 NE"
+  ],
+  "first_moves": 41,
+  "agent_move": "G6 G7 E",
+  "agent_forces": false,
+  "agent_value": -39.5188
+ },
+ {
+  "game": 272,
+  "ply": 90,
+  "forcing": [
+   "E3 F4 SW",
+   "E3 F4 G5 SW"
+  ],
+  "first_moves": 53,
+  "agent_move": "E3 F4 G5 SW",
+  "agent_forces": true,
+  "agent_value": 35.8069
+ },
+ {
+  "game": 272,
+  "ply": 96,
+  "forcing": [
+   "E3 F4 SW"
+  ],
+  "first_moves": 57,
+  "agent_move": "E3 F4 SW",
+  "agent_forces": true,
+  "agent_value": 38.6759
+ },
+ {
+  "game": 272,
+  "ply": 110,
+  "forcing": [
+   "E3 F4 SW",
+   "E3 F4 G5 SW"
+  ],
+  "first_moves": 59,
+  "agent_move": "E3 F4 G5 SW",
+  "agent_forces": true,
+  "agent_value": 32.1014
+ },
+ {
+  "game": 272,
+  "ply": 156,
+  "forcing": [
+   "D4 E5 F6 NE",
+   "E7 F7 NW"
+  ],
+  "first_moves": 53,
+  "agent_move": "E7 F7 NW",
+  "agent_forces": true,
+  "agent_value": 16.3048
+ },
+ {
+  "game": 272,
+  "ply": 196,
+  "forcing": [
+   "F4 G5 NE"
+  ],
+  "first_moves": 43,
+  "agent_move": "E4 F4 NW",
+  "agent_forces": false,
+  "agent_value": 19.6638
+ },
+ {
+  "game": 273,
+  "ply": 27,
+  "forcing": [
+   "F6 NE"
+  ],
+  "first_moves": 55,
+  "agent_move": "H7 SE",
+  "agent_forces": false,
+  "agent_value": -32.989
+ },
+ {
+  "game": 273,
+  "ply": 29,
+  "forcing": [
+   "F6 NE"
+  ],
+  "first_moves": 58,
+  "agent_move": "H7 SE",
+  "agent_forces": false,
+  "agent_value": -34.4204
+ },
+ {
+  "game": 273,
+  "ply": 42,
+  "forcing": [
+   "E3 F4 SW"
+  ],
+  "first_moves": 53,
+  "agent_move": "E3 F4 SW",
+  "agent_forces": true,
+  "agent_value": 45.1347
+ },
+ {
+  "game": 273,
+  "ply": 48,
+  "forcing": [
+   "C3 C4 W",
+   "C3 D3 SE",
+   "D3 E4 SW"
+  ],
+  "first_moves": 53,
+  "agent_move": "F8 SW",
+  "agent_forces": false,
+  "agent_value": 46.6879
+ },
+ {
+  "game": 273,
+  "ply": 50,
+  "forcing": [
+   "C3 C4 W",
+   "C3 D3 SE"
+  ],
+  "first_moves": 48,
+  "agent_move": "C3 C4 W",
+  "agent_forces": true,
+  "agent_value": 46.4504
+ },
+ {
+  "game": 273,
+  "ply": 54,
+  "forcing": [
+   "C3 C4 W",
+   "C3 D3 SE"
+  ],
+  "first_moves": 53,
+  "agent_move": "G8 W",
+  "agent_forces": false,
+  "agent_value": 48.4591
+ },
+ {
+  "game": 273,
+  "ply": 70,
+  "forcing": [
+   "D6 E6 SE",
+   "E5 E6 E7 E",
+   "E6 E7 E"
+  ],
+  "first_moves": 42,
+  "agent_move": "E6 E7 E",
+  "agent_forces": true,
+  "agent_value": 39.7334
+ },
+ {
+  "game": 273,
+  "ply": 74,
+  "forcing": [
+   "D6 E6 SE",
+   "E5 E6 E7 E",
+   "E6 E7 E"
+  ],
+  "first_moves": 43,
+  "agent_move": "A5 W",
+  "agent_forces": false,
+  "agent_value": 47.8626
+ },
+ {
+  "game": 273,
+  "ply": 79,
+  "forcing": [
+   "B3 B4 E",
+   "C5 D5 SE"
+  ],
+  "first_moves": 60,
+  "agent_move": "B3 B4 E",
+  "agent_forces": true,
+  "agent_value": -44.278
+ },
+ {
+  "game": 273,
+  "ply": 92,
+  "forcing": [
+   "D6 E6 SE",
+   "D6 E6 F6 SE"
+  ],
+  "first_moves": 42,
+  "agent_move": "D4 E5 F6 NE",
+  "agent_forces": false,
+  "agent_value": 59.5009
+ },
+ {
+  "game": 273,
+  "ply": 99,
+  "forcing": [
+   "D5 SE"
+  ],
+  "first_moves": 57,
+  "agent_move": "H6 H7 H8 W",
+  "agent_forces": false,
+  "agent_value": -54.2196
+ },
+ {
+  "game": 274,
+  "ply": 33,
+  "forcing": [
+   "G5 G6 W",
+   "G5 G6 G7 W"
+  ],
+  "first_moves": 56,
+  "agent_move": "G5 G6 G7 W",
+  "agent_forces": true,
+  "agent_value": 18.1655
+ },
+ {
+  "game": 274,
+  "ply": 78,
+  "forcing": [
+   "C2 D2 SW",
+   "C2 D2 E2 SW"
+  ],
+  "first_moves": 51,
+  "agent_move": "F5 F6 W",
+  "agent_forces": false,
+  "agent_value": 5.1965
+ },
+ {
+  "game": 274,
+  "ply": 80,
+  "forcing": [
+   "C2 D2 SW",
+   "C2 D2 E2 SW"
+  ],
+  "first_moves": 50,
+  "agent_move": "C2 D2 SW",
+  "agent_forces": true,
+  "agent_value": 5.5049
+ },
+ {
+  "game": 274,
+  "ply": 86,
+  "forcing": [
+   "D3 E4 SW"
+  ],
+  "first_moves": 33,
+  "agent_move": "C1 D2 NW",
+  "agent_forces": false,
+  "agent_value": 0.2428
+ },
+ {
+  "game": 274,
+  "ply": 92,
+  "forcing": [
+   "D3 E4 SW",
+   "E3 E4 W",
+   "E3 E4 E5 W"
+  ],
+  "first_moves": 30,
+  "agent_move": "D4 E5 F6 NE",
+  "agent_forces": false,
+  "agent_value": -1.4842
+ },
+ {
+  "game": 274,
+  "ply": 134,
+  "forcing": [
+   "E5 E6 E7 E",
+   "E6 E7 E"
+  ],
+  "first_moves": 42,
+  "agent_move": "C5 D6 E7 NE",
+  "agent_forces": false,
+  "agent_value": 2.9759
+ },
+ {
+  "game": 274,
+  "ply": 150,
+  "forcing": [
+   "C5 NE",
+   "C5 D5 E",
+   "D3 D4 D5 E",
+   "D4 D5 E",
+   "D5 E",
+   "E6 SE"
+  ],
+  "first_moves": 48,
+  "agent_move": "C5 D5 E5 NW",
+  "agent_forces": false,
+  "agent_value": 24.0749
+ },
+ {
+  "game": 274,
+  "ply": 152,
+  "forcing": [
+   "D3 D4 D5 E",
+   "D4 D5 E",
+   "D5 E",
+   "E6 SE"
+  ],
+  "first_moves": 46,
+  "agent_move": "E3 NE",
+  "agent_forces": false,
+  "agent_value": 24.6951
+ },
+ {
+  "game": 274,
+  "ply": 156,
+  "forcing": [
+   "D4 D5 E",
+   "D5 E",
+   "E6 SE",
+   "E6 F6 SE"
+  ],
+  "first_moves": 45,
+  "agent_move": "B1 SE",
+  "agent_forces": false,
+  "agent_value": 20.654
+ },
+ {
+  "game": 274,
+  "ply": 160,
+  "forcing": [
+   "D5 E",
+   "E6 SE",
+   "E6 F6 SE",
+   "G8 SE",
+   "G8 H8 SE"
+  ],
+  "first_moves": 55,
+  "agent_move": "G8 SE",
+  "agent_forces": true,
+  "agent_value": 35.2123
+ },
+ {
+  "game": 274,
+  "ply": 164,
+  "forcing": [
+   "E5 E6 E7 E",
+   "E6 E7 E"
+  ],
+  "first_moves": 43,
+  "agent_move": "D7 E7 F7 NW",
+  "agent_forces": false,
+  "agent_value": 42.2922
+ },
+ {
+  "game": 274,
+  "ply": 170,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 53,
+  "agent_move": "B1 NW",
+  "agent_forces": false,
+  "agent_value": 36.9644
+ },
+ {
+  "game": 274,
+  "ply": 172,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 47,
+  "agent_move": "B1 NW",
+  "agent_forces": false,
+  "agent_value": 37.9665
+ },
+ {
+  "game": 274,
+  "ply": 174,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 45,
+  "agent_move": "B1 NW",
+  "agent_forces": false,
+  "agent_value": 39.0432
+ },
+ {
+  "game": 274,
+  "ply": 176,
+  "forcing": [
+   "E5 F6 G7 NE",
+   "F6 G7 NE"
+  ],
+  "first_moves": 42,
+  "agent_move": "F6 G7 NE",
+  "agent_forces": true,
+  "agent_value": 33.3527
+ },
+ {
+  "game": 274,
+  "ply": 189,
+  "forcing": [
+   "D3 SE",
+   "D3 D4 SE",
+   "D3 D4 D5 SE",
+   "D3 E3 SE",
+   "D4 SW",
+   "D4 D5 SW"
+  ],
+  "first_moves": 45,
+  "agent_move": "D3 E3 SE",
+  "agent_forces": true,
+  "agent_value": -24.5133
+ },
+ {
+  "game": 274,
+  "ply": 191,
+  "forcing": [
+   "B3 NW",
+   "D4 SW",
+   "D4 D5 SW"
+  ],
+  "first_moves": 43,
+  "agent_move": "D4 D5 W",
+  "agent_forces": false,
+  "agent_value": -32.388
+ },
+ {
+  "game": 274,
+  "ply": 193,
+  "forcing": [
+   "B2 C2 NW",
+   "B3 NW",
+   "D3 SE",
+   "D3 D4 W",
+   "D3 D4 SE",
+   "D3 E3 SE",
+   "D4 SW"
+  ],
+  "first_moves": 41,
+  "agent_move": "D3 D4 W",
+  "agent_forces": true,
+  "agent_value": -21.8943
+ },
+ {
+  "game": 274,
+  "ply": 197,
+  "forcing": [
+   "D3 SE",
+   "D3 D4 W",
+   "D3 D4 SE",
+   "D3 E3 SE",
+   "D4 SW"
+  ],
+  "first_moves": 34,
+  "agent_move": "D3 D4 W",
+  "agent_forces": true,
+  "agent_value": -15.0799
+ },
+ {
+  "game": 284,
+  "ply": 62,
+  "forcing": [
+   "C3 C4 W",
+   "C3 C4 C5 W"
+  ],
+  "first_moves": 48,
+  "agent_move": "I8 W",
+  "agent_forces": false,
+  "agent_value": 17.6108
+ },
+ {
+  "game": 284,
+  "ply": 104,
+  "forcing": [
+   "G5 G6 W",
+   "G5 G6 G7 W"
+  ],
+  "first_moves": 45,
+  "agent_move": "G5 G6 G7 W",
+  "agent_forces": true,
+  "agent_value": 44.5481
+ },
+ {
+  "game": 284,
+  "ply": 146,
+  "forcing": [
+   "E3 E4 W",
+   "E3 E4 E5 W"
+  ],
+  "first_moves": 39,
+  "agent_move": "E3 E4 W",
+  "agent_forces": true,
+  "agent_value": 37.3938
+ },
+ {
+  "game": 284,
+  "ply": 154,
+  "forcing": [
+   "E5 E6 E7 E",
+   "E6 E7 E"
+  ],
+  "first_moves": 43,
+  "agent_move": "E6 E7 E",
+  "agent_forces": true,
+  "agent_value": 47.8398
+ },
+ {
+  "game": 284,
+  "ply": 156,
+  "forcing": [
+   "D6 E7 NE"
+  ],
+  "first_moves": 45,
+  "agent_move": "D6 E7 NE",
+  "agent_forces": true,
+  "agent_value": 45.6022
+ },
+ {
+  "game": 284,
+  "ply": 158,
+  "forcing": [
+   "D4 D5 D6 E",
+   "D5 D6 E"
+  ],
+  "first_moves": 51,
+  "agent_move": "D5 E6 F7 NE",
+  "agent_forces": false,
+  "agent_value": 40.5661
+ },
+ {
+  "game": 290,
+  "ply": 6,
+  "forcing": [
+   "H7 H8 H9 W"
+  ],
+  "first_moves": 60,
+  "agent_move": "H7 H8 H9 W",
+  "agent_forces": true,
+  "agent_value": 8.9394
+ },
+ {
+  "game": 290,
+  "ply": 15,
+  "forcing": [
+   "C4 D5 SW"
+  ],
+  "first_moves": 67,
+  "agent_move": "C4 D5 SW",
+  "agent_forces": true,
+  "agent_value": 2.5079
+ },
+ {
+  "game": 290,
+  "ply": 51,
+  "forcing": [
+   "C4 W",
+   "C4 D5 SW",
+   "C4 D5 E6 SW",
+   "D4 SW",
+   "D4 E5 SW",
+   "D4 E5 F6 SW"
+  ],
+  "first_moves": 45,
+  "agent_move": "C2 E",
+  "agent_forces": false,
+  "agent_value": -49.8642
+ },
+ {
+  "game": 290,
+  "ply": 53,
+  "forcing": [
+   "C4 W",
+   "D4 SW",
+   "D4 E5 SW",
+   "D4 E5 F6 SW"
+  ],
+  "first_moves": 38,
+  "agent_move": "C2 E",
+  "agent_forces": false,
+  "agent_value": -52.9923
+ },
+ {
+  "game": 290,
+  "ply": 82,
+  "forcing": [
+   "E3 F4 G5 NE",
+   "F4 G5 NE"
+  ],
+  "first_moves": 42,
+  "agent_move": "E3 F4 G5 NE",
+  "agent_forces": true,
+  "agent_value": 47.5799
+ },
+ {
+  "game": 290,
+  "ply": 100,
+  "forcing": [
+   "G5 G6 W"
+  ],
+  "first_moves": 47,
+  "agent_move": "I5 E",
+  "agent_forces": false,
+  "agent_value": 62.1126
+ },
+ {
+  "game": 290,
+  "ply": 102,
+  "forcing": [
+   "F4 F5 W",
+   "F4 F5 F6 W"
+  ],
+  "first_moves": 54,
+  "agent_move": "F4 F5 W",
+  "agent_forces": true,
+  "agent_value": 64.0585
+ },
+ {
+  "game": 294,
+  "ply": 50,
+  "forcing": [
+   "E3 F4 G5 NE",
+   "F4 G5 NE"
+  ],
+  "first_moves": 71,
+  "agent_move": "C1 NE",
+  "agent_forces": false,
+  "agent_value": 14.1608
+ },
+ {
+  "game": 294,
+  "ply": 52,
+  "forcing": [
+   "E3 F4 G5 NE",
+   "F4 G5 NE"
+  ],
+  "first_moves": 71,
+  "agent_move": "B3 B4 NE",
+  "agent_forces": false,
+  "agent_value": 8.1111
+ },
+ {
+  "game": 294,
+  "ply": 65,
+  "forcing": [
+   "F5 G6 NE"
+  ],
+  "first_moves": 43,
+  "agent_move": "E6 E7 W",
+  "agent_forces": false,
+  "agent_value": 5.1604
+ },
+ {
+  "game": 306,
+  "ply": 102,
+  "forcing": [
+   "D3 D4 W"
+  ],
+  "first_moves": 55,
+  "agent_move": "E5 F5 SE",
+  "agent_forces": false,
+  "agent_value": 68.6831
+ },
+ {
+  "game": 306,
+  "ply": 124,
+  "forcing": [
+   "G5 G6 W",
+   "G5 G6 G7 W"
+  ],
+  "first_moves": 48,
+  "agent_move": "G5 G6 G7 W",
+  "agent_forces": true,
+  "agent_value": 65.9423
+ }
+]

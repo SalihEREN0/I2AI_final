@@ -1,0 +1,21 @@
+% tablolar.py tarafından üretildi; elle düzenlemeyin.
+\begin{table}[!htbp]
+\centering\caption{Assignment 2 benchmark: 60 push-off puzzles (19, 37 and 4 at $d^*=2,3,4$)}\label{tab:a2}
+\footnotesize
+\begin{tabular}{@{}lrrrcc@{}}
+\toprule
+Strategy & $d^*=2$ & $d^*=3$ & $d^*=4$ & Solved & Optimal \\
+\midrule
+BFS & 2,977 (54.06) & 79,189 (42.6) & 792,241$^{c}$ (29.58) & 58 & 58 \\
+UCS & 141,071 (375.1) & 912,543$^{c}$ (96.66) & 1,000,028$^{c}$ (31.37) & 28 & 28 \\
+A* $h_R$ & 2,993 (54.21) & 79,207 (42.61) & 792,252$^{c}$ (29.58) & 58 & 58 \\
+A* $h_F$ & 870 (29.0) & 2,582 (13.37) & 13,196 (10.45) & 60 & 60 \\
+Greedy $h_F$ & 11,520 (106.83) & 21,972 (27.67) & 30,116 (12.91) & 60 & 8 \\
+\midrule
+IDA* $h_F$ & 847 [3] & 3,348 [4] & 71,153 [5] & 60 & 60 \\
+IDA* $h_F$ + TT & 847 [15] & 3,090 [45] & 59,130 [742] & 60 & 60 \\
+Weighted A* $h_F$, $w=2$ & 870 [651] & 2,770 [1,867] & 11,218 [5,869] & 60 & 55 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}{\scriptsize Top: mean generated nodes (effective branching factor $b^*$), limit $10^6$; $^c$ some runs stopped at the limit. Bottom: mean generated nodes [mean peak memory in states], limit $2\times10^6$.}
+\end{table}

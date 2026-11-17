@@ -1,0 +1,18 @@
+% tablolar.py tarafından üretildi; elle düzenlemeyin.
+\begin{table}[!htbp]
+\centering\caption{Search cost of the current engine at fixed depth, with minimax without pruning}\label{tab:cost-final}
+\footnotesize
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Configuration & \multicolumn{2}{c}{Depth 2} & \multicolumn{2}{c}{Depth 3} & \multicolumn{2}{c}{Depth 4} \\ & Nodes & ms & Nodes & ms & Nodes & ms \\
+\midrule
+Full agent & 587 & 4.0 & 7,773 & 22.4 & 27,480 & 166.9 \\
+No pruning (minimax) & 14,176 & 80.1 & 699,884 & 3,178.5 & -- & -- \\
+No move ordering & -- & -- & 12,811 & 38.2 & 87,516 & 425.6 \\
+No TT & -- & -- & 8,032 & 22.9 & 32,305 & 215.3 \\
+No killers & -- & -- & 7,861 & 23.0 & 28,955 & 171.4 \\
+No quiescence & -- & -- & 3,881 & 18.7 & 14,543 & 131.9 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}{\scriptsize Means over 386 middle-game positions; one process, pinned to logical CPU 2, high priority, power throttling off.}
+\end{table}

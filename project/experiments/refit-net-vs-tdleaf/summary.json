@@ -1,0 +1,34 @@
+{
+ "a": "net:depth=2,net=experiments/refit-net-on-tdleaf-games/net.json,name=net-own",
+ "b": "ab:depth=2,weights=experiments/tdleaf-d2-marbles/weights-final.json,name=tdleaf",
+ "games": 50,
+ "a_wins": 2,
+ "draws": 3,
+ "a_losses": 45,
+ "a_score": 0.07,
+ "a_score_ci95": [
+  0.007,
+  0.133
+ ],
+ "elo_diff": -449,
+ "a_mean_marble_margin": -3.56,
+ "reasons": {
+  "six off": 42,
+  "repetition": 2,
+  "ply cap": 6,
+  "no legal move": 0
+ },
+ "mean_plies": 129.6,
+ "seconds": 19.2,
+ "conditions": {
+  "openings": 25,
+  "opening_plies": 2,
+  "seed": 7,
+  "starts": [
+   "standard",
+   "belgian-daisy"
+  ],
+  "max_plies": 200,
+  "repetition": "third occurrence = draw"
+ }
+}
