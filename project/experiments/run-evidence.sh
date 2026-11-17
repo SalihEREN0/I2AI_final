@@ -30,21 +30,22 @@ match e2-ablate-killers     "$FULL" "ab:time=$T,weights=$LEARNED,killers=0,name=
 match e2-ablate-quiescence  "$FULL" "ab:time=$T,weights=$LEARNED,quiescence=0,name=no-quiescence"
 match e2-ablate-learning    "$FULL" "ab:time=$T,name=hand-weights"
 
-# E4 learning curve: TDLeaf checkpoints vs the hand-set weights, depth 2 (weights read back from log.jsonl)
+# E4 learning curve: TDLeaf checkpoints vs the hand-set weights, depth 2 (weights read back from log.jsonl).
+# The 150-iteration run of the paper, a checkpoint every 15 iterations (120 games); the 400-iteration run is below.
 mkdir -p experiments/e4-learning-curve
 python3 - <<'EOF'
 import json
 for line in open("experiments/tdleaf-d2-marbles/log.jsonl"):
     r = json.loads(line)
-    if r["iteration"] % 40 == 0:
+    if r["iteration"] % 15 == 0:
         json.dump(r["weights"], open("experiments/e4-learning-curve/checkpoint-%04d.json" % r["iteration"], "w"), indent=1)
 EOF
-for it in 0040 0080 0120 0160 0200 0240 0280 0320 0360 0400; do
+for it in 0015 0030 0045 0060 0075 0090 0105 0120 0135 0150; do
   match "e4-learning-curve/it$it" "ab:depth=2,weights=experiments/e4-learning-curve/checkpoint-$it.json,name=it$it" "ab:depth=2,name=hand"
 done
 
 # E5 reward design: the same training with the result-only reward (draws give 0)
-python3 -m abalone train --out experiments/tdleaf-d2-result --iterations 400 --games 8 --depth 2 --alpha 10 --alpha-decay 200 --reward result | awk 'NR % 25 == 0'
+python3 -m abalone train --out experiments/tdleaf-d2-result --iterations 150 --games 8 --depth 2 --alpha 10 --reward result | awk 'NR % 25 == 0'
 match e5-result-vs-hand    "ab:depth=2,weights=experiments/tdleaf-d2-result/weights-final.json,name=result-reward" "ab:depth=2,name=hand"
 match e5-marbles-vs-result "ab:depth=2,weights=$LEARNED,name=marbles-reward" "ab:depth=2,weights=experiments/tdleaf-d2-result/weights-final.json,name=result-reward"
 # Convergence check: the same TDLeaf run for 400 iterations with a decaying step size, three seeds. Strength

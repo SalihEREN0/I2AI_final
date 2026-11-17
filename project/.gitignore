@@ -30,3 +30,6 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# Submission copy: the four assignment decks are part of the supplementary material
+!assignments/*/deck.pdf

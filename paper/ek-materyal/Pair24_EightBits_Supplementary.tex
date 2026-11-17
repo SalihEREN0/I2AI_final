@@ -9,6 +9,14 @@
 \usepackage{algpseudocode}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage[hidelinks]{hyperref}
+% Erişilebilirlik: PDF üstverisi ve belge dili.
+\hypersetup{pdftitle={Supplementary Material: I2AI 26/27-F AI-agent Project: Abalone Case Study},
+  pdfauthor={Salih Eren, Eren Terakye},
+  pdfsubject={Complete results, algorithms and reproduction guide for the Abalone agent paper},
+  pdfkeywords={Abalone, game-playing agent, alpha-beta search, temporal-difference learning, reproducibility},
+  pdflang={en-US}}
+% Sayfa numarası yok: bildiri şablonunun "no pagination" kuralı ek materyale de uygulanabilir.
+\pagestyle{empty}
 \renewcommand{\thetable}{S\arabic{table}}
 \renewcommand{\thefigure}{S\arabic{figure}}
 \renewcommand{\thealgorithm}{S\arabic{algorithm}}
@@ -20,6 +28,7 @@
 
 \begin{document}
 \maketitle
+\thispagestyle{empty}
 
 \noindent This document accompanies the paper and gives what did not fit in its five pages: the complete results
 of all four assignments, the algorithms in pseudo-code, the faster engine written after Assignment~4 and the
@@ -45,7 +54,7 @@ The package is the zip uploaded with the paper and the repository
 \item \texttt{project/tests/}: 34 unit tests, among them the checks that the faster engine searches identically.
 \item \texttt{project/demo-video/}: the 4:09 recording of the developer view in a game against the Assignment~3 agent.
 \end{itemize}
-The code needs only the Python standard library (tested with Python 3.14). Table~\ref{tab:repro} shows where each
+The code needs only the Python standard library (tested with Python 3.14); the figure script of the paper also needs matplotlib. Table~\ref{tab:repro} shows where each
 result comes from.
 
 \begin{table}[!htbp]
@@ -58,14 +67,17 @@ Result & Command $\rightarrow$ output \\
 \midrule
 Paper Table~II; Tables~\ref{tab:tree}, \ref{tab:a2} & in \texttt{assignments/a2-search/}: \texttt{python abalone\_search.py bench 60 314 1000000}, then \texttt{tree 4} and \texttt{more 60} $\rightarrow$ \texttt{results/} \\
 Paper Table~II; Table~\ref{tab:a3} & in \texttt{assignments/a3-complex-environments/}: \texttt{python abalone\_ch4.py local 200 2027}, then \texttt{test} and \texttt{opening} $\rightarrow$ \texttt{results/} \\
-A4 matches; Table~\ref{tab:matches-a4} & \texttt{sh experiments/run-evidence.sh} $\rightarrow$ \texttt{experiments/<match>/summary.json} \\
+A4 matches: paper Table~III, Fig.~1 (hollow); Table~\ref{tab:matches-a4} & \texttt{sh experiments/run-evidence.sh} $\rightarrow$ \texttt{experiments/<match>/summary.json} \\
 TDLeaf run; paper Fig.~2 & \texttt{python -m abalone train --out experiments/tdleaf-d2-marbles --iterations 150 --games 8 --depth 2 --alpha 10} $\rightarrow$ \texttt{log.jsonl} \\
-Paper Table~V; Table~\ref{tab:prediction} & \texttt{python -m abalone fit} and \texttt{python -m abalone net}, with the options recorded in each \texttt{report.json} $\rightarrow$ \texttt{experiments/ch19-logistic/}, \texttt{experiments/ch22-valuenet/} \\
+Paper Table~V; Table~\ref{tab:prediction} & \texttt{python -m abalone fit} and \texttt{python -m abalone net --hidden 16 --lr 0.003 --decay 0.95}; each \texttt{report.json} records the data split, the network size, the best epoch and the learning rate of every epoch $\rightarrow$ \texttt{experiments/ch19-logistic/}, \texttt{experiments/ch22-valuenet/} \\
 Engine speed; Table~\ref{tab:speed} & \texttt{python experiments/engine-speed/run.py} $\rightarrow$ \texttt{experiments/engine-speed/summary.json} \\
-New matches; Table~\ref{tab:matches-final} & \texttt{sh experiments/run-final.sh} $\rightarrow$ \texttt{experiments/final/<match>/summary.json} \\
-Search cost; Tables~\ref{tab:cost-a4}, \ref{tab:cost-final} & \texttt{python experiments/search-cost/run.py} (A4 engine) and \texttt{python experiments/final/search-cost/run.py} $\rightarrow$ \texttt{summary.json} \\
+Other A4 matches (learners, refits, checkpoints) & \texttt{python -m abalone match A B --openings 25 --out experiments/<match>}, with the players \texttt{A} and \texttt{B} as recorded in each \texttt{summary.json} \\
+New matches: paper Table~III, Fig.~1 (filled); Table~\ref{tab:matches-final} & \texttt{sh experiments/run-final.sh} $\rightarrow$ \texttt{experiments/final/<match>/summary.json} \\
+Search cost: paper Table~IV; Tables~\ref{tab:cost-a4}, \ref{tab:cost-final} & \texttt{python experiments/search-cost/run.py} (A4 engine) and \texttt{python experiments/final/search-cost/run.py} $\rightarrow$ \texttt{summary.json} \\
 Depth in 0.5~s; Table~\ref{tab:depth} & \texttt{python experiments/final/baselines-depth/run.py} (also run by \texttt{run-final.sh}) $\rightarrow$ \texttt{summary.json} \\
 Identical search; all checks & \texttt{python -m unittest discover -s tests} \\
+Paper Figs.~1 and 2 & in \texttt{paper/}: \texttt{python figures.py} (needs matplotlib and the Times New Roman font) $\rightarrow$ \texttt{fig/ablation.pdf}, \texttt{fig/learning.pdf} \\
+Tables of this document & in \texttt{paper/ek-materyal/}: \texttt{python tablolar.py} (reads \texttt{project/}) $\rightarrow$ \texttt{tables-*.tex} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -332,10 +344,15 @@ a few visits, while alpha--beta refutes most moves with their first reply (Fig.~
 \section{Limitations}
 
 All opponents are our own agents, so the measured strength is relative; no match against an external program was
-played. Fifty-game matches resolve score differences of about 0.12; move ordering, the transposition table and the killer
-moves were therefore measured again with 200 games, which resolve about 0.07. Many games between strong agents end at the 200-ply cap and are decided by
+played. The 95\% half-width of a score is at most 0.14 in 50 games (at a score of 0.5 without draws); move ordering, the
+transposition table and the killer moves were therefore measured again with 200 games, where it is at most 0.07. Many games between strong agents end at the 200-ply cap and are decided by
 marble count. The engine is pure Python: even after the speed-up it searches about four to five plies in 0.5~s, so
 long-term plans remain beyond its horizon. Learned weights along the direction of correlated features (edge against
 exposed) stay poorly determined, although they barely change the play.
+
+\section*{Use of AI tools}
+
+An AI assistant was used to help draft and edit this document from the authors' project materials and to check
+the reference details against their sources; the authors reviewed the content and take full responsibility for it.
 
 \end{document}

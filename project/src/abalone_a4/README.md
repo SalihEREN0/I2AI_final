@@ -1,5 +1,9 @@
 # abalone: the final agent (Assignment 4)
 
+> **Frozen copy.** This package is the agent exactly as presented in Assignment 4, kept unchanged as the baseline
+> of `experiments/final/`. The current, faster engine with the same search is [`../abalone/`](../abalone/); the
+> text below is the Assignment 4 README (the test suite has since grown from 25 to 34 checks).
+
 Plan and literature: [docs/a4-research.md](../../docs/a4-research.md). Python 3, standard library only.
 
 | Module | Chapter | Contents |

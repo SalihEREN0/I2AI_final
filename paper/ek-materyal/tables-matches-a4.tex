@@ -7,7 +7,7 @@
 Player A & Player B & Budget & W--D--L & Score (95\% CI) & Six off / rep. / cap & Plies \\
 \midrule
 Final agent & A3 agent & 0.5 s & 48--2--0 & 0.98 (0.95--1.00) & 45 / 2 / 3 & 75 \\
-Final agent & Greedy on $U$ & 0.5 s & 50--0--0 & 1.00 (1.00--1.00) & 43 / 0 / 7 & 92 \\
+Final agent & Greedy on $U$ & 0.5 s & 50--0--0 & 1.00 (0.93--1.00)$^{\mathrm{w}}$ & 43 / 0 / 7 & 92 \\
 Hand-set $U$ & A3 agent & 0.5 s & 49--1--0 & 0.99 (0.97--1.00) & 49 / 1 / 0 & 78 \\
 A3 agent & Greedy on $U$ & -- & 1--49--0 & 0.51 (0.49--0.53) & 1 / 49 / 0 & 67 \\
 \midrule
@@ -35,5 +35,5 @@ Network, refit & Hand-set & depth 2 & 17--20--13 & 0.54 (0.43--0.65) & 5 / 13 / 
 Network, refit & TDLeaf & depth 2 & 2--3--45 & 0.07 (0.01--0.13) & 42 / 2 / 6 & 130 \\
 \bottomrule
 \end{tabular}
-\par\vspace{2pt}{\scriptsize Score = (W + D/2)/N for player A. End reasons: six marbles off, third repetition, 200-ply cap (decided by marble count).}
+\par\vspace{2pt}{\scriptsize Score = (W + D/2)/N for player A. End reasons: six marbles off, third repetition, 200-ply cap (decided by marble count). $^{\mathrm{w}}$Wilson interval, as the normal approximation collapses when all games end alike.}
 \end{table}

@@ -1,18 +1,29 @@
 """Ek materyalin tablolarını projenin sonuç dosyalarından üretir (tables-*.tex). Hiçbir sayı elle kopyalanmaz.
 
 Henüz bitmemiş deneyler tabloda "running" olarak görünür; deneyler bitince betik yeniden çalıştırılır.
-Çalıştırma: python tablolar.py   (abalone-makale/ek-materyal/ içinden ya da herhangi bir yerden)
+Çalıştırma: python tablolar.py   (herhangi bir yerden; teslim paketinde paper/ek-materyal/ altında da çalışır)
 """
 import json
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-PROJ = HERE.parents[1] / "abalone-proje"
+# Proje klasörü: teslim paketinde ve depoda `project/`, geliştirme düzeninde `abalone-proje/`. Bulunamazsa her
+# tablo "running" görünürdü ve paketteki tablolar sessizce bozulurdu; o yüzden yoksa hemen dur.
+PROJ = next((p for p in (HERE.parents[1] / "project", HERE.parents[1] / "abalone-proje") if p.is_dir()), None)
+if PROJ is None:
+    raise SystemExit("proje klasörü bulunamadı: " + str(HERE.parents[1] / "project"))
 
 
 def load(rel):
     p = PROJ / rel
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
+
+
+def pct(x):
+    """Kayıtlı 4 basamaklı oranı yüzdeye çevirir, yarım yukarı yuvarlar: 0.7905 -> 79.1 (float biçimlemesi 79.0
+    verirdi; kesin değer 7.008 / 8.865 = %79,05 ve bildiri de 79,1 yazar)."""
+    from decimal import ROUND_HALF_UP, Decimal
+    return str((Decimal(str(x)) * 100).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP))
 
 
 def n(x):
@@ -31,13 +42,30 @@ def table(name, caption, colspec, header, rows, note=None, size=r"\footnotesize"
 MATCH_HEAD = r"Player A & Player B & Budget & W--D--L & Score (95\% CI) & Six off / rep. / cap & Plies"
 
 
+WILSON_NOTE = r" $^{\mathrm{w}}$Wilson interval, as the normal approximation collapses when all games end alike."
+
+
+def wilson(k, n, z=1.96):
+    """Wilson aralığı (k başarı, n deneme). Bütün oyunlar aynı bitince normal yaklaşım [1, 1] ya da [0, 0] verir;
+    bildirinin Tablo III'ü de bu satırlarda Wilson aralığını yazar."""
+    import math
+    p, q = k / n, z * z / n
+    c = (p + q / 2) / (1 + q)
+    h = z * math.sqrt(p * (1 - p) / n + q / (4 * n)) / (1 + q)
+    return max(0.0, c - h), min(1.0, c + h)
+
+
 def match_row(a, b, budget, s):
     if s is None:
         return f"{a} & {b} & {budget} & \\multicolumn{{4}}{{c}}{{(running)}} \\\\"
     lo, hi = s["a_score_ci95"]
+    n_games, mark = s["a_wins"] + s["draws"] + s["a_losses"], ""
+    if s["draws"] == 0 and s["a_wins"] in (0, n_games):
+        lo, hi = wilson(s["a_wins"], n_games)
+        mark = r"$^{\mathrm{w}}$"
     r = s["reasons"]
     return (f"{a} & {b} & {budget} & {s['a_wins']}--{s['draws']}--{s['a_losses']} & "
-            f"{s['a_score']:.2f} ({lo:.2f}--{hi:.2f}) & {r['six off']} / {r['repetition']} / {r['ply cap']} & "
+            f"{s['a_score']:.2f} ({lo:.2f}--{hi:.2f}){mark} & {r['six off']} / {r['repetition']} / {r['ply cap']} & "
             f"{s['mean_plies']:.0f} \\\\")
 
 
@@ -98,6 +126,8 @@ def match_table(name, caption, entries, prefix, note):
             continue
         folder, a, b, budget = e
         rows.append(match_row(a, b, budget, load(f"{prefix}{folder}/summary.json")))
+    if any("mathrm{w}" in r for r in rows):
+        note += WILSON_NOTE
     return table(name, caption, "@{}lllcccr@{}", MATCH_HEAD, rows, note)
 
 
@@ -145,9 +175,9 @@ def prediction():
     for k, label in order:
         t = r19["test"].get(k)
         if t:
-            rows.append(f"{label} & {t['log_loss']:.4f} & {100 * t['accuracy_decisive']:.1f}\\% \\\\")
+            rows.append(f"{label} & {t['log_loss']:.4f} & {pct(t['accuracy_decisive'])}\\% \\\\")
     rows.append(f"Value network ({n(r22['parameters'])} parameters) & {r22['test']['log_loss']:.4f} & "
-                f"{100 * r22['test']['accuracy_decisive']:.1f}\\% \\\\")
+                f"{pct(r22['test']['accuracy_decisive'])}\\% \\\\")
     rows.append(f"Coin flip & {r19['baseline_coin_flip_log_loss']:.4f} & 50.0\\% \\\\")
     return table("prediction", "Outcome prediction on 240 held-out games of the hand-set agent",
                  "@{}lcc@{}", r"Model & Log loss & Accuracy (decisive)", rows,
@@ -233,8 +263,11 @@ def cost(rel, name, caption):
     head = "Configuration & " + " & ".join(f"\\multicolumn{{2}}{{c}}{{Depth {d}}}" for d in depths)
     head += r" \\ & " + " & ".join("Nodes & ms" for _ in depths)
     cond = f"; one process, {c['conditions']}" if "conditions" in c else ""
+    # Aynı arama Tablo S10'da da zamanlandı (hızlanma oranları oradan); iki ayrı koşu, süreler biraz farklı.
+    same = (r" Times come from a run separate from Table~\ref{tab:speed}, which gives the speed-ups; the node"
+            r" counts are exact and the same for both engines.") if name == "cost-final" else ""
     return table(name, caption, "@{}l" + "rr" * len(depths) + "@{}", head, rows,
-                 f"Means over {c['positions']} middle-game positions{cond}.")
+                 f"Means over {c['positions']} middle-game positions{cond}." + same)
 
 
 def speed():
@@ -279,7 +312,8 @@ def depth():
     return table("depth", f"How far each searcher gets in 0.5 s on {s['positions']} middle-game positions",
                  "@{}lcl@{}", "Searcher & Mean depth & Distribution", rows,
                  f"One process, one position at a time, {s.get('conditions', 'not pinned')}, nothing else running; "
-                 "all four use the TDLeaf evaluation. Depth: last completed iteration of iterative deepening.")
+                 "all four use the TDLeaf evaluation. Depth: last completed iteration of iterative deepening. The paper's "
+                 r"3.3 and 4.1 plies come from the 386 positions of Table~\ref{tab:speed}.")
 
 
 def main():

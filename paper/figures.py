@@ -13,8 +13,12 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
-DATA = HERE.parent / "abalone-sunum-4" / "veri" / "a4data.json"
-FINAL = HERE.parent / "abalone-proje" / "experiments" / "final"     # hızlı motorla tekrarlanan maçlar
+# Proje klasörü: teslim paketinde ve depoda `project/`, geliştirme düzeninde `abalone-proje/`.
+PROJ = next((p for p in (HERE.parent / "project", HERE.parent / "abalone-proje") if p.is_dir()), None)
+if PROJ is None:
+    raise SystemExit("proje klasörü bulunamadı: " + str(HERE.parent / "project"))
+DATA = PROJ / "assignments" / "a4-final-agent" / "results" / "a4data.json"   # sunumdaki a4data.json ile aynı dosya
+FINAL = PROJ / "experiments" / "final"     # hızlı motorla tekrarlanan maçlar
 OUT = HERE / "fig"
 COL = 3.5                                   # IEEEtran sütun genişliği (in)
 INK, INK2, GRID = "#0b0b0b", "#52514e", "#e4e4e1"
@@ -103,7 +107,7 @@ def learning(d):
     a.text(1250, 0.52, "equal", ha="right", va="bottom", color=INK2)
     a.set_ylim(0.45, 1.02)
     a.set_xlim(0, 1260)
-    a.set_ylabel("Score vs hand-set")
+    a.set_ylabel("Score")                     # rakibi başlık söylüyor; uzun etiket şeklin üst kenarına değiyordu
     a.set_title("(a) Checkpoints against the hand-set weights (50 games each)", fontsize=8, loc="left", pad=3)
     a.grid(axis="y", color=GRID, lw=0.4)
     a.set_axisbelow(True)

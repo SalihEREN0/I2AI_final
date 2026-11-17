@@ -16,7 +16,7 @@ Plan and literature: [docs/a4-research.md](../../docs/a4-research.md). Python 3,
 | [server.py](server.py), [ui/index.html](ui/index.html) | all | the demo app: user mode and developer mode, human or agent players, live ablation, replay of saved games |
 
 ```bash
-python -m unittest discover tests                       # 25 checks: perft, generators, alpha-beta = minimax, TDLeaf
+python -m unittest discover tests                       # 34 checks: perft, generators, alpha-beta = minimax, TDLeaf, same search as abalone_a4
 PYTHONPATH=src python -m abalone search --depth 4        # one decision with its full trace (JSON)
 PYTHONPATH=src python -m abalone train --out experiments/tdleaf-d2-marbles --iterations 150 --alpha 10
 PYTHONPATH=src python -m abalone match "ab:depth=2,weights=experiments/tdleaf-d2-marbles/weights-final.json" ab:depth=2 --openings 25
@@ -94,7 +94,7 @@ Every match: 25 random 2-ply openings × both colours × both start positions = 
 
 Logistic regression of the game result on the same six features, P(win) = σ(Σ βᵢ·fᵢ), turned into evaluation weights with w = β·K/2 so they share TDLeaf's scale. The training data was generated for this purpose: 1,200 self-play games of the hand-set agent at depth 2 with 4 random opening plies (8.3 minutes on 8 cores; 315 ended six off, 286 by repetition, 599 at the cap). Only quiet positions (no legal push-off for either side) are used, and train and test are split by game: 54,153 training positions from 960 games, 13,006 test positions from 240 games. The fit takes under a second (Newton's method). `experiments/ch19-logistic/report.json` has every number below.
 
-**Fitted weights:** marbles 16.3, centre 13.7, cohesion −0.7, edge +2.8, exposed −5.6, wedge −0.7. Like TDLeaf it raises marbles and puts a clear negative weight on exposed marbles; unlike TDLeaf it gives cohesion almost nothing and the edge a small positive weight.
+**Fitted weights:** marbles 16.3, centre 13.6, cohesion −0.7, edge +2.8, exposed −5.6, wedge −0.7. Like TDLeaf it raises marbles and puts a clear negative weight on exposed marbles; unlike TDLeaf it gives cohesion almost nothing and the edge a small positive weight.
 
 **How well each weight set predicts the result on the 240 test games** (each fixed set gets one fitted scale, so only the direction of its weights is judged):
 
