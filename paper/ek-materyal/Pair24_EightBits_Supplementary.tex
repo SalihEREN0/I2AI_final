@@ -9,6 +9,7 @@
 \usepackage{algpseudocode}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage[hidelinks]{hyperref}
+\setlength{\emergencystretch}{2em}  % uzun \texttt yolları satırı taşırmasın
 % Erişilebilirlik: PDF üstverisi ve belge dili.
 \hypersetup{pdftitle={Supplementary Material: I2AI 26/27-F AI-agent Project: Abalone Case Study},
   pdfauthor={Salih Eren, Eren Terakye},
@@ -53,6 +54,7 @@ The package is the zip uploaded with the paper and the repository
   engine.
 \item \texttt{project/tests/}: 34 unit tests, among them the checks that the faster engine searches identically.
 \item \texttt{project/demo-video/}: the 4:09 recording of the developer view in a game against the Assignment~3 agent.
+\item \texttt{AI-USE.md}: every recorded use of AI tools, session by session (Section~\ref{sec:ai}).
 \end{itemize}
 The code needs only the Python standard library (tested with Python 3.14); the figure script of the paper also needs matplotlib. Table~\ref{tab:repro} shows where each
 result comes from.
@@ -350,9 +352,53 @@ marble count. The engine is pure Python: even after the speed-up it searches abo
 long-term plans remain beyond its horizon. Learned weights along the direction of correlated features (edge against
 exposed) stay poorly determined, although they barely change the play.
 
-\section*{Use of AI tools}
+\section{Use of AI tools}
+\label{sec:ai}
 
-An AI assistant was used to help draft and edit this document from the authors' project materials and to check
-the reference details against their sources; the authors reviewed the content and take full responsibility for it.
+Two AI tools were used in this work (Table~\ref{tab:ai}); neither is an author. The authors set the goals, made the
+design decisions, chose the experiments, reviewed and approved every change, and gave the presentations. The file
+\texttt{AI-USE.md} in the package lists every recorded session with its date, model, effort setting and the files it
+wrote. \emph{Effort} is Claude Code's reasoning-effort setting (medium $<$ high $<$ xhigh $<$ max), which sets how much
+the model may think before it answers.
+
+\begin{table}[!htbp]
+\centering\caption{AI tools used, from the session logs. A model response is one answer of the model, often a single
+tool call; the counts are a lower bound, as only responses that touched the project's files are counted.}\label{tab:ai}
+\footnotesize
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}p{2.4cm}%
+>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{7.3cm}@{}}
+\toprule
+Tool and models & Effort & When and how much & Used for \\
+\midrule
+Claude Code (Anthropic): Claude Opus 5.5; Claude Opus 5 for 23 responses & xhigh; max for the paper and the final
+experiments; medium in the first sessions & 3 Oct to 17 Nov 2026: 15 sessions on 17 days, at least 1,430 model
+responses and 2.6 million output tokens & Assignments 1--3: the decks, talk scripts and Q\&A notes, and the code of
+Assignments 2 and 3. Assignment 4: the talk script and the package. After Assignment 4: the faster engine, the MCTS
+and minimax baselines, the tests, and the experiment scripts and their runs. The paper and this document: drafting
+and editing from the authors' materials, \LaTeX, and the figure and table scripts. Checking every number against the
+result files. \\
+\addlinespace
+Antigravity CLI (Google): Gemini 4 Argon, Gemini 3.8 Flash & default & 4--5 Nov 2026 & Reference details checked
+against DOI, DBLP and publisher pages; the claims taken from Lemmens (2005) and Chorus (2009) checked against the
+original PDFs; a critical review of the paper draft. \\
+\addlinespace
+Review panel: Claude Opus 5.5, Sonnet 5.5, Haiku 5.5; Gemini 4 Hydrogen, Gemini 4 Argon, Gemini 3.8 Flash, GPT-OSS
+120B & Opus max; Sonnet and Haiku medium; Gemini high; GPT-OSS medium & 17 Nov 2026 & Seven models graded the
+submission against an estimated rubric; every defect they claimed was checked against the files, and the confirmed
+ones were fixed. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Timeline.} Assignment~1 on 6--7 October, Assignment~2 on 7--14 October, Assignment~3 on 20--21 October, the
+Assignment~4 talk and package on 2--4 November, and the paper, the faster engine and the new experiments on
+4--17 November 2026.
+
+\textbf{How the outputs were checked.} Thirty-four automated tests check the perft counts, two independent move
+generators, that alpha--beta returns the minimax value, and that the faster engine returns the same moves, values and
+node counts as the presented one on 386 positions. Every result comes from a run of the code and is logged under
+\texttt{project/experiments/}; the tables of this document are generated from those files by a script, and the
+paper's numbers were checked against them. Reference details and the claims taken from sources were checked against
+the original documents.
 
 \end{document}

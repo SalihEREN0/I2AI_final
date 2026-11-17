@@ -19,3 +19,5 @@ Repository with the same files: https://github.com/SalihEREN0/I2AI_final
   the `project/` folder.
 - `project/demo-video/`: a silent 4:09 screen recording of the developer view (in the repository and the larger zip
   only).
+- `AI-USE.md`: every recorded use of AI tools, session by session, with model, effort and what each session wrote;
+  summarized in Section S8 of the supplementary material.
